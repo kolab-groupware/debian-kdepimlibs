@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.2 amd64
+# SymbolsHelper-Confirmed: 4:4.13.3 arm64 sparc
 libsyndication.so.4 libsyndication4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN11Syndication10PersonImplC1ERK7QStringS3_S3_@Base 4:4.3.4
@@ -90,9 +90,9 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication15itunesNamespaceEv@Base 4:4.3.4
  _ZN11Syndication15plainTextToHtmlERK7QString@Base 4:4.3.4
  _ZN11Syndication15resolveEntitiesERK7QString@Base 4:4.3.4
- (optional=templinst)_ZN11Syndication16ParserCollectionINS_4FeedEED0Ev@Base 4:4.3.4
- (optional=templinst)_ZN11Syndication16ParserCollectionINS_4FeedEED1Ev@Base 4:4.3.4
- (optional=templinst)_ZN11Syndication16ParserCollectionINS_4FeedEED2Ev@Base 4:4.6.1
+ (optional)_ZN11Syndication16ParserCollectionINS_4FeedEED0Ev@Base 4:4.13.0~kolab
+ (optional)_ZN11Syndication16ParserCollectionINS_4FeedEED1Ev@Base 4:4.13.0~kolab
+ (optional)_ZN11Syndication16ParserCollectionINS_4FeedEED2Ev@Base 4:4.13.0~kolab
  _ZN11Syndication16SpecificDocumentD0Ev@Base 4:4.3.4
  _ZN11Syndication16SpecificDocumentD1Ev@Base 4:4.3.4
  _ZN11Syndication16SpecificDocumentD2Ev@Base 4:4.3.4
@@ -512,9 +512,9 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication6LoaderD0Ev@Base 4:4.3.4
  _ZN11Syndication6LoaderD1Ev@Base 4:4.3.4
  _ZN11Syndication6LoaderD2Ev@Base 4:4.3.4
- (optional=templinst)_ZN11Syndication6MapperINS_4FeedEED0Ev@Base 4:4.3.4
- (optional=templinst)_ZN11Syndication6MapperINS_4FeedEED1Ev@Base 4:4.3.4
- (optional=templinst)_ZN11Syndication6MapperINS_4FeedEED2Ev@Base 4:4.6.1
+ (optional)_ZN11Syndication6MapperINS_4FeedEED0Ev@Base 4:4.13.0~kolab
+ (optional)_ZN11Syndication6MapperINS_4FeedEED1Ev@Base 4:4.13.0~kolab
+ (optional)_ZN11Syndication6MapperINS_4FeedEED2Ev@Base 4:4.13.0~kolab
  _ZN11Syndication6PersonD0Ev@Base 4:4.3.4
  _ZN11Syndication6PersonD1Ev@Base 4:4.3.4
  _ZN11Syndication6PersonD2Ev@Base 4:4.3.4
@@ -528,11 +528,6 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication9normalizeERK7QString@Base 4:4.3.4
  _ZN11Syndication9normalizeERK7QStringbb@Base 4:4.3.4
  _ZN11Syndication9parseDateERK7QStringNS_10DateFormatE@Base 4:4.3.4
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x !x32)_ZN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEEC1ERKS3_@Base 4:4.11.5
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x !x32)_ZN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEEC2ERKS3_@Base 4:4.11.5
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x !x32)_ZN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEED0Ev@Base 4:4.11.5
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x !x32)_ZN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEED1Ev@Base 4:4.11.5
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x !x32)_ZN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEED2Ev@Base 4:4.11.5
  _ZNK11Syndication13DataRetriever10metaObjectEv@Base 4:4.3.4
  _ZNK11Syndication13FileRetriever10metaObjectEv@Base 4:4.3.4
  _ZNK11Syndication13FileRetriever9errorCodeEv@Base 4:4.3.4
@@ -942,8 +937,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZTIN11Syndication6PersonE@Base 4:4.3.4
  _ZTIN11Syndication8CategoryE@Base 4:4.3.4
  _ZTIN11Syndication9EnclosureE@Base 4:4.3.4
- _ZTIN5boost16exception_detail10clone_baseE@Base 4:4.11.1
- (optional=external|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x !x32)_ZTIN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEEE@Base 4:4.11.5
+ (optional)_ZTIN5boost16exception_detail10clone_baseE@Base 4:4.11.1
  (optional=external)_ZTIN5boost9exceptionE@Base 4:4.7.4
  _ZTSN11Syndication10PersonImplE@Base 4:4.3.4
  _ZTSN11Syndication12SpecificItemE@Base 4:4.3.4
@@ -1001,8 +995,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZTSN11Syndication6PersonE@Base 4:4.3.4
  _ZTSN11Syndication8CategoryE@Base 4:4.3.4
  _ZTSN11Syndication9EnclosureE@Base 4:4.3.4
- _ZTSN5boost16exception_detail10clone_baseE@Base 4:4.11.1
- (optional=external|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x !x32)_ZTSN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEEE@Base 4:4.11.5
+ (optional)_ZTSN5boost16exception_detail10clone_baseE@Base 4:4.11.1
  (optional=external)_ZTSN5boost9exceptionE@Base 4:4.7.4
  _ZTVN11Syndication10PersonImplE@Base 4:4.3.4
  _ZTVN11Syndication12SpecificItemE@Base 4:4.3.4
@@ -1060,8 +1053,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZTVN11Syndication6PersonE@Base 4:4.3.4
  _ZTVN11Syndication8CategoryE@Base 4:4.3.4
  _ZTVN11Syndication9EnclosureE@Base 4:4.3.4
- _ZTVN5boost16exception_detail10clone_baseE@Base 4:4.11.1
- (optional=external|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x !x32)_ZTVN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEEE@Base 4:4.11.5
+ (optional)_ZTVN5boost16exception_detail10clone_baseE@Base 4:4.11.1
  (optional=external)_ZTVN5boost9exceptionE@Base 4:4.7.4
  (c++)"non-virtual thunk to Syndication::Atom::Entry::accept(Syndication::SpecificItemVisitor*)@Base" 4:4.3.4
  (c++)"non-virtual thunk to Syndication::Atom::Entry::~Entry()@Base" 4:4.6.5
@@ -1073,4 +1065,3 @@ libsyndication.so.4 libsyndication4 #MINVER#
  (c++)"non-virtual thunk to Syndication::RSS2::Document::~Document()@Base" 4:4.3.4
  (c++)"non-virtual thunk to Syndication::RSS2::Item::accept(Syndication::SpecificItemVisitor*)@Base" 4:4.3.4
  (c++)"non-virtual thunk to Syndication::RSS2::Item::~Item()@Base" 4:4.3.4
- (optional=external|c++|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x !x32)"non-virtual thunk to boost::exception_detail::error_info_injector<boost::bad_weak_ptr>::~error_info_injector()@Base" 4:4.11.5

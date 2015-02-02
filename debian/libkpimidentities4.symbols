@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.2 amd64
+# SymbolsHelper-Confirmed: 4:4.13.0~kolab amd64
 libkpimidentities.so.4 libkpimidentities4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN14KPIMIdentities13IdentityCombo11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -97,6 +97,7 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZN14KPIMIdentities8Identity16setSignatureFileERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity18setSMIMESigningKeyERK10QByteArray@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity19setPGPEncryptionKeyERK10QByteArray@Base 4:4.3.4
+ _ZN14KPIMIdentities8Identity20setDefaultDomainNameERK7QString@Base 4:4.13.0~kolab
  _ZN14KPIMIdentities8Identity21setSMIMEEncryptionKeyERK10QByteArray@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity22setPrimaryEmailAddressERK7QString@Base 4:4.5.86
  _ZN14KPIMIdentities8Identity22setSignatureInlineTextERK7QString@Base 4:4.3.4
@@ -115,6 +116,7 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZN14KPIMIdentities8IdentityC2ERK7QStringS3_S3_S3_S3_@Base 4:4.3.4
  _ZN14KPIMIdentities8IdentityD1Ev@Base 4:4.3.4
  _ZN14KPIMIdentities8IdentityD2Ev@Base 4:4.3.4
+ _ZN14KPIMIdentities8thatIsMeERK7QString@Base 4:4.13.0~kolab
  _ZN14KPIMIdentities9Signature10assignFromERKS0_@Base 4:4.4.0
  _ZN14KPIMIdentities9Signature10readConfigERK12KConfigGroup@Base 4:4.3.4
  _ZN14KPIMIdentities9Signature14setInlinedHtmlEb@Base 4:4.3.4
@@ -137,6 +139,7 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZN14KPIMIdentities9SignatureD1Ev@Base 4:4.4.0
  _ZN14KPIMIdentities9SignatureD2Ev@Base 4:4.4.0
  _ZN14KPIMIdentities9SignatureaSERKS0_@Base 4:4.4.0
+ _ZN14KPIMIdentities9allEmailsEv@Base 4:4.13.0~kolab
  _ZN14KPIMIdentitieslsER11QDataStreamRKNS_8IdentityE@Base 4:4.3.4
  _ZN14KPIMIdentitieslsER11QDataStreamRKNS_9SignatureE@Base 4:4.3.4
  _ZN14KPIMIdentitiesrsER11QDataStreamRNS_8IdentityE@Base 4:4.3.4
@@ -187,6 +190,7 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZNK14KPIMIdentities8Identity15verifyAkonadiIdERK7QString@Base 4:4.10.2
  _ZNK14KPIMIdentities8Identity16pgpEncryptionKeyEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity16useSignatureFileEv@Base 4:4.3.4
+ _ZNK14KPIMIdentities8Identity17defaultDomainNameEv@Base 4:4.13.0~kolab
  _ZNK14KPIMIdentities8Identity17signatureIsInlineEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity18signatureIsCommandEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity18smimeEncryptionKeyEv@Base 4:4.3.4

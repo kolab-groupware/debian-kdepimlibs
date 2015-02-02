@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.1 amd64
+# SymbolsHelper-Confirmed: 4:4.13.3 amd64
 libkresources.so.4 libkresources4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KRES10ConfigPage10slotRemoveEv@Base 4:4.3.4
@@ -77,9 +77,9 @@ libkresources.so.4 libkresources4 #MINVER#, kdepim-runtime
  _ZN4KRES12ConfigWidget16staticMetaObjectE@Base 4:4.3.4
  _ZN4KRES12ConfigWidgetC1EP7QWidget@Base 4:4.3.4
  _ZN4KRES12ConfigWidgetC2EP7QWidget@Base 4:4.3.4
- (optional=gccinternal)_ZN4KRES12ConfigWidgetD0Ev@Base 4:4.6.5
- (optional=gccinternal)_ZN4KRES12ConfigWidgetD1Ev@Base 4:4.6.5
- (optional=gccinternal)_ZN4KRES12ConfigWidgetD2Ev@Base 4:4.6.5
+ (optional)_ZN4KRES12ConfigWidgetD0Ev@Base 4:4.13.0~kolab
+ (optional)_ZN4KRES12ConfigWidgetD1Ev@Base 4:4.13.0~kolab
+ (optional)_ZN4KRES12ConfigWidgetD2Ev@Base 4:4.13.0~kolab
  _ZN4KRES12SelectDialog11getResourceE5QListIPNS_8ResourceEEP7QWidget@Base 4:4.3.4
  _ZN4KRES12SelectDialog8resourceEv@Base 4:4.3.4
  _ZN4KRES12SelectDialogC1E5QListIPNS_8ResourceEEP7QWidget@Base 4:4.3.4
@@ -92,9 +92,9 @@ libkresources.so.4 libkresources4 #MINVER#, kdepim-runtime
  _ZN4KRES16ResourcePageInfoD1Ev@Base 4:4.3.4
  _ZN4KRES16ResourcePageInfoD2Ev@Base 4:4.3.4
  _ZN4KRES17PluginFactoryBase12createObjectEP7QObjectPKcRK11QStringList@Base 4:4.3.4
- (optional=gccinternal)_ZN4KRES17PluginFactoryBaseD0Ev@Base 4:4.6.5
- (optional=gccinternal)_ZN4KRES17PluginFactoryBaseD1Ev@Base 4:4.6.5
- (optional=gccinternal)_ZN4KRES17PluginFactoryBaseD2Ev@Base 4:4.6.5
+ (optional)_ZN4KRES17PluginFactoryBaseD0Ev@Base 4:4.13.0~kolab
+ (optional)_ZN4KRES17PluginFactoryBaseD1Ev@Base 4:4.13.0~kolab
+ (optional)_ZN4KRES17PluginFactoryBaseD2Ev@Base 4:4.13.0~kolab
  _ZN4KRES7Factory12configWidgetERK7QStringP7QWidget@Base 4:4.3.4
  _ZN4KRES7Factory12reloadConfigEv@Base 4:4.3.4
  _ZN4KRES7Factory4selfERK7QString@Base 4:4.3.4
@@ -183,10 +183,13 @@ libkresources.so.4 libkresources4 #MINVER#, kdepim-runtime
  _ZTVN4KRES12SelectDialogE@Base 4:4.3.4
  _ZTVN4KRES17PluginFactoryBaseE@Base 4:4.3.4
  _ZTVN4KRES8ResourceE@Base 4:4.3.4
+ (optional)_ZThn16_N4KRES12ConfigWidgetD0Ev@Base 4:4.13.0~kolab
+ (optional)_ZThn16_N4KRES12ConfigWidgetD1Ev@Base 4:4.13.0~kolab
+ (optional)_ZThn8_N4KRES12ConfigWidgetD0Ev@Base 4:4.13.0~kolab
+ (optional)_ZThn8_N4KRES12ConfigWidgetD1Ev@Base 4:4.13.0~kolab
  (c++)"non-virtual thunk to KRES::ConfigDialog::~ConfigDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KRES::ConfigPage::resourceAdded(KRES::Resource*)@Base" 4:4.3.4
  (c++)"non-virtual thunk to KRES::ConfigPage::resourceDeleted(KRES::Resource*)@Base" 4:4.3.4
  (c++)"non-virtual thunk to KRES::ConfigPage::resourceModified(KRES::Resource*)@Base" 4:4.3.4
  (c++)"non-virtual thunk to KRES::ConfigPage::~ConfigPage()@Base" 4:4.3.4
- (optional=gccinternal|c++)"non-virtual thunk to KRES::ConfigWidget::~ConfigWidget()@Base" 4:4.6.5
  (c++)"non-virtual thunk to KRES::SelectDialog::~SelectDialog()@Base" 4:4.3.4

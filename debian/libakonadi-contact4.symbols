@@ -1,9 +1,9 @@
-# SymbolsHelper-Confirmed: 4:4.13.1 amd64
+# SymbolsHelper-Confirmed: 4:4.13.0~kolab amd64
 libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
- (optional=private)_ZGVZN7Akonadi18ContactGroupViewer7PrivateC1EPS0_E11groupPixmap@Base 4:4.5.0
- (optional=private|arch=!amd64)_ZGVZN7Akonadi18ContactGroupViewer7PrivateC4EPS0_E11groupPixmap@Base 4:4.13.1
+ (optional)_ZGVZN7Akonadi18ContactGroupViewer7PrivateC1EPS0_E11groupPixmap@Base 4:4.13.0~kolab
+ (optional)_ZGVZN7Akonadi18ContactGroupViewer7PrivateC4EPS0_E11groupPixmap@Base 4:4.13.1
  _ZN11IMProtocols4selfEv@Base 4:4.12.2
  _ZN11IMProtocols5mSelfE@Base 4:4.12.2
  _ZN11IMProtocolsC1Ev@Base 4:4.12.2
@@ -73,6 +73,8 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi16ContactSearchJobD0Ev@Base 4:4.4.0
  _ZN7Akonadi16ContactSearchJobD1Ev@Base 4:4.4.0
  _ZN7Akonadi16ContactSearchJobD2Ev@Base 4:4.4.0
+ (optional)_ZN7Akonadi17ContactSearchTermD1Ev@Base 4:4.13.0~kolab
+ (optional)_ZN7Akonadi17ContactSearchTermD2Ev@Base 4:4.13.0~kolab
  _ZN7Akonadi17ContactsTreeModel10setColumnsERK5QListINS0_6ColumnEE@Base 4:4.5.0
  _ZN7Akonadi17ContactsTreeModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.0
  _ZN7Akonadi17ContactsTreeModel11qt_metacastEPKc@Base 4:4.5.0
@@ -269,8 +271,10 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi27EmailAddressSelectionWidget7Private4initEv@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidgetC1EP18QAbstractItemModelP7QWidget@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidgetC1EP7QWidget@Base 4:4.5.0
+ _ZN7Akonadi27EmailAddressSelectionWidgetC1EbP18QAbstractItemModelP7QWidget@Base 4:4.13.0~kolab
  _ZN7Akonadi27EmailAddressSelectionWidgetC2EP18QAbstractItemModelP7QWidget@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidgetC2EP7QWidget@Base 4:4.5.0
+ _ZN7Akonadi27EmailAddressSelectionWidgetC2EbP18QAbstractItemModelP7QWidget@Base 4:4.13.0~kolab
  _ZN7Akonadi27EmailAddressSelectionWidgetD0Ev@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidgetD1Ev@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidgetD2Ev@Base 4:4.5.0
@@ -391,7 +395,7 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN4KABC12ContactGroupEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES8_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES8_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC12ContactGroupEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.5.86
- (optional=templinst|arch=!amd64)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.13.1
+ (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.13.1
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN4KABC12ContactGroupEEET_v@Base 4:4.4.0
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN4KABC9AddresseeEEET_v@Base 4:4.4.0
  _ZTIN7Akonadi13ContactEditorE@Base 4:4.4.0
@@ -464,8 +468,8 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZTVN7Akonadi29StandardContactGroupFormatterE@Base 4:4.5.86
  _ZTVN7Akonadi34RecentContactsCollectionRequestJobE@Base 4:4.4.0
  _ZZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
- (optional=private)_ZZN7Akonadi18ContactGroupViewer7PrivateC1EPS0_E11groupPixmap@Base 4:4.5.0
- (optional=private|arch=!amd64)_ZZN7Akonadi18ContactGroupViewer7PrivateC4EPS0_E11groupPixmap@Base 4:4.13.1
+ (optional)_ZZN7Akonadi18ContactGroupViewer7PrivateC1EPS0_E11groupPixmap@Base 4:4.13.0~kolab
+ (optional=private)_ZZN7Akonadi18ContactGroupViewer7PrivateC4EPS0_E11groupPixmap@Base 4:4.13.1
  (c++)"non-virtual thunk to Akonadi::ContactEditor::~ContactEditor()@Base" 4:4.4.0
  (c++)"non-virtual thunk to Akonadi::ContactEditorDialog::~ContactEditorDialog()@Base" 4:4.4.0
  (c++)"non-virtual thunk to Akonadi::ContactGroupEditor::~ContactGroupEditor()@Base" 4:4.4.0

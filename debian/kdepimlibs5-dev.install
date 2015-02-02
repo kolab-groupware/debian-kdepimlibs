@@ -16,6 +16,7 @@ usr/include/KDE/Akonadi/Attribute
 usr/include/KDE/Akonadi/AttributeEntity
 usr/include/KDE/Akonadi/AttributeFactory
 usr/include/KDE/Akonadi/CachePolicy
+usr/include/KDE/Akonadi/Relation*
 usr/include/KDE/Akonadi/Calendar/BlockAlarmsAttribute
 usr/include/KDE/Akonadi/Calendar/CalendarBase
 usr/include/KDE/Akonadi/Calendar/CalendarClipboard
@@ -503,6 +504,7 @@ usr/include/akonadi/collectiondialog.h
 usr/include/akonadi/collectionfetchjob.h
 usr/include/akonadi/collectionfetchscope.h
 usr/include/akonadi/collectionfilterproxymodel.h
+usr/include/akonadi/collectionidentificationattribute.h
 usr/include/akonadi/collectionmodel.h
 usr/include/akonadi/collectionmodifyjob.h
 usr/include/akonadi/collectionmovejob.h
@@ -612,6 +614,7 @@ usr/include/akonadi/recursivecollectionfilterproxymodel.h
 usr/include/akonadi/recursiveitemfetchjob.h
 usr/include/akonadi/resourcebase.h
 usr/include/akonadi/resourcebasesettings.h
+usr/include/akonadi/relation*
 usr/include/akonadi/resourcesettings.h
 usr/include/akonadi/resourcesynchronizationjob.h
 usr/include/akonadi/searchcreatejob.h
@@ -638,6 +641,7 @@ usr/include/akonadi/tagmanagementdialog.h
 usr/include/akonadi/tagmodel.h
 usr/include/akonadi/tagmodifyjob.h
 usr/include/akonadi/tagselectiondialog.h
+usr/include/akonadi/tagsync.h
 usr/include/akonadi/tagwidget.h
 usr/include/akonadi/transactionjobs.h
 usr/include/akonadi/transactionsequence.h
@@ -939,6 +943,7 @@ usr/include/kpimidentities/identitymanager.h
 usr/include/kpimidentities/kpimidentities_export.h
 usr/include/kpimidentities/signature.h
 usr/include/kpimidentities/signatureconfigurator.h
+usr/include/kpimidentities/utils.h
 usr/include/kpimtextedit/emailquotehighlighter.h
 usr/include/kpimtextedit/emoticontexteditaction.h
 usr/include/kpimtextedit/htmlhighlighter.h
@@ -1093,7 +1098,7 @@ usr/lib/libakonadi-kmime.so
 usr/lib/libakonadi-notes.so
 usr/lib/libakonadi-socialutils.so
 usr/lib/libakonadi-xml.so
-usr/lib/libgpgme++-pthread.so
+usr/lib/libgpgme++-p*.so
 usr/lib/libgpgme++.so
 usr/lib/libkabc.so
 usr/lib/libkabc_file_core.so
