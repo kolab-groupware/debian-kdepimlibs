@@ -1,10 +1,10 @@
-kdepimlibs (4.13.0.1-0~kolab1) unstable; urgency=medium
+kdepimlibs (4:4.13.0.1-0~kolab1) unstable; urgency=medium
 
   * 4.13.0.1
 
  -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Mon, 02 Feb 2015 14:14:18 +0100
 
-kdepimlibs (4.13.0-0~kolab1) unstable; urgency=medium
+kdepimlibs (4:4.13.0-0~kolab1) unstable; urgency=medium
 
   * 4.13.0
 
