@@ -16,7 +16,6 @@ usr/include/KDE/Akonadi/Attribute
 usr/include/KDE/Akonadi/AttributeEntity
 usr/include/KDE/Akonadi/AttributeFactory
 usr/include/KDE/Akonadi/CachePolicy
-usr/include/KDE/Akonadi/Relation*
 usr/include/KDE/Akonadi/Calendar/BlockAlarmsAttribute
 usr/include/KDE/Akonadi/Calendar/CalendarBase
 usr/include/KDE/Akonadi/Calendar/CalendarClipboard
@@ -127,6 +126,7 @@ usr/include/KDE/Akonadi/Notes/NoteUtils
 usr/include/KDE/Akonadi/PreprocessorBase
 usr/include/KDE/Akonadi/RecursiveCollectionFilterProxyModel
 usr/include/KDE/Akonadi/RecursiveItemFetchJob
+usr/include/KDE/Akonadi/Relation*
 usr/include/KDE/Akonadi/ResourceBase
 usr/include/KDE/Akonadi/SearchCreateJob
 usr/include/KDE/Akonadi/SearchQuery
@@ -612,9 +612,9 @@ usr/include/akonadi/private/collectionpathresolver_p.h
 usr/include/akonadi/qtest_akonadi.h
 usr/include/akonadi/recursivecollectionfilterproxymodel.h
 usr/include/akonadi/recursiveitemfetchjob.h
+usr/include/akonadi/relation*
 usr/include/akonadi/resourcebase.h
 usr/include/akonadi/resourcebasesettings.h
-usr/include/akonadi/relation*
 usr/include/akonadi/resourcesettings.h
 usr/include/akonadi/resourcesynchronizationjob.h
 usr/include/akonadi/searchcreatejob.h
