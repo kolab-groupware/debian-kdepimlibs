@@ -1,3 +1,9 @@
+kdepimlibs (4:4.13.0.1-0~kolab2) unstable; urgency=medium
+
+  * make libakonadi-xml4 build at different build plattforms
+
+ -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Mon, 02 Feb 2015 22:53:46 +0100
+
 kdepimlibs (4:4.13.0.1-0~kolab1) unstable; urgency=medium
 
   * 4.13.0.1
