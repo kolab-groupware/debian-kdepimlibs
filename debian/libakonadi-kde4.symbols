@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.0~kolab amd64 i386
+# SymbolsHelper-Confirmed: 4:4.13.0.5 amd64 i386
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -1217,8 +1217,6 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi21StandardActionManager32setCollectionPropertiesPageNamesERK11QStringList@Base 4:4.5.86
  _ZN7Akonadi21StandardActionManager7Private16ContextTextEntryD1Ev@Base 4:4.6.5
  _ZN7Akonadi21StandardActionManager7Private16ContextTextEntryD2Ev@Base 4:4.6.5
- (optional)_ZN7Akonadi21StandardActionManager7PrivateD1Ev@Base 4:4.13.0~kolab
- (optional)_ZN7Akonadi21StandardActionManager7PrivateD2Ev@Base 4:4.13.0~kolab
  _ZN7Akonadi21StandardActionManagerC1EP17KActionCollectionP7QWidget@Base 4:4.3.4
  _ZN7Akonadi21StandardActionManagerC2EP17KActionCollectionP7QWidget@Base 4:4.3.4
  _ZN7Akonadi21StandardActionManagerD0Ev@Base 4:4.3.4
@@ -1542,8 +1540,10 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi3JobD0Ev@Base 4:4.3.4
  _ZN7Akonadi3JobD1Ev@Base 4:4.3.4
  _ZN7Akonadi3JobD2Ev@Base 4:4.3.4
+ _ZN7Akonadi3Tag10genericTagE7QString@Base 4:4.13.0.5
  _ZN7Akonadi3Tag5PLAINE@Base 4:4.13.1
  _ZN7Akonadi3Tag5setIdEx@Base 4:4.13.1
+ _ZN7Akonadi3Tag7GENERICE@Base 4:4.13.0.5
  _ZN7Akonadi3Tag7fromUrlERK4KUrl@Base 4:4.13.1
  _ZN7Akonadi3Tag7setNameERK7QString@Base 4:4.13.1
  _ZN7Akonadi3Tag9setParentERKS0_@Base 4:4.13.1
@@ -1786,6 +1786,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi8TagModel13insertColumnsEiiRK11QModelIndex@Base 4:4.13.1
  _ZN7Akonadi8TagModel13removeColumnsEiiRK11QModelIndex@Base 4:4.13.1
  _ZN7Akonadi8TagModel16staticMetaObjectE@Base 4:4.13.1
+ _ZN7Akonadi8TagModel9populatedEv@Base 4:4.13.0.5
  _ZN7Akonadi8TagModelC1EPNS_7MonitorEP7QObject@Base 4:4.13.1
  _ZN7Akonadi8TagModelC1EPNS_7MonitorEPNS_15TagModelPrivateEP7QObject@Base 4:4.13.1
  _ZN7Akonadi8TagModelC2EPNS_7MonitorEP7QObject@Base 4:4.13.1
@@ -1976,7 +1977,6 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7TagSyncD0Ev@Base 4:4.13.0~kolab
  _ZN7TagSyncD1Ev@Base 4:4.13.0~kolab
  _ZN7TagSyncD2Ev@Base 4:4.13.0~kolab
- (optional)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.13.0~kolab
  _ZNK12RelationSync10metaObjectEv@Base 4:4.13.0~kolab
  _ZNK33CollectionIdentificationAttribute10identifierEv@Base 4:4.13.0~kolab
  _ZNK33CollectionIdentificationAttribute10serializedEv@Base 4:4.13.0~kolab
@@ -2470,7 +2470,6 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi6Entity10attributesEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity12hasAttributeERK10QByteArray@Base 4:4.3.4
  (optional)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.13.0~kolab
- (optional)_ZNK7Akonadi6Entity12hasAttributeINS_21EntityHiddenAttributeEEEbv@Base 4:4.13.0~kolab
  _ZNK7Akonadi6Entity14remoteRevisionEv@Base 4:4.5.0
  _ZNK7Akonadi6Entity16parentCollectionEv@Base 4:4.4.0
  _ZNK7Akonadi6Entity2idEv@Base 4:4.3.4
