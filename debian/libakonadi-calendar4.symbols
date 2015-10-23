@@ -1,9 +1,23 @@
-# SymbolsHelper-Confirmed: 4:4.13.0~kolab amd64 i386
+# SymbolsHelper-Confirmed: 4:4.13.0.5 amd64 i386
 libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN5KMime5Types7MailboxD1Ev@Base 4:4.11.1
  _ZN5KMime5Types7MailboxD2Ev@Base 4:4.11.1
  (optional=gccinternal|arch=!amd64 !arm64 !hppa !hurd-i386 !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !powerpc !powerpcspe !ppc64 !x32)_ZN5KMime5Types8AddrSpecD1Ev@Base 4:4.11.5
  (optional=gccinternal|arch=!amd64 !arm64 !hppa !hurd-i386 !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !powerpc !powerpcspe !ppc64 !x32)_ZN5KMime5Types8AddrSpecD2Ev@Base 4:4.11.5
+ _ZN7Akonadi10MailClient11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.5
+ _ZN7Akonadi10MailClient11qt_metacastEPKc@Base 4:4.13.0.5
+ _ZN7Akonadi10MailClient13mailAttendeesERK14QSharedPointerIN8KCalCore13IncidenceBaseEERKN14KPIMIdentities8IdentityEbRK7QStringSD_@Base 4:4.13.0.5
+ _ZN7Akonadi10MailClient13mailOrganizerERK14QSharedPointerIN8KCalCore13IncidenceBaseEERKN14KPIMIdentities8IdentityERK7QStringbSD_SD_SD_@Base 4:4.13.0.5
+ _ZN7Akonadi10MailClient16staticMetaObjectE@Base 4:4.13.0.5
+ _ZN7Akonadi10MailClient22handleQueueJobFinishedEP4KJob@Base 4:4.13.0.5
+ _ZN7Akonadi10MailClient4sendERK14QSharedPointerIN8KCalCore13IncidenceBaseEERKN14KPIMIdentities8IdentityERK7QStringSD_SD_SD_SD_bbSD_SD_@Base 4:4.13.0.5
+ _ZN7Akonadi10MailClient6mailToERK14QSharedPointerIN8KCalCore13IncidenceBaseEERKN14KPIMIdentities8IdentityERK7QStringbSD_SD_SD_@Base 4:4.13.0.5
+ _ZN7Akonadi10MailClient8finishedENS0_6ResultERK7QString@Base 4:4.13.0.5
+ _ZN7Akonadi10MailClientC1EPNS_27ITIPHandlerComponentFactoryEP7QObject@Base 4:4.13.0.5
+ _ZN7Akonadi10MailClientC2EPNS_27ITIPHandlerComponentFactoryEP7QObject@Base 4:4.13.0.5
+ _ZN7Akonadi10MailClientD0Ev@Base 4:4.13.0.5
+ _ZN7Akonadi10MailClientD1Ev@Base 4:4.13.0.5
+ _ZN7Akonadi10MailClientD2Ev@Base 4:4.13.0.5
  _ZN7Akonadi10TodoPurger11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.12.2
  _ZN7Akonadi10TodoPurger11qt_metacastEPKc@Base 4:4.12.2
  _ZN7Akonadi10TodoPurger11setCalendarERK14QSharedPointerINS_12CalendarBaseEE@Base 4:4.12.2
@@ -89,27 +103,30 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZN7Akonadi11ITIPHandlerD0Ev@Base 4:4.11.1
  _ZN7Akonadi11ITIPHandlerD1Ev@Base 4:4.11.1
  _ZN7Akonadi11ITIPHandlerD2Ev@Base 4:4.11.1
- _ZN7Akonadi12CalendarBase10addJournalERK14QSharedPointerIN8KCalCore7JournalEE@Base 4:4.11.1
- _ZN7Akonadi12CalendarBase10deleteTodoERK14QSharedPointerIN8KCalCore4TodoEE@Base 4:4.11.1
- _ZN7Akonadi12CalendarBase11deleteEventERK14QSharedPointerIN8KCalCore5EventEE@Base 4:4.11.1
+#MISSING: 4:4.13.0.5# _ZN7Akonadi12CalendarBase10addJournalERK14QSharedPointerIN8KCalCore7JournalEE@Base 4:4.11.1
+#MISSING: 4:4.13.0.5# _ZN7Akonadi12CalendarBase10deleteTodoERK14QSharedPointerIN8KCalCore4TodoEE@Base 4:4.11.1
+#MISSING: 4:4.13.0.5# _ZN7Akonadi12CalendarBase11deleteEventERK14QSharedPointerIN8KCalCore5EventEE@Base 4:4.11.1
  _ZN7Akonadi12CalendarBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
  _ZN7Akonadi12CalendarBase11qt_metacastEPKc@Base 4:4.11.1
  _ZN7Akonadi12CalendarBase12addIncidenceERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.11.1
- _ZN7Akonadi12CalendarBase13deleteJournalERK14QSharedPointerIN8KCalCore7JournalEE@Base 4:4.11.1
+ _ZN7Akonadi12CalendarBase12addIncidenceERK7QStringRK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.13.0.5
+#MISSING: 4:4.13.0.5# _ZN7Akonadi12CalendarBase13deleteJournalERK14QSharedPointerIN8KCalCore7JournalEE@Base 4:4.11.1
  _ZN7Akonadi12CalendarBase14createFinishedEbRK7QString@Base 4:4.11.1
- _ZN7Akonadi12CalendarBase14deleteAllTodosEv@Base 4:4.11.1
+#MISSING: 4:4.13.0.5# _ZN7Akonadi12CalendarBase14deleteAllTodosEv@Base 4:4.11.1
  _ZN7Akonadi12CalendarBase14deleteFinishedEbRK7QString@Base 4:4.11.1
  _ZN7Akonadi12CalendarBase14endBatchAddingEv@Base 4:4.11.1
  _ZN7Akonadi12CalendarBase14modifyFinishedEbRK7QString@Base 4:4.11.1
  _ZN7Akonadi12CalendarBase14setWeakPointerERK12QWeakPointerIS0_E@Base 4:4.11.1
- _ZN7Akonadi12CalendarBase15deleteAllEventsEv@Base 4:4.11.1
+#MISSING: 4:4.13.0.5# _ZN7Akonadi12CalendarBase15deleteAllEventsEv@Base 4:4.11.1
  _ZN7Akonadi12CalendarBase15deleteIncidenceERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.11.1
- _ZN7Akonadi12CalendarBase15modifyIncidenceERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.11.1
+#MISSING: 4:4.13.0.5# _ZN7Akonadi12CalendarBase15modifyIncidenceERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.11.1
+ _ZN7Akonadi12CalendarBase15modifyIncidenceERK14QSharedPointerIN8KCalCore9IncidenceEES6_@Base 4:4.13.0.5
  _ZN7Akonadi12CalendarBase16startBatchAddingEv@Base 4:4.11.1
  _ZN7Akonadi12CalendarBase16staticMetaObjectE@Base 4:4.11.1
- _ZN7Akonadi12CalendarBase17deleteAllJournalsEv@Base 4:4.11.1
- _ZN7Akonadi12CalendarBase7addTodoERK14QSharedPointerIN8KCalCore4TodoEE@Base 4:4.11.1
- _ZN7Akonadi12CalendarBase8addEventERK14QSharedPointerIN8KCalCore5EventEE@Base 4:4.11.1
+#MISSING: 4:4.13.0.5# _ZN7Akonadi12CalendarBase17deleteAllJournalsEv@Base 4:4.11.1
+ _ZN7Akonadi12CalendarBase24deleteIncidenceInstancesERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.13.0.5
+#MISSING: 4:4.13.0.5# _ZN7Akonadi12CalendarBase7addTodoERK14QSharedPointerIN8KCalCore4TodoEE@Base 4:4.11.1
+#MISSING: 4:4.13.0.5# _ZN7Akonadi12CalendarBase8addEventERK14QSharedPointerIN8KCalCore5EventEE@Base 4:4.11.1
  _ZN7Akonadi12CalendarBaseC1EP7QObject@Base 4:4.11.1
  _ZN7Akonadi12CalendarBaseC1EPNS_19CalendarBasePrivateEP7QObject@Base 4:4.11.1
  _ZN7Akonadi12CalendarBaseC2EP7QObject@Base 4:4.11.1
@@ -141,6 +158,16 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZN7Akonadi12ICalImporterD0Ev@Base 4:4.12.2
  _ZN7Akonadi12ICalImporterD1Ev@Base 4:4.12.2
  _ZN7Akonadi12ICalImporterD2Ev@Base 4:4.12.2
+ _ZN7Akonadi13MultiCalendar16incidenceUpdatedEPN8KCalCore13IncidenceBaseE@Base 4:4.13.0.5
+ _ZN7Akonadi13MultiCalendar20addParentInformationERK14QSharedPointerIN8KCalCore9IncidenceEES6_@Base 4:4.13.0.5
+ _ZN7Akonadi13MultiCalendar22addIncidenceToCalendarERK7QStringRK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.13.0.5
+ _ZN7Akonadi13MultiCalendar24cleanupParentInformationERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.13.0.5
+ _ZN7Akonadi13MultiCalendar27deleteIncidenceFromCalendarERK7QStringRK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.13.0.5
+ _ZN7Akonadi13MultiCalendarC1ERK9KTimeZone@Base 4:4.13.0.5
+ _ZN7Akonadi13MultiCalendarC2ERK9KTimeZone@Base 4:4.13.0.5
+ _ZN7Akonadi13MultiCalendarD0Ev@Base 4:4.13.0.5
+ _ZN7Akonadi13MultiCalendarD1Ev@Base 4:4.13.0.5
+ _ZN7Akonadi13MultiCalendarD2Ev@Base 4:4.13.0.5
  _ZN7Akonadi13PublishDialog11addAttendeeERK14QSharedPointerIN8KCalCore8AttendeeEE@Base 4:4.11.1
  _ZN7Akonadi13PublishDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
  _ZN7Akonadi13PublishDialog11qt_metacastEPKc@Base 4:4.11.1
@@ -270,7 +297,8 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZN7Akonadi17CalendarClipboard7Private16staticMetaObjectE@Base 4:4.11.1
  _ZN7Akonadi17CalendarClipboard7Private18slotDeleteFinishedEiRK7QVectorIxENS_16IncidenceChanger10ResultCodeERK7QString@Base 4:4.11.1
  _ZN7Akonadi17CalendarClipboard7Private18slotModifyFinishedEiRKNS_4ItemENS_16IncidenceChanger10ResultCodeERK7QString@Base 4:4.11.1
- _ZN7Akonadi17CalendarClipboard7Private21getIncidenceHierarchyERK14QSharedPointerIN8KCalCore9IncidenceEER11QStringList@Base 4:4.11.1
+#MISSING: 4:4.13.0.5# _ZN7Akonadi17CalendarClipboard7Private21getIncidenceHierarchyERK14QSharedPointerIN8KCalCore9IncidenceEER11QStringList@Base 4:4.11.1
+ _ZN7Akonadi17CalendarClipboard7Private21getIncidenceHierarchyERK14QSharedPointerIN8KCalCore9IncidenceEER7QVectorIS5_E@Base 4:4.13.0.5
  _ZN7Akonadi17CalendarClipboard7Private21makeChildsIndependentERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.11.1
  _ZN7Akonadi17CalendarClipboard7Private3cutERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.11.1
  _ZN7Akonadi17CalendarClipboard7Private3cutERK7QVectorI14QSharedPointerIN8KCalCore9IncidenceEEE@Base 4:4.11.1
@@ -379,6 +407,7 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZN7Akonadi7HistoryD0Ev@Base 4:4.11.1
  _ZN7Akonadi7HistoryD1Ev@Base 4:4.11.1
  _ZN7Akonadi7HistoryD2Ev@Base 4:4.11.1
+ _ZNK7Akonadi10MailClient10metaObjectEv@Base 4:4.13.0.5
  _ZNK7Akonadi10TodoPurger10metaObjectEv@Base 4:4.12.2
  _ZNK7Akonadi10TodoPurger7Private10metaObjectEv@Base 4:4.12.2
  _ZNK7Akonadi10TodoPurger9lastErrorEv@Base 4:4.12.2
@@ -389,21 +418,23 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZNK7Akonadi11ETMCalendar26collectionFilteringEnabledEv@Base 4:4.11.1
  _ZNK7Akonadi11ETMCalendar5modelEv@Base 4:4.11.1
  _ZNK7Akonadi11ETMCalendar6alarmsERK9KDateTimeS3_b@Base 4:4.11.1
- _ZNK7Akonadi11ETMCalendar8hasRightERK7QStringNS_10Collection5RightE@Base 4:4.11.1
+ _ZNK7Akonadi11ETMCalendar8hasRightERK14QSharedPointerIN8KCalCore9IncidenceEENS_10Collection5RightE@Base 4:4.13.0.5
+#MISSING: 4:4.13.0.5# _ZNK7Akonadi11ETMCalendar8hasRightERK7QStringNS_10Collection5RightE@Base 4:4.11.1
  _ZNK7Akonadi11ETMCalendar8hasRightERKNS_4ItemENS_10Collection5RightE@Base 4:4.11.1
  _ZNK7Akonadi11ETMCalendar8isLoadedEv@Base 4:4.13.0~kolab
  _ZNK7Akonadi11ITIPHandler10metaObjectEv@Base 4:4.11.1
  _ZNK7Akonadi11ITIPHandler7Private10metaObjectEv@Base 4:4.11.1
  _ZNK7Akonadi11ITIPHandler8calendarEv@Base 4:4.11.1
- _ZNK7Akonadi12CalendarBase10childItemsERK7QString@Base 4:4.11.1
+ _ZNK7Akonadi12CalendarBase10childItemsERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.13.0.5
+#MISSING: 4:4.13.0.5# _ZNK7Akonadi12CalendarBase10childItemsERK7QString@Base 4:4.11.1
  _ZNK7Akonadi12CalendarBase10childItemsERKx@Base 4:4.11.1
  _ZNK7Akonadi12CalendarBase10metaObjectEv@Base 4:4.11.1
  _ZNK7Akonadi12CalendarBase11weakPointerEv@Base 4:4.11.1
- _ZNK7Akonadi12CalendarBase15childIncidencesERK7QString@Base 4:4.11.1
+#MISSING: 4:4.13.0.5# _ZNK7Akonadi12CalendarBase15childIncidencesERK7QString@Base 4:4.11.1
  _ZNK7Akonadi12CalendarBase15childIncidencesERKx@Base 4:4.11.1
  _ZNK7Akonadi12CalendarBase16incidenceChangerEv@Base 4:4.11.1
  _ZNK7Akonadi12CalendarBase4itemERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.11.1
- _ZNK7Akonadi12CalendarBase4itemERK7QString@Base 4:4.11.1
+#MISSING: 4:4.13.0.5# _ZNK7Akonadi12CalendarBase4itemERK7QString@Base 4:4.11.1
  _ZNK7Akonadi12CalendarBase4itemEx@Base 4:4.11.1
  _ZNK7Akonadi12CalendarBase5itemsEv@Base 4:4.11.1
  _ZNK7Akonadi12CalendarBase5itemsEx@Base 4:4.12.2
@@ -411,6 +442,15 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZNK7Akonadi12ICalImporter10metaObjectEv@Base 4:4.12.2
  _ZNK7Akonadi12ICalImporter12errorMessageEv@Base 4:4.12.2
  _ZNK7Akonadi12ICalImporter7Private10metaObjectEv@Base 4:4.12.2
+ _ZNK7Akonadi13MultiCalendar14realIdentifierERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.13.0.5
+ _ZNK7Akonadi13MultiCalendar15childIncidencesERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.13.0.5
+ _ZNK7Akonadi13MultiCalendar19incidenceExceptionsERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.13.0.5
+ _ZNK7Akonadi13MultiCalendar22incidencesFromCalendarERK7QString@Base 4:4.13.0.5
+ _ZNK7Akonadi13MultiCalendar24uniqueInstanceIdentifierERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.13.0.5
+ _ZNK7Akonadi13MultiCalendar7realUidERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.13.0.5
+ _ZNK7Akonadi13MultiCalendar8calendarERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 4:4.13.0.5
+ _ZNK7Akonadi13MultiCalendar9calendarsERK7QStringRK9KDateTime@Base 4:4.13.0.5
+ _ZNK7Akonadi13MultiCalendar9incidenceERK7QStringS3_RK9KDateTime@Base 4:4.13.0.5
  _ZNK7Akonadi13PublishDialog10metaObjectEv@Base 4:4.11.1
  _ZNK7Akonadi13PublishDialog7Private10metaObjectEv@Base 4:4.11.1
  _ZNK7Akonadi13PublishDialog9addressesEv@Base 4:4.11.1
@@ -456,11 +496,11 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  (optional=templinst|arch=armel powerpc powerpcspe ppc64)_ZNK7Akonadi4Item10hasPayloadI14QSharedPointerIN8KCalCore4TodoEEEEbv@Base 4:4.11.5
  (optional=templinst)_ZNK7Akonadi4Item10hasPayloadI14QSharedPointerIN8KCalCore9IncidenceEEEEbv@Base 4:4.11.1
  (optional=templinst)_ZNK7Akonadi4Item10tryToCloneI14QSharedPointerIN8KCalCore9IncidenceEEEEN5boost9enable_ifINS_8Internal17is_shared_pointerIT_EEbE4typeEPSA_PKi@Base 4:4.5.86
- (optional=templinst|arch=ia64)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN8KCalCore4TodoEEEEN5boost11enable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESA_E4typeEPKi@Base 4:4.11.5
+ (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN8KCalCore4TodoEEEEN5boost11enable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESA_E4typeEPKi@Base 4:4.11.5
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN8KCalCore9IncidenceEEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESA_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplI14QSharedPointerIN8KCalCore4TodoEEEEN5boost11enable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEPKi@Base 4:4.6.2
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplI14QSharedPointerIN8KCalCore9IncidenceEEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.7.4
- (optional)_ZNK7Akonadi4Item7payloadI14QSharedPointerIN8KCalCore4TodoEEEET_v@Base 4:4.13.0~kolab
+(optional)_ZNK7Akonadi4Item7payloadI14QSharedPointerIN8KCalCore4TodoEEEET_v@Base 4:4.13.0~kolab
  (optional=templinst)_ZNK7Akonadi4Item7payloadI14QSharedPointerIN8KCalCore9IncidenceEEEET_v@Base 4:4.11.1
  _ZNK7Akonadi7History10metaObjectEv@Base 4:4.11.1
  _ZNK7Akonadi7History13redoAvailableEv@Base 4:4.11.1
@@ -471,6 +511,7 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZNK7Akonadi7History7Private10metaObjectEv@Base 4:4.11.1
  _ZNK7Akonadi7History7Private9redoCountEv@Base 4:4.12.2
  _ZNK7Akonadi7History7Private9undoCountEv@Base 4:4.12.2
+ _ZTIN7Akonadi10MailClientE@Base 4:4.13.0.5
  _ZTIN7Akonadi10TodoPurger7PrivateE@Base 4:4.12.2
  _ZTIN7Akonadi10TodoPurgerE@Base 4:4.12.2
  _ZTIN7Akonadi11ETMCalendarE@Base 4:4.11.1
@@ -479,6 +520,7 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZTIN7Akonadi12CalendarBaseE@Base 4:4.11.1
  _ZTIN7Akonadi12ICalImporter7PrivateE@Base 4:4.12.2
  _ZTIN7Akonadi12ICalImporterE@Base 4:4.12.2
+ _ZTIN7Akonadi13MultiCalendarE@Base 4:4.13.0.5
  _ZTIN7Akonadi13PublishDialog7PrivateE@Base 4:4.11.1
  _ZTIN7Akonadi13PublishDialogE@Base 4:4.11.1
  _ZTIN7Akonadi15FreeBusyManagerE@Base 4:4.11.1
@@ -496,6 +538,7 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZTIN7Akonadi29StandardCalendarActionManagerE@Base 4:4.5.86
  _ZTIN7Akonadi7History7PrivateE@Base 4:4.11.1
  _ZTIN7Akonadi7HistoryE@Base 4:4.11.1
+ _ZTSN7Akonadi10MailClientE@Base 4:4.13.0.5
  _ZTSN7Akonadi10TodoPurger7PrivateE@Base 4:4.12.2
  _ZTSN7Akonadi10TodoPurgerE@Base 4:4.12.2
  _ZTSN7Akonadi11ETMCalendarE@Base 4:4.11.1
@@ -504,6 +547,7 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZTSN7Akonadi12CalendarBaseE@Base 4:4.11.1
  _ZTSN7Akonadi12ICalImporter7PrivateE@Base 4:4.12.2
  _ZTSN7Akonadi12ICalImporterE@Base 4:4.12.2
+ _ZTSN7Akonadi13MultiCalendarE@Base 4:4.13.0.5
  _ZTSN7Akonadi13PublishDialog7PrivateE@Base 4:4.11.1
  _ZTSN7Akonadi13PublishDialogE@Base 4:4.11.1
  _ZTSN7Akonadi15FreeBusyManagerE@Base 4:4.11.1
@@ -521,6 +565,7 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZTSN7Akonadi29StandardCalendarActionManagerE@Base 4:4.5.86
  _ZTSN7Akonadi7History7PrivateE@Base 4:4.11.1
  _ZTSN7Akonadi7HistoryE@Base 4:4.11.1
+ _ZTVN7Akonadi10MailClientE@Base 4:4.13.0.5
  _ZTVN7Akonadi10TodoPurger7PrivateE@Base 4:4.12.2
  _ZTVN7Akonadi10TodoPurgerE@Base 4:4.12.2
  _ZTVN7Akonadi11ETMCalendarE@Base 4:4.11.1
@@ -529,6 +574,7 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZTVN7Akonadi12CalendarBaseE@Base 4:4.11.1
  _ZTVN7Akonadi12ICalImporter7PrivateE@Base 4:4.12.2
  _ZTVN7Akonadi12ICalImporterE@Base 4:4.12.2
+ _ZTVN7Akonadi13MultiCalendarE@Base 4:4.13.0.5
  _ZTVN7Akonadi13PublishDialog7PrivateE@Base 4:4.11.1
  _ZTVN7Akonadi13PublishDialogE@Base 4:4.11.1
  _ZTVN7Akonadi15FreeBusyManagerE@Base 4:4.11.1
@@ -552,4 +598,6 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  (c++)"non-virtual thunk to Akonadi::FreeBusyManager::loadFreeBusy(QString const&)@Base" 4:4.11.1
  (c++)"non-virtual thunk to Akonadi::FreeBusyManager::saveFreeBusy(QSharedPointer<KCalCore::FreeBusy> const&, QSharedPointer<KCalCore::Person> const&)@Base" 4:4.11.1
  (c++)"non-virtual thunk to Akonadi::FreeBusyManager::~FreeBusyManager()@Base" 4:4.11.1
+ (c++)"non-virtual thunk to Akonadi::MultiCalendar::incidenceUpdated(KCalCore::IncidenceBase*)@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::MultiCalendar::~MultiCalendar()@Base" 4:4.13.0.5
  (c++)"non-virtual thunk to Akonadi::PublishDialog::~PublishDialog()@Base" 4:4.11.1

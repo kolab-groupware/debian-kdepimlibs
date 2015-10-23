@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.0~kolab amd64 i386
+# SymbolsHelper-Confirmed: 4:4.13.0.5 amd64 i386
 libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5KIMAP10AclJobBase10setMailBoxERK7QString@Base 4:4.3.4
@@ -302,8 +302,8 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZN5KIMAP4TermC2ERK7QStringS3_@Base 4:4.13.1
  _ZN5KIMAP4TermC2ERKS0_@Base 4:4.13.1
  _ZN5KIMAP4TermC2Ev@Base 4:4.13.1
- (optional)_ZN5KIMAP4TermD1Ev@Base 4:4.13.0~kolab
- (optional)_ZN5KIMAP4TermD2Ev@Base 4:4.13.0~kolab
+(optional)_ZN5KIMAP4TermD1Ev@Base 4:4.13.0~kolab
+(optional)_ZN5KIMAP4TermD2Ev@Base 4:4.13.0~kolab
  _ZN5KIMAP4TermaSERKS0_@Base 4:4.13.1
  _ZN5KIMAP7CopyJob10setMailBoxERK7QString@Base 4:4.3.4
  _ZN5KIMAP7CopyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
