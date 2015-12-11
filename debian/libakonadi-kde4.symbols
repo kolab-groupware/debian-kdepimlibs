@@ -30,8 +30,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN33CollectionIdentificationAttributeD0Ev@Base 4:4.13.0~kolab
  _ZN33CollectionIdentificationAttributeD1Ev@Base 4:4.13.0~kolab
  _ZN33CollectionIdentificationAttributeD2Ev@Base 4:4.13.0~kolab
- _ZN4KUrl4ListD1Ev@Base 4:4.13.0.5
- _ZN4KUrl4ListD2Ev@Base 4:4.13.0.5
+ (optional=tempinst) _ZN4KUrl4ListD1Ev@Base 4:4.13.0.5
+ (optional=tempinst) _ZN4KUrl4ListD2Ev@Base 4:4.13.0.5
  _ZN7Akonadi10Collection10setEnabledEb@Base 4:4.13.0~kolab
  _ZN7Akonadi10Collection10setVirtualEb@Base 4:4.10.0
  _ZN7Akonadi10Collection11setResourceERK7QString@Base 4:4.3.4
@@ -60,17 +60,17 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi10CollectionC2Ex@Base 4:4.3.4
  _ZN7Akonadi10CollectionD1Ev@Base 4:4.3.4
  _ZN7Akonadi10CollectionD2Ev@Base 4:4.3.4
- _ZN7Akonadi10SearchTerm10addSubTermERKS0_@Base 4:4.13.1
- _ZN7Akonadi10SearchTerm12setIsNegatedEb@Base 4:4.13.1
- _ZN7Akonadi10SearchTermC1ENS0_8RelationE@Base 4:4.13.1
- _ZN7Akonadi10SearchTermC1ERK7QStringRK8QVariantNS0_9ConditionE@Base 4:4.13.1
- _ZN7Akonadi10SearchTermC1ERKS0_@Base 4:4.13.1
- _ZN7Akonadi10SearchTermC2ENS0_8RelationE@Base 4:4.13.1
- _ZN7Akonadi10SearchTermC2ERK7QStringRK8QVariantNS0_9ConditionE@Base 4:4.13.1
- _ZN7Akonadi10SearchTermC2ERKS0_@Base 4:4.13.1
- _ZN7Akonadi10SearchTermD1Ev@Base 4:4.13.1
- _ZN7Akonadi10SearchTermD2Ev@Base 4:4.13.1
- _ZN7Akonadi10SearchTermaSERKS0_@Base 4:4.13.1
+ _ZN7Akonadi10SearchTerm10addSubTermERKS0_@Base 4:4.13.0.6
+ _ZN7Akonadi10SearchTerm12setIsNegatedEb@Base 4:4.13.0.6
+ _ZN7Akonadi10SearchTermC1ENS0_8RelationE@Base 4:4.13.0.6
+ _ZN7Akonadi10SearchTermC1ERK7QStringRK8QVariantNS0_9ConditionE@Base 4:4.13.0.6
+ _ZN7Akonadi10SearchTermC1ERKS0_@Base 4:4.13.0.6
+ _ZN7Akonadi10SearchTermC2ENS0_8RelationE@Base 4:4.13.0.6
+ _ZN7Akonadi10SearchTermC2ERK7QStringRK8QVariantNS0_9ConditionE@Base 4:4.13.0.6
+ _ZN7Akonadi10SearchTermC2ERKS0_@Base 4:4.13.0.6
+ _ZN7Akonadi10SearchTermD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi10SearchTermD2Ev@Base 4:4.13.0.6
+ _ZN7Akonadi10SearchTermaSERKS0_@Base 4:4.13.0.6
  _ZN7Akonadi11CachePolicy13setLocalPartsERK11QStringList@Base 4:4.3.4
  _ZN7Akonadi11CachePolicy15setCacheTimeoutEi@Base 4:4.3.4
  _ZN7Akonadi11CachePolicy15setSyncOnDemandEb@Base 4:4.3.4
@@ -129,37 +129,37 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi11PartFetcherD0Ev@Base 4:4.5.86
  _ZN7Akonadi11PartFetcherD1Ev@Base 4:4.5.86
  _ZN7Akonadi11PartFetcherD2Ev@Base 4:4.5.86
- _ZN7Akonadi11SearchQuery7addTermERK7QStringRK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.1
- _ZN7Akonadi11SearchQuery7addTermERKNS_10SearchTermE@Base 4:4.13.1
- _ZN7Akonadi11SearchQuery7setTermERKNS_10SearchTermE@Base 4:4.13.1
- _ZN7Akonadi11SearchQuery8fromJSONERK10QByteArray@Base 4:4.13.1
- _ZN7Akonadi11SearchQuery8setLimitEi@Base 4:4.13.1
- _ZN7Akonadi11SearchQueryC1ENS_10SearchTerm8RelationE@Base 4:4.13.1
- _ZN7Akonadi11SearchQueryC1ERKS0_@Base 4:4.13.1
- _ZN7Akonadi11SearchQueryC2ENS_10SearchTerm8RelationE@Base 4:4.13.1
- _ZN7Akonadi11SearchQueryC2ERKS0_@Base 4:4.13.1
- _ZN7Akonadi11SearchQueryD1Ev@Base 4:4.13.1
- _ZN7Akonadi11SearchQueryD2Ev@Base 4:4.13.1
- _ZN7Akonadi11SearchQueryaSERKS0_@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJob10fetchScopeEv@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJob11qt_metacastEPKc@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJob12tagsReceivedERK5QListINS_3TagEE@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJob13setFetchScopeERKNS_13TagFetchScopeE@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJob16staticMetaObjectE@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJob7doStartEv@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJobC1EP7QObject@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJobC1ERK5QListINS_3TagEEP7QObject@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJobC1ERK5QListIxEP7QObject@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJobC1ERKNS_3TagEP7QObject@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJobC2EP7QObject@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJobC2ERK5QListINS_3TagEEP7QObject@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJobC2ERK5QListIxEP7QObject@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJobC2ERKNS_3TagEP7QObject@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJobD0Ev@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJobD1Ev@Base 4:4.13.1
- _ZN7Akonadi11TagFetchJobD2Ev@Base 4:4.13.1
+ _ZN7Akonadi11SearchQuery7addTermERK7QStringRK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.0.6
+ _ZN7Akonadi11SearchQuery7addTermERKNS_10SearchTermE@Base 4:4.13.0.6
+ _ZN7Akonadi11SearchQuery7setTermERKNS_10SearchTermE@Base 4:4.13.0.6
+ _ZN7Akonadi11SearchQuery8fromJSONERK10QByteArray@Base 4:4.13.0.6
+ _ZN7Akonadi11SearchQuery8setLimitEi@Base 4:4.13.0.6
+ _ZN7Akonadi11SearchQueryC1ENS_10SearchTerm8RelationE@Base 4:4.13.0.6
+ _ZN7Akonadi11SearchQueryC1ERKS0_@Base 4:4.13.0.6
+ _ZN7Akonadi11SearchQueryC2ENS_10SearchTerm8RelationE@Base 4:4.13.0.6
+ _ZN7Akonadi11SearchQueryC2ERKS0_@Base 4:4.13.0.6
+ _ZN7Akonadi11SearchQueryD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi11SearchQueryD2Ev@Base 4:4.13.0.6
+ _ZN7Akonadi11SearchQueryaSERKS0_@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJob10fetchScopeEv@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJob11qt_metacastEPKc@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJob12tagsReceivedERK5QListINS_3TagEE@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJob13setFetchScopeERKNS_13TagFetchScopeE@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJob16staticMetaObjectE@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJob7doStartEv@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJobC1EP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJobC1ERK5QListINS_3TagEEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJobC1ERK5QListIxEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJobC1ERKNS_3TagEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJobC2EP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJobC2ERK5QListINS_3TagEEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJobC2ERK5QListIxEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJobC2ERKNS_3TagEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJobD0Ev@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJobD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi11TagFetchJobD2Ev@Base 4:4.13.0.6
  _ZN7Akonadi12AgentManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi12AgentManager11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi12AgentManager11typeRemovedERKNS_9AgentTypeE@Base 4:4.3.4
@@ -192,7 +192,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi12ItemFetchJob13setFetchScopeERNS_14ItemFetchScopeE@Base 4:4.3.4
  _ZN7Akonadi12ItemFetchJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.3.4
  _ZN7Akonadi12ItemFetchJob16staticMetaObjectE@Base 4:4.3.4
- _ZN7Akonadi12ItemFetchJob17setDeliveryOptionE6QFlagsINS0_14DeliveryOptionEE@Base 4:4.13.1
+ _ZN7Akonadi12ItemFetchJob17setDeliveryOptionE6QFlagsINS0_14DeliveryOptionEE@Base 4:4.13.0.6
  _ZN7Akonadi12ItemFetchJob7doStartEv@Base 4:4.3.4
  _ZN7Akonadi12ItemFetchJobC1ERK5QListINS_4ItemEEP7QObject@Base 4:4.4.0
  _ZN7Akonadi12ItemFetchJobC1ERK5QListIxEP7QObject@Base 4:4.8.1
@@ -224,7 +224,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi12ResourceBase14itemsRetrievedERK5QListINS_4ItemEE@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase14parseArgumentsEiPPc@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase15changeCommittedERKNS_10CollectionE@Base 4:4.3.4
- _ZN7Akonadi12ResourceBase15changeCommittedERKNS_3TagE@Base 4:4.13.1
+ _ZN7Akonadi12ResourceBase15changeCommittedERKNS_3TagE@Base 4:4.13.0.6
  _ZN7Akonadi12ResourceBase15changeCommittedERKNS_4ItemE@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase15invalidateCacheERKNS_10CollectionE@Base 4:4.8.1
  _ZN7Akonadi12ResourceBase15synchronizeTagsEv@Base 4:4.13.0~kolab
@@ -270,52 +270,52 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi12ResourceBaseD0Ev@Base 4:4.3.4
  _ZN7Akonadi12ResourceBaseD1Ev@Base 4:4.3.4
  _ZN7Akonadi12ResourceBaseD2Ev@Base 4:4.3.4
- _ZN7Akonadi12TagAttribute11deserializeERK10QByteArray@Base 4:4.13.1
- _ZN7Akonadi12TagAttribute11setIconNameERK7QString@Base 4:4.13.1
- _ZN7Akonadi12TagAttribute11setPriorityEi@Base 4:4.13.1
- _ZN7Akonadi12TagAttribute11setShortcutERK7QString@Base 4:4.13.1
- _ZN7Akonadi12TagAttribute12setInToolbarEb@Base 4:4.13.1
- _ZN7Akonadi12TagAttribute12setTextColorERK6QColor@Base 4:4.13.1
- _ZN7Akonadi12TagAttribute14setDisplayNameERK7QString@Base 4:4.13.1
- _ZN7Akonadi12TagAttribute18setBackgroundColorERK6QColor@Base 4:4.13.1
- _ZN7Akonadi12TagAttribute7setFontERK7QString@Base 4:4.13.1
- _ZN7Akonadi12TagAttributeC1Ev@Base 4:4.13.1
- _ZN7Akonadi12TagAttributeC2Ev@Base 4:4.13.1
- _ZN7Akonadi12TagAttributeD0Ev@Base 4:4.13.1
- _ZN7Akonadi12TagAttributeD1Ev@Base 4:4.13.1
- _ZN7Akonadi12TagAttributeD2Ev@Base 4:4.13.1
- _ZN7Akonadi12TagCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.1
- _ZN7Akonadi12TagCreateJob11qt_metacastEPKc@Base 4:4.13.1
- _ZN7Akonadi12TagCreateJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.13.1
- _ZN7Akonadi12TagCreateJob16staticMetaObjectE@Base 4:4.13.1
- _ZN7Akonadi12TagCreateJob18setMergeIfExistingEb@Base 4:4.13.1
- _ZN7Akonadi12TagCreateJob7doStartEv@Base 4:4.13.1
- _ZN7Akonadi12TagCreateJobC1ERKNS_3TagEP7QObject@Base 4:4.13.1
- _ZN7Akonadi12TagCreateJobC2ERKNS_3TagEP7QObject@Base 4:4.13.1
- _ZN7Akonadi12TagCreateJobD0Ev@Base 4:4.13.1
- _ZN7Akonadi12TagCreateJobD1Ev@Base 4:4.13.1
- _ZN7Akonadi12TagCreateJobD2Ev@Base 4:4.13.1
- _ZN7Akonadi12TagDeleteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.1
- _ZN7Akonadi12TagDeleteJob11qt_metacastEPKc@Base 4:4.13.1
- _ZN7Akonadi12TagDeleteJob16staticMetaObjectE@Base 4:4.13.1
- _ZN7Akonadi12TagDeleteJob7doStartEv@Base 4:4.13.1
- _ZN7Akonadi12TagDeleteJobC1ERK5QListINS_3TagEEP7QObject@Base 4:4.13.1
- _ZN7Akonadi12TagDeleteJobC1ERKNS_3TagEP7QObject@Base 4:4.13.1
- _ZN7Akonadi12TagDeleteJobC2ERK5QListINS_3TagEEP7QObject@Base 4:4.13.1
- _ZN7Akonadi12TagDeleteJobC2ERKNS_3TagEP7QObject@Base 4:4.13.1
- _ZN7Akonadi12TagDeleteJobD0Ev@Base 4:4.13.1
- _ZN7Akonadi12TagDeleteJobD1Ev@Base 4:4.13.1
- _ZN7Akonadi12TagDeleteJobD2Ev@Base 4:4.13.1
- _ZN7Akonadi12TagModifyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.1
- _ZN7Akonadi12TagModifyJob11qt_metacastEPKc@Base 4:4.13.1
- _ZN7Akonadi12TagModifyJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.13.1
- _ZN7Akonadi12TagModifyJob16staticMetaObjectE@Base 4:4.13.1
- _ZN7Akonadi12TagModifyJob7doStartEv@Base 4:4.13.1
- _ZN7Akonadi12TagModifyJobC1ERKNS_3TagEP7QObject@Base 4:4.13.1
- _ZN7Akonadi12TagModifyJobC2ERKNS_3TagEP7QObject@Base 4:4.13.1
- _ZN7Akonadi12TagModifyJobD0Ev@Base 4:4.13.1
- _ZN7Akonadi12TagModifyJobD1Ev@Base 4:4.13.1
- _ZN7Akonadi12TagModifyJobD2Ev@Base 4:4.13.1
+ _ZN7Akonadi12TagAttribute11deserializeERK10QByteArray@Base 4:4.13.0.6
+ _ZN7Akonadi12TagAttribute11setIconNameERK7QString@Base 4:4.13.0.6
+ _ZN7Akonadi12TagAttribute11setPriorityEi@Base 4:4.13.0.6
+ _ZN7Akonadi12TagAttribute11setShortcutERK7QString@Base 4:4.13.0.6
+ _ZN7Akonadi12TagAttribute12setInToolbarEb@Base 4:4.13.0.6
+ _ZN7Akonadi12TagAttribute12setTextColorERK6QColor@Base 4:4.13.0.6
+ _ZN7Akonadi12TagAttribute14setDisplayNameERK7QString@Base 4:4.13.0.6
+ _ZN7Akonadi12TagAttribute18setBackgroundColorERK6QColor@Base 4:4.13.0.6
+ _ZN7Akonadi12TagAttribute7setFontERK7QString@Base 4:4.13.0.6
+ _ZN7Akonadi12TagAttributeC1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi12TagAttributeC2Ev@Base 4:4.13.0.6
+ _ZN7Akonadi12TagAttributeD0Ev@Base 4:4.13.0.6
+ _ZN7Akonadi12TagAttributeD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi12TagAttributeD2Ev@Base 4:4.13.0.6
+ _ZN7Akonadi12TagCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.6
+ _ZN7Akonadi12TagCreateJob11qt_metacastEPKc@Base 4:4.13.0.6
+ _ZN7Akonadi12TagCreateJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.13.0.6
+ _ZN7Akonadi12TagCreateJob16staticMetaObjectE@Base 4:4.13.0.6
+ _ZN7Akonadi12TagCreateJob18setMergeIfExistingEb@Base 4:4.13.0.6
+ _ZN7Akonadi12TagCreateJob7doStartEv@Base 4:4.13.0.6
+ _ZN7Akonadi12TagCreateJobC1ERKNS_3TagEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi12TagCreateJobC2ERKNS_3TagEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi12TagCreateJobD0Ev@Base 4:4.13.0.6
+ _ZN7Akonadi12TagCreateJobD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi12TagCreateJobD2Ev@Base 4:4.13.0.6
+ _ZN7Akonadi12TagDeleteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.6
+ _ZN7Akonadi12TagDeleteJob11qt_metacastEPKc@Base 4:4.13.0.6
+ _ZN7Akonadi12TagDeleteJob16staticMetaObjectE@Base 4:4.13.0.6
+ _ZN7Akonadi12TagDeleteJob7doStartEv@Base 4:4.13.0.6
+ _ZN7Akonadi12TagDeleteJobC1ERK5QListINS_3TagEEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi12TagDeleteJobC1ERKNS_3TagEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi12TagDeleteJobC2ERK5QListINS_3TagEEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi12TagDeleteJobC2ERKNS_3TagEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi12TagDeleteJobD0Ev@Base 4:4.13.0.6
+ _ZN7Akonadi12TagDeleteJobD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi12TagDeleteJobD2Ev@Base 4:4.13.0.6
+ _ZN7Akonadi12TagModifyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.6
+ _ZN7Akonadi12TagModifyJob11qt_metacastEPKc@Base 4:4.13.0.6
+ _ZN7Akonadi12TagModifyJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.13.0.6
+ _ZN7Akonadi12TagModifyJob16staticMetaObjectE@Base 4:4.13.0.6
+ _ZN7Akonadi12TagModifyJob7doStartEv@Base 4:4.13.0.6
+ _ZN7Akonadi12TagModifyJobC1ERKNS_3TagEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi12TagModifyJobC2ERKNS_3TagEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi12TagModifyJobD0Ev@Base 4:4.13.0.6
+ _ZN7Akonadi12TagModifyJobD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi12TagModifyJobD2Ev@Base 4:4.13.0.6
  _ZN7Akonadi13AgentInstance11setIsOnlineEb@Base 4:4.3.4
  _ZN7Akonadi13AgentInstance11synchronizeEv@Base 4:4.3.4
  _ZN7Akonadi13AgentInstance25synchronizeCollectionTreeEv@Base 4:4.3.4
@@ -373,22 +373,22 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi13ItemSearchJob10fetchScopeEv@Base 4:4.4.0
  _ZN7Akonadi13ItemSearchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN7Akonadi13ItemSearchJob11qt_metacastEPKc@Base 4:4.4.0
- _ZN7Akonadi13ItemSearchJob12setMimeTypesERK11QStringList@Base 4:4.13.1
- _ZN7Akonadi13ItemSearchJob12setRecursiveEb@Base 4:4.13.1
+ _ZN7Akonadi13ItemSearchJob12setMimeTypesERK11QStringList@Base 4:4.13.0.6
+ _ZN7Akonadi13ItemSearchJob12setRecursiveEb@Base 4:4.13.0.6
  _ZN7Akonadi13ItemSearchJob13itemsReceivedERK5QListINS_4ItemEE@Base 4:4.4.0
  _ZN7Akonadi13ItemSearchJob13setFetchScopeERKNS_14ItemFetchScopeE@Base 4:4.4.0
  _ZN7Akonadi13ItemSearchJob16akonadiItemIdUriEv@Base 4:4.4.3
  _ZN7Akonadi13ItemSearchJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.4.0
  _ZN7Akonadi13ItemSearchJob16staticMetaObjectE@Base 4:4.4.0
- _ZN7Akonadi13ItemSearchJob20setSearchCollectionsERK5QListINS_10CollectionEE@Base 4:4.13.1
- _ZN7Akonadi13ItemSearchJob22setRemoteSearchEnabledEb@Base 4:4.13.1
+ _ZN7Akonadi13ItemSearchJob20setSearchCollectionsERK5QListINS_10CollectionEE@Base 4:4.13.0.6
+ _ZN7Akonadi13ItemSearchJob22setRemoteSearchEnabledEb@Base 4:4.13.0.6
  _ZN7Akonadi13ItemSearchJob7doStartEv@Base 4:4.4.0
  _ZN7Akonadi13ItemSearchJob8setQueryERK7QString@Base 4:4.4.0
- _ZN7Akonadi13ItemSearchJob8setQueryERKNS_11SearchQueryE@Base 4:4.13.1
+ _ZN7Akonadi13ItemSearchJob8setQueryERKNS_11SearchQueryE@Base 4:4.13.0.6
  _ZN7Akonadi13ItemSearchJobC1ERK7QStringP7QObject@Base 4:4.4.0
- _ZN7Akonadi13ItemSearchJobC1ERKNS_11SearchQueryEP7QObject@Base 4:4.13.1
+ _ZN7Akonadi13ItemSearchJobC1ERKNS_11SearchQueryEP7QObject@Base 4:4.13.0.6
  _ZN7Akonadi13ItemSearchJobC2ERK7QStringP7QObject@Base 4:4.4.0
- _ZN7Akonadi13ItemSearchJobC2ERKNS_11SearchQueryEP7QObject@Base 4:4.13.1
+ _ZN7Akonadi13ItemSearchJobC2ERKNS_11SearchQueryEP7QObject@Base 4:4.13.0.6
  _ZN7Akonadi13ItemSearchJobD0Ev@Base 4:4.4.0
  _ZN7Akonadi13ItemSearchJobD1Ev@Base 4:4.4.0
  _ZN7Akonadi13ItemSearchJobD2Ev@Base 4:4.4.0
@@ -414,15 +414,15 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi13ServerManagerD0Ev@Base 4:4.6.5
  _ZN7Akonadi13ServerManagerD1Ev@Base 4:4.6.5
  _ZN7Akonadi13ServerManagerD2Ev@Base 4:4.6.5
- _ZN7Akonadi13TagFetchScope14fetchAttributeERK10QByteArrayb@Base 4:4.13.1
+ _ZN7Akonadi13TagFetchScope14fetchAttributeERK10QByteArrayb@Base 4:4.13.0.6
  _ZN7Akonadi13TagFetchScope14setFetchIdOnlyEb@Base 4:4.13.0~kolab
- _ZN7Akonadi13TagFetchScopeC1ERKS0_@Base 4:4.13.1
- _ZN7Akonadi13TagFetchScopeC1Ev@Base 4:4.13.1
- _ZN7Akonadi13TagFetchScopeC2ERKS0_@Base 4:4.13.1
- _ZN7Akonadi13TagFetchScopeC2Ev@Base 4:4.13.1
- _ZN7Akonadi13TagFetchScopeD1Ev@Base 4:4.13.1
- _ZN7Akonadi13TagFetchScopeD2Ev@Base 4:4.13.1
- _ZN7Akonadi13TagFetchScopeaSERKS0_@Base 4:4.13.1
+ _ZN7Akonadi13TagFetchScopeC1ERKS0_@Base 4:4.13.0.6
+ _ZN7Akonadi13TagFetchScopeC1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi13TagFetchScopeC2ERKS0_@Base 4:4.13.0.6
+ _ZN7Akonadi13TagFetchScopeC2Ev@Base 4:4.13.0.6
+ _ZN7Akonadi13TagFetchScopeD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi13TagFetchScopeD2Ev@Base 4:4.13.0.6
+ _ZN7Akonadi13TagFetchScopeaSERKS0_@Base 4:4.13.0.6
  _ZN7Akonadi13TrashSettings18getTrashCollectionERK7QString@Base 4:4.8.1
  _ZN7Akonadi13TrashSettings18setTrashCollectionERK7QStringRKNS_10CollectionE@Base 4:4.8.1
  _ZN7Akonadi14AgentTypeModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -537,7 +537,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi14EntityTreeViewD2Ev@Base 4:4.4.0
  _ZN7Akonadi14ItemFetchScope11setFetchGidEb@Base 4:4.12.2
  _ZN7Akonadi14ItemFetchScope12setCacheOnlyEb@Base 4:4.3.4
- _ZN7Akonadi14ItemFetchScope12setFetchTagsEb@Base 4:4.13.1
+ _ZN7Akonadi14ItemFetchScope12setFetchTagsEb@Base 4:4.13.0.6
  _ZN7Akonadi14ItemFetchScope13tagFetchScopeEv@Base 4:4.13.0~kolab
  _ZN7Akonadi14ItemFetchScope14fetchAttributeERK10QByteArrayb@Base 4:4.3.4
  _ZN7Akonadi14ItemFetchScope16fetchFullPayloadEb@Base 4:4.3.4
@@ -581,17 +581,17 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi15AgentTypeWidgetD0Ev@Base 4:4.3.4
  _ZN7Akonadi15AgentTypeWidgetD1Ev@Base 4:4.3.4
  _ZN7Akonadi15AgentTypeWidgetD2Ev@Base 4:4.3.4
- _ZN7Akonadi15AttributeEntity12addAttributeEPNS_9AttributeE@Base 4:4.13.1
- _ZN7Akonadi15AttributeEntity15clearAttributesEv@Base 4:4.13.1
- _ZN7Akonadi15AttributeEntity15removeAttributeERK10QByteArray@Base 4:4.13.1
- _ZN7Akonadi15AttributeEntityC1ERKS0_@Base 4:4.13.1
- _ZN7Akonadi15AttributeEntityC1Ev@Base 4:4.13.1
- _ZN7Akonadi15AttributeEntityC2ERKS0_@Base 4:4.13.1
- _ZN7Akonadi15AttributeEntityC2Ev@Base 4:4.13.1
- _ZN7Akonadi15AttributeEntityD0Ev@Base 4:4.13.1
- _ZN7Akonadi15AttributeEntityD1Ev@Base 4:4.13.1
- _ZN7Akonadi15AttributeEntityD2Ev@Base 4:4.13.1
- _ZN7Akonadi15AttributeEntityaSERKS0_@Base 4:4.13.1
+ _ZN7Akonadi15AttributeEntity12addAttributeEPNS_9AttributeE@Base 4:4.13.0.6
+ _ZN7Akonadi15AttributeEntity15clearAttributesEv@Base 4:4.13.0.6
+ _ZN7Akonadi15AttributeEntity15removeAttributeERK10QByteArray@Base 4:4.13.0.6
+ _ZN7Akonadi15AttributeEntityC1ERKS0_@Base 4:4.13.0.6
+ _ZN7Akonadi15AttributeEntityC1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi15AttributeEntityC2ERKS0_@Base 4:4.13.0.6
+ _ZN7Akonadi15AttributeEntityC2Ev@Base 4:4.13.0.6
+ _ZN7Akonadi15AttributeEntityD0Ev@Base 4:4.13.0.6
+ _ZN7Akonadi15AttributeEntityD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi15AttributeEntityD2Ev@Base 4:4.13.0.6
+ _ZN7Akonadi15AttributeEntityaSERKS0_@Base 4:4.13.0.6
  _ZN7Akonadi15CachePolicyPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.86
  _ZN7Akonadi15CachePolicyPage11qt_metacastEPKc@Base 4:4.5.86
  _ZN7Akonadi15CachePolicyPage16staticMetaObjectE@Base 4:4.5.86
@@ -620,10 +620,10 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi15CollectionModelD0Ev@Base 4:4.3.4
  _ZN7Akonadi15CollectionModelD1Ev@Base 4:4.3.4
  _ZN7Akonadi15CollectionModelD2Ev@Base 4:4.3.4
- _ZN7Akonadi15EmailSearchTerm5toKeyENS0_16EmailSearchFieldE@Base 4:4.13.1
- _ZN7Akonadi15EmailSearchTerm7fromKeyERK7QString@Base 4:4.13.1
- _ZN7Akonadi15EmailSearchTermC1ENS0_16EmailSearchFieldERK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.1
- _ZN7Akonadi15EmailSearchTermC2ENS0_16EmailSearchFieldERK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.1
+ _ZN7Akonadi15EmailSearchTerm5toKeyENS0_16EmailSearchFieldE@Base 4:4.13.0.6
+ _ZN7Akonadi15EmailSearchTerm7fromKeyERK7QString@Base 4:4.13.0.6
+ _ZN7Akonadi15EmailSearchTermC1ENS0_16EmailSearchFieldERK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.0.6
+ _ZN7Akonadi15EmailSearchTermC2ENS0_16EmailSearchFieldERK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.0.6
  _ZN7Akonadi15EntityTreeModel10insertRowsEiiRK11QModelIndex@Base 4:4.4.0
  _ZN7Akonadi15EntityTreeModel10removeRowsEiiRK11QModelIndex@Base 4:4.4.0
  _ZN7Akonadi15EntityTreeModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
@@ -671,17 +671,17 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi15MimeTypeCheckeraSERKS0_@Base 4:4.3.4
  _ZN7Akonadi15SearchCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi15SearchCreateJob11qt_metacastEPKc@Base 4:4.3.4
- _ZN7Akonadi15SearchCreateJob12setRecursiveEb@Base 4:4.13.1
+ _ZN7Akonadi15SearchCreateJob12setRecursiveEb@Base 4:4.13.0.6
  _ZN7Akonadi15SearchCreateJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.4.0
  _ZN7Akonadi15SearchCreateJob16setQueryLanguageERK7QString@Base 4:4.5.90
  _ZN7Akonadi15SearchCreateJob16staticMetaObjectE@Base 4:4.3.4
- _ZN7Akonadi15SearchCreateJob18setSearchMimeTypesERK11QStringList@Base 4:4.13.1
- _ZN7Akonadi15SearchCreateJob20setSearchCollectionsERK5QListINS_10CollectionEE@Base 4:4.13.1
- _ZN7Akonadi15SearchCreateJob22setRemoteSearchEnabledEb@Base 4:4.13.1
+ _ZN7Akonadi15SearchCreateJob18setSearchMimeTypesERK11QStringList@Base 4:4.13.0.6
+ _ZN7Akonadi15SearchCreateJob20setSearchCollectionsERK5QListINS_10CollectionEE@Base 4:4.13.0.6
+ _ZN7Akonadi15SearchCreateJob22setRemoteSearchEnabledEb@Base 4:4.13.0.6
  _ZN7Akonadi15SearchCreateJob7doStartEv@Base 4:4.3.4
- _ZN7Akonadi15SearchCreateJobC1ERK7QStringRKNS_11SearchQueryEP7QObject@Base 4:4.13.1
+ _ZN7Akonadi15SearchCreateJobC1ERK7QStringRKNS_11SearchQueryEP7QObject@Base 4:4.13.0.6
  _ZN7Akonadi15SearchCreateJobC1ERK7QStringS3_P7QObject@Base 4:4.3.4
- _ZN7Akonadi15SearchCreateJobC2ERK7QStringRKNS_11SearchQueryEP7QObject@Base 4:4.13.1
+ _ZN7Akonadi15SearchCreateJobC2ERK7QStringRKNS_11SearchQueryEP7QObject@Base 4:4.13.0.6
  _ZN7Akonadi15SearchCreateJobC2ERK7QStringS3_P7QObject@Base 4:4.3.4
  _ZN7Akonadi15SearchCreateJobD0Ev@Base 4:4.3.4
  _ZN7Akonadi15SearchCreateJobD1Ev@Base 4:4.3.4
@@ -745,7 +745,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi16CollectionDialog17setMimeTypeFilterERK11QStringList@Base 4:4.3.4
  _ZN7Akonadi16CollectionDialog20setDefaultCollectionERKNS_10CollectionE@Base 4:4.4.0
  _ZN7Akonadi16CollectionDialog21setAccessRightsFilterE6QFlagsINS_10Collection5RightEE@Base 4:4.4.0
- _ZN7Akonadi16CollectionDialog21setUseFolderByDefaultEb@Base 4:4.13.1
+ _ZN7Akonadi16CollectionDialog21setUseFolderByDefaultEb@Base 4:4.13.0.6
  _ZN7Akonadi16CollectionDialog29changeCollectionDialogOptionsE6QFlagsINS0_22CollectionDialogOptionEE@Base 4:4.5.86
  _ZN7Akonadi16CollectionDialog7Private20slotSelectionChangedEv@Base 4:4.4.0
  _ZN7Akonadi16CollectionDialog7Private22slotAddChildCollectionEv@Base 4:4.5.86
@@ -816,10 +816,10 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi17CollectionMoveJobD0Ev@Base 4:4.6.5
  _ZN7Akonadi17CollectionMoveJobD1Ev@Base 4:4.6.5
  _ZN7Akonadi17CollectionMoveJobD2Ev@Base 4:4.6.5
- _ZN7Akonadi17ContactSearchTerm5toKeyENS0_18ContactSearchFieldE@Base 4:4.13.1
- _ZN7Akonadi17ContactSearchTerm7fromKeyERK7QString@Base 4:4.13.1
- _ZN7Akonadi17ContactSearchTermC1ENS0_18ContactSearchFieldERK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.1
- _ZN7Akonadi17ContactSearchTermC2ENS0_18ContactSearchFieldERK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.1
+ _ZN7Akonadi17ContactSearchTerm5toKeyENS0_18ContactSearchFieldE@Base 4:4.13.0.6
+ _ZN7Akonadi17ContactSearchTerm7fromKeyERK7QString@Base 4:4.13.0.6
+ _ZN7Akonadi17ContactSearchTermC1ENS0_18ContactSearchFieldERK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.0.6
+ _ZN7Akonadi17ContactSearchTermC2ENS0_18ContactSearchFieldERK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.0.6
  _ZN7Akonadi17ETMViewStateSaver11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.86
  _ZN7Akonadi17ETMViewStateSaver11qt_metacastEPKc@Base 4:4.5.86
  _ZN7Akonadi17ETMViewStateSaver11selectItemsERK5QListINS_4ItemEE@Base 4:4.5.86
@@ -950,18 +950,18 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi18SubscriptionDialogD0Ev@Base 4:4.3.4
  _ZN7Akonadi18SubscriptionDialogD1Ev@Base 4:4.3.4
  _ZN7Akonadi18SubscriptionDialogD2Ev@Base 4:4.3.4
- _ZN7Akonadi18TagSelectionDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.1
- _ZN7Akonadi18TagSelectionDialog11qt_metacastEPKc@Base 4:4.13.1
- _ZN7Akonadi18TagSelectionDialog12setSelectionERK5QListINS_3TagEE@Base 4:4.13.1
- _ZN7Akonadi18TagSelectionDialog16selectionChangedERK5QListINS_3TagEE@Base 4:4.13.1
- _ZN7Akonadi18TagSelectionDialog16staticMetaObjectE@Base 4:4.13.1
- _ZN7Akonadi18TagSelectionDialog7Private10readConfigEv@Base 4:4.13.1
- _ZN7Akonadi18TagSelectionDialog7Private11writeConfigEv@Base 4:4.13.1
- _ZN7Akonadi18TagSelectionDialogC1EP7QWidget@Base 4:4.13.1
- _ZN7Akonadi18TagSelectionDialogC2EP7QWidget@Base 4:4.13.1
- _ZN7Akonadi18TagSelectionDialogD0Ev@Base 4:4.13.1
- _ZN7Akonadi18TagSelectionDialogD1Ev@Base 4:4.13.1
- _ZN7Akonadi18TagSelectionDialogD2Ev@Base 4:4.13.1
+ _ZN7Akonadi18TagSelectionDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.6
+ _ZN7Akonadi18TagSelectionDialog11qt_metacastEPKc@Base 4:4.13.0.6
+ _ZN7Akonadi18TagSelectionDialog12setSelectionERK5QListINS_3TagEE@Base 4:4.13.0.6
+ _ZN7Akonadi18TagSelectionDialog16selectionChangedERK5QListINS_3TagEE@Base 4:4.13.0.6
+ _ZN7Akonadi18TagSelectionDialog16staticMetaObjectE@Base 4:4.13.0.6
+ _ZN7Akonadi18TagSelectionDialog7Private10readConfigEv@Base 4:4.13.0.6
+ _ZN7Akonadi18TagSelectionDialog7Private11writeConfigEv@Base 4:4.13.0.6
+ _ZN7Akonadi18TagSelectionDialogC1EP7QWidget@Base 4:4.13.0.6
+ _ZN7Akonadi18TagSelectionDialogC2EP7QWidget@Base 4:4.13.0.6
+ _ZN7Akonadi18TagSelectionDialogD0Ev@Base 4:4.13.0.6
+ _ZN7Akonadi18TagSelectionDialogD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi18TagSelectionDialogD2Ev@Base 4:4.13.0.6
  _ZN7Akonadi19AgentInstanceWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi19AgentInstanceWidget11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi19AgentInstanceWidget13doubleClickedERKNS_13AgentInstanceE@Base 4:4.3.4
@@ -1015,8 +1015,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi19CollectionRequester29changeCollectionDialogOptionsE6QFlagsINS_16CollectionDialog22CollectionDialogOptionEE@Base 4:4.5.86
  _ZN7Akonadi19CollectionRequester7Private15fetchCollectionERKNS_10CollectionE@Base 4:4.12.4
  _ZN7Akonadi19CollectionRequester7Private17_k_slotOpenDialogEv@Base 4:4.3.4
- _ZN7Akonadi19CollectionRequester7Private21_k_collectionReceivedEP4KJob@Base 4:4.13.1
- _ZN7Akonadi19CollectionRequester7Private27_k_collectionsNamesReceivedEP4KJob@Base 4:4.13.1
+ _ZN7Akonadi19CollectionRequester7Private21_k_collectionReceivedEP4KJob@Base 4:4.13.0.6
+ _ZN7Akonadi19CollectionRequester7Private27_k_collectionsNamesReceivedEP4KJob@Base 4:4.13.0.6
  _ZN7Akonadi19CollectionRequester7Private4initEv@Base 4:4.3.4
  _ZN7Akonadi19CollectionRequesterC1EP7QWidget@Base 4:4.3.4
  _ZN7Akonadi19CollectionRequesterC1ERKNS_10CollectionEP7QWidget@Base 4:4.3.4
@@ -1046,16 +1046,16 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi19SelectionProxyModelD0Ev@Base 4:4.5.86
  _ZN7Akonadi19SelectionProxyModelD1Ev@Base 4:4.5.86
  _ZN7Akonadi19SelectionProxyModelD2Ev@Base 4:4.5.86
- _ZN7Akonadi19TagManagementDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.1
- _ZN7Akonadi19TagManagementDialog11qt_metacastEPKc@Base 4:4.13.1
- _ZN7Akonadi19TagManagementDialog16staticMetaObjectE@Base 4:4.13.1
- _ZN7Akonadi19TagManagementDialog7Private10readConfigEv@Base 4:4.13.1
- _ZN7Akonadi19TagManagementDialog7Private11writeConfigEv@Base 4:4.13.1
- _ZN7Akonadi19TagManagementDialogC1EP7QWidget@Base 4:4.13.1
- _ZN7Akonadi19TagManagementDialogC2EP7QWidget@Base 4:4.13.1
- _ZN7Akonadi19TagManagementDialogD0Ev@Base 4:4.13.1
- _ZN7Akonadi19TagManagementDialogD1Ev@Base 4:4.13.1
- _ZN7Akonadi19TagManagementDialogD2Ev@Base 4:4.13.1
+ _ZN7Akonadi19TagManagementDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.6
+ _ZN7Akonadi19TagManagementDialog11qt_metacastEPKc@Base 4:4.13.0.6
+ _ZN7Akonadi19TagManagementDialog16staticMetaObjectE@Base 4:4.13.0.6
+ _ZN7Akonadi19TagManagementDialog7Private10readConfigEv@Base 4:4.13.0.6
+ _ZN7Akonadi19TagManagementDialog7Private11writeConfigEv@Base 4:4.13.0.6
+ _ZN7Akonadi19TagManagementDialogC1EP7QWidget@Base 4:4.13.0.6
+ _ZN7Akonadi19TagManagementDialogC2EP7QWidget@Base 4:4.13.0.6
+ _ZN7Akonadi19TagManagementDialogD0Ev@Base 4:4.13.0.6
+ _ZN7Akonadi19TagManagementDialogD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi19TagManagementDialogD2Ev@Base 4:4.13.0.6
  _ZN7Akonadi19TransactionBeginJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi19TransactionBeginJob11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi19TransactionBeginJob16staticMetaObjectE@Base 4:4.3.4
@@ -1080,9 +1080,9 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi19TransactionSequenceD0Ev@Base 4:4.3.4
  _ZN7Akonadi19TransactionSequenceD1Ev@Base 4:4.3.4
  _ZN7Akonadi19TransactionSequenceD2Ev@Base 4:4.3.4
- _ZN7Akonadi20AgentSearchInterface14searchFinishedE7QVectorIxENS0_11ResultScopeE@Base 4:4.13.1
- _ZN7Akonadi20AgentSearchInterface14searchFinishedERK7QVectorI10QByteArrayE@Base 4:4.13.1
- _ZN7Akonadi20AgentSearchInterface14searchFinishedERKNS_7ImapSetENS0_11ResultScopeE@Base 4:4.13.1
+ _ZN7Akonadi20AgentSearchInterface14searchFinishedE7QVectorIxENS0_11ResultScopeE@Base 4:4.13.0.6
+ _ZN7Akonadi20AgentSearchInterface14searchFinishedERK7QVectorI10QByteArrayE@Base 4:4.13.0.6
+ _ZN7Akonadi20AgentSearchInterface14searchFinishedERKNS_7ImapSetENS0_11ResultScopeE@Base 4:4.13.0.6
  _ZN7Akonadi20AgentSearchInterfaceC1Ev@Base 4:4.5.0
  _ZN7Akonadi20AgentSearchInterfaceC2Ev@Base 4:4.5.0
  _ZN7Akonadi20AgentSearchInterfaceD0Ev@Base 4:4.5.0
@@ -1387,12 +1387,12 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi25EntityMimeTypeFilterModelD1Ev@Base 4:4.4.0
  _ZN7Akonadi25EntityMimeTypeFilterModelD2Ev@Base 4:4.4.0
  _ZN7Akonadi25PersistentSearchAttribute11deserializeERK10QByteArray@Base 4:4.5.0
- _ZN7Akonadi25PersistentSearchAttribute12setRecursiveEb@Base 4:4.13.1
+ _ZN7Akonadi25PersistentSearchAttribute12setRecursiveEb@Base 4:4.13.0.6
  _ZN7Akonadi25PersistentSearchAttribute14setQueryStringERK7QString@Base 4:4.5.0
  _ZN7Akonadi25PersistentSearchAttribute16setQueryLanguageERK7QString@Base 4:4.5.0
- _ZN7Akonadi25PersistentSearchAttribute19setQueryCollectionsERK5QListINS_10CollectionEE@Base 4:4.13.1
- _ZN7Akonadi25PersistentSearchAttribute19setQueryCollectionsERK5QListIxE@Base 4:4.13.1
- _ZN7Akonadi25PersistentSearchAttribute22setRemoteSearchEnabledEb@Base 4:4.13.1
+ _ZN7Akonadi25PersistentSearchAttribute19setQueryCollectionsERK5QListINS_10CollectionEE@Base 4:4.13.0.6
+ _ZN7Akonadi25PersistentSearchAttribute19setQueryCollectionsERK5QListIxE@Base 4:4.13.0.6
+ _ZN7Akonadi25PersistentSearchAttribute22setRemoteSearchEnabledEb@Base 4:4.13.0.6
  _ZN7Akonadi25PersistentSearchAttributeC1Ev@Base 4:4.5.0
  _ZN7Akonadi25PersistentSearchAttributeC2Ev@Base 4:4.5.0
  _ZN7Akonadi25PersistentSearchAttributeD0Ev@Base 4:4.5.0
@@ -1429,17 +1429,17 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi26CollectionPropertiesDialogD0Ev@Base 4:4.3.4
  _ZN7Akonadi26CollectionPropertiesDialogD1Ev@Base 4:4.3.4
  _ZN7Akonadi26CollectionPropertiesDialogD2Ev@Base 4:4.3.4
- _ZN7Akonadi26EntityAnnotationsAttribute11deserializeERK10QByteArray@Base 4:4.13.1
- _ZN7Akonadi26EntityAnnotationsAttribute14setAnnotationsERK4QMapI10QByteArrayS2_E@Base 4:4.13.1
- _ZN7Akonadi26EntityAnnotationsAttribute5valueERK10QByteArray@Base 4:4.13.1
- _ZN7Akonadi26EntityAnnotationsAttribute6insertERK10QByteArrayRK7QString@Base 4:4.13.1
- _ZN7Akonadi26EntityAnnotationsAttributeC1ERK4QMapI10QByteArrayS2_E@Base 4:4.13.1
- _ZN7Akonadi26EntityAnnotationsAttributeC1Ev@Base 4:4.13.1
- _ZN7Akonadi26EntityAnnotationsAttributeC2ERK4QMapI10QByteArrayS2_E@Base 4:4.13.1
- _ZN7Akonadi26EntityAnnotationsAttributeC2Ev@Base 4:4.13.1
- _ZN7Akonadi26EntityAnnotationsAttributeD0Ev@Base 4:4.13.1
- _ZN7Akonadi26EntityAnnotationsAttributeD1Ev@Base 4:4.13.1
- _ZN7Akonadi26EntityAnnotationsAttributeD2Ev@Base 4:4.13.1
+ _ZN7Akonadi26EntityAnnotationsAttribute11deserializeERK10QByteArray@Base 4:4.13.0.6
+ _ZN7Akonadi26EntityAnnotationsAttribute14setAnnotationsERK4QMapI10QByteArrayS2_E@Base 4:4.13.0.6
+ _ZN7Akonadi26EntityAnnotationsAttribute5valueERK10QByteArray@Base 4:4.13.0.6
+ _ZN7Akonadi26EntityAnnotationsAttribute6insertERK10QByteArrayRK7QString@Base 4:4.13.0.6
+ _ZN7Akonadi26EntityAnnotationsAttributeC1ERK4QMapI10QByteArrayS2_E@Base 4:4.13.0.6
+ _ZN7Akonadi26EntityAnnotationsAttributeC1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi26EntityAnnotationsAttributeC2ERK4QMapI10QByteArrayS2_E@Base 4:4.13.0.6
+ _ZN7Akonadi26EntityAnnotationsAttributeC2Ev@Base 4:4.13.0.6
+ _ZN7Akonadi26EntityAnnotationsAttributeD0Ev@Base 4:4.13.0.6
+ _ZN7Akonadi26EntityAnnotationsAttributeD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi26EntityAnnotationsAttributeD2Ev@Base 4:4.13.0.6
  _ZN7Akonadi26ResourceSynchronizationJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN7Akonadi26ResourceSynchronizationJob11qt_metacastEPKc@Base 4:4.4.0
  _ZN7Akonadi26ResourceSynchronizationJob16staticMetaObjectE@Base 4:4.4.0
@@ -1543,25 +1543,25 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi3JobD1Ev@Base 4:4.3.4
  _ZN7Akonadi3JobD2Ev@Base 4:4.3.4
  _ZN7Akonadi3Tag10genericTagE7QString@Base 4:4.13.0.5
- _ZN7Akonadi3Tag5PLAINE@Base 4:4.13.1
- _ZN7Akonadi3Tag5setIdEx@Base 4:4.13.1
+ _ZN7Akonadi3Tag5PLAINE@Base 4:4.13.0.6
+ _ZN7Akonadi3Tag5setIdEx@Base 4:4.13.0.6
  _ZN7Akonadi3Tag7GENERICE@Base 4:4.13.0.5
- _ZN7Akonadi3Tag7fromUrlERK4KUrl@Base 4:4.13.1
- _ZN7Akonadi3Tag7setNameERK7QString@Base 4:4.13.1
- _ZN7Akonadi3Tag9setParentERKS0_@Base 4:4.13.1
- _ZN7Akonadi3TagC1ERK7QString@Base 4:4.13.1
- _ZN7Akonadi3TagC1ERKS0_@Base 4:4.13.1
- _ZN7Akonadi3TagC1Ev@Base 4:4.13.1
- _ZN7Akonadi3TagC1Ex@Base 4:4.13.1
- _ZN7Akonadi3TagC2ERK7QString@Base 4:4.13.1
- _ZN7Akonadi3TagC2ERKS0_@Base 4:4.13.1
- _ZN7Akonadi3TagC2Ev@Base 4:4.13.1
- _ZN7Akonadi3TagC2Ex@Base 4:4.13.1
- _ZN7Akonadi3TagD0Ev@Base 4:4.13.1
- _ZN7Akonadi3TagD1Ev@Base 4:4.13.1
- _ZN7Akonadi3TagD2Ev@Base 4:4.13.1
- _ZN7Akonadi3TagaSERKNS_15AttributeEntityE@Base 4:4.13.1
- _ZN7Akonadi3TagaSERKS0_@Base 4:4.13.1
+ _ZN7Akonadi3Tag7fromUrlERK4KUrl@Base 4:4.13.0.6
+ _ZN7Akonadi3Tag7setNameERK7QString@Base 4:4.13.0.6
+ _ZN7Akonadi3Tag9setParentERKS0_@Base 4:4.13.0.6
+ _ZN7Akonadi3TagC1ERK7QString@Base 4:4.13.0.6
+ _ZN7Akonadi3TagC1ERKS0_@Base 4:4.13.0.6
+ _ZN7Akonadi3TagC1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi3TagC1Ex@Base 4:4.13.0.6
+ _ZN7Akonadi3TagC2ERK7QString@Base 4:4.13.0.6
+ _ZN7Akonadi3TagC2ERKS0_@Base 4:4.13.0.6
+ _ZN7Akonadi3TagC2Ev@Base 4:4.13.0.6
+ _ZN7Akonadi3TagC2Ex@Base 4:4.13.0.6
+ _ZN7Akonadi3TagD0Ev@Base 4:4.13.0.6
+ _ZN7Akonadi3TagD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi3TagD2Ev@Base 4:4.13.0.6
+ _ZN7Akonadi3TagaSERKNS_15AttributeEntityE@Base 4:4.13.0.6
+ _ZN7Akonadi3TagaSERKS0_@Base 4:4.13.0.6
  _ZN7Akonadi4Item10clearFlagsEv@Base 4:4.3.4
  _ZN7Akonadi4Item11FullPayloadE@Base 4:4.3.4
  _ZN7Akonadi4Item11setMimeTypeERK7QString@Base 4:4.3.4
@@ -1581,15 +1581,15 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi4Item5applyERKS0_@Base 4:4.4.0
  _ZN7Akonadi4Item6d_funcEv@Base 4:4.3.4
  _ZN7Akonadi4Item6setGidERK7QString@Base 4:4.12.2
- _ZN7Akonadi4Item6setTagERKNS_3TagE@Base 4:4.13.1
+ _ZN7Akonadi4Item6setTagERKNS_3TagE@Base 4:4.13.0.6
  _ZN7Akonadi4Item7fromUrlERK4KUrl@Base 4:4.3.4
  _ZN7Akonadi4Item7setFlagERK10QByteArray@Base 4:4.3.4
  _ZN7Akonadi4Item7setSizeEx@Base 4:4.3.4
- _ZN7Akonadi4Item7setTagsERK5QListINS_3TagEE@Base 4:4.13.1
- _ZN7Akonadi4Item8clearTagERKNS_3TagE@Base 4:4.13.1
+ _ZN7Akonadi4Item7setTagsERK5QListINS_3TagEE@Base 4:4.13.0.6
+ _ZN7Akonadi4Item8clearTagERKNS_3TagE@Base 4:4.13.0.6
  _ZN7Akonadi4Item8setFlagsERK4QSetI10QByteArrayE@Base 4:4.3.4
  _ZN7Akonadi4Item9clearFlagERK10QByteArray@Base 4:4.3.4
- _ZN7Akonadi4Item9clearTagsEv@Base 4:4.13.1
+ _ZN7Akonadi4Item9clearTagsEv@Base 4:4.13.0.6
  _ZN7Akonadi4ItemC1ERK7QString@Base 4:4.3.4
  _ZN7Akonadi4ItemC1ERKS0_@Base 4:4.3.4
  _ZN7Akonadi4ItemC1Ev@Base 4:4.3.4
@@ -1646,8 +1646,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi7Monitor10itemLinkedERKNS_4ItemERKNS_10CollectionE@Base 4:4.3.4
  _ZN7Akonadi7Monitor10itemsMovedERK5QListINS_4ItemEERKNS_10CollectionES8_@Base 4:4.11.1
  _ZN7Akonadi7Monitor10setSessionEPNS_7SessionE@Base 4:4.4.0
- _ZN7Akonadi7Monitor10tagChangedERKNS_3TagE@Base 4:4.13.1
- _ZN7Akonadi7Monitor10tagRemovedERKNS_3TagE@Base 4:4.13.1
+ _ZN7Akonadi7Monitor10tagChangedERKNS_3TagE@Base 4:4.13.0.6
+ _ZN7Akonadi7Monitor10tagRemovedERKNS_3TagE@Base 4:4.13.0.6
  _ZN7Akonadi7Monitor11itemChangedERKNS_4ItemERK4QSetI10QByteArrayE@Base 4:4.3.4
  _ZN7Akonadi7Monitor11itemRemovedERKNS_4ItemE@Base 4:4.3.4
  _ZN7Akonadi7Monitor11itemsLinkedERK5QListINS_4ItemEERKNS_10CollectionE@Base 4:4.11.1
@@ -1657,25 +1657,25 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi7Monitor12itemUnlinkedERKNS_4ItemERKNS_10CollectionE@Base 4:4.3.4
  _ZN7Akonadi7Monitor12itemsRemovedERK5QListINS_4ItemEE@Base 4:4.11.1
  _ZN7Akonadi7Monitor12setExclusiveEb@Base 4:4.13.0~kolab
- _ZN7Akonadi7Monitor12tagMonitoredERKNS_3TagEb@Base 4:4.13.1
+ _ZN7Akonadi7Monitor12tagMonitoredERKNS_3TagEb@Base 4:4.13.0.6
  _ZN7Akonadi7Monitor13ignoreSessionEPNS_7SessionE@Base 4:4.3.4
  _ZN7Akonadi7Monitor13itemMonitoredERKNS_4ItemEb@Base 4:4.3.4
  _ZN7Akonadi7Monitor13itemsUnlinkedERK5QListINS_4ItemEERKNS_10CollectionE@Base 4:4.11.1
  _ZN7Akonadi7Monitor13relationAddedERKNS_8RelationE@Base 4:4.13.0~kolab
- _ZN7Akonadi7Monitor13tagFetchScopeEv@Base 4:4.13.1
- _ZN7Akonadi7Monitor13typeMonitoredENS0_4TypeEb@Base 4:4.13.1
+ _ZN7Akonadi7Monitor13tagFetchScopeEv@Base 4:4.13.0.6
+ _ZN7Akonadi7Monitor13typeMonitoredENS0_4TypeEb@Base 4:4.13.0.6
  _ZN7Akonadi7Monitor14itemFetchScopeEv@Base 4:4.3.4
  _ZN7Akonadi7Monitor15collectionAddedERKNS_10CollectionES3_@Base 4:4.3.4
  _ZN7Akonadi7Monitor15collectionMovedERKNS_10CollectionES3_S3_@Base 4:4.4.0
  _ZN7Akonadi7Monitor15fetchCollectionEb@Base 4:4.3.4
  _ZN7Akonadi7Monitor15relationRemovedERKNS_8RelationE@Base 4:4.13.0~kolab
  _ZN7Akonadi7Monitor15setAllMonitoredEb@Base 4:4.3.4
- _ZN7Akonadi7Monitor15setTagMonitoredERKNS_3TagEb@Base 4:4.13.1
+ _ZN7Akonadi7Monitor15setTagMonitoredERKNS_3TagEb@Base 4:4.13.0.6
  _ZN7Akonadi7Monitor16fetchChangedOnlyEb@Base 4:4.8.1
- _ZN7Akonadi7Monitor16itemsTagsChangedERK5QListINS_4ItemEERK4QSetINS_3TagEESA_@Base 4:4.13.1
+ _ZN7Akonadi7Monitor16itemsTagsChangedERK5QListINS_4ItemEERK4QSetINS_3TagEESA_@Base 4:4.13.0.6
  _ZN7Akonadi7Monitor16setItemMonitoredERKNS_4ItemEb@Base 4:4.3.4
- _ZN7Akonadi7Monitor16setTagFetchScopeERKNS_13TagFetchScopeE@Base 4:4.13.1
- _ZN7Akonadi7Monitor16setTypeMonitoredENS0_4TypeEb@Base 4:4.13.1
+ _ZN7Akonadi7Monitor16setTagFetchScopeERKNS_13TagFetchScopeE@Base 4:4.13.0.6
+ _ZN7Akonadi7Monitor16setTypeMonitoredENS0_4TypeEb@Base 4:4.13.0.6
  _ZN7Akonadi7Monitor16staticMetaObjectE@Base 4:4.3.4
  _ZN7Akonadi7Monitor17collectionChangedERKNS_10CollectionE@Base 4:4.3.4
  _ZN7Akonadi7Monitor17collectionChangedERKNS_10CollectionERK4QSetI10QByteArrayE@Base 4:4.4.0
@@ -1696,7 +1696,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi7Monitor25fetchCollectionStatisticsEb@Base 4:4.3.4
  _ZN7Akonadi7Monitor27collectionStatisticsChangedExRKNS_20CollectionStatisticsE@Base 4:4.3.4
  _ZN7Akonadi7Monitor35setCollectionMoveTranslationEnabledEb@Base 4:4.9.3
- _ZN7Akonadi7Monitor8tagAddedERKNS_3TagE@Base 4:4.13.1
+ _ZN7Akonadi7Monitor8tagAddedERKNS_3TagE@Base 4:4.13.0.6
  _ZN7Akonadi7Monitor9itemAddedERKNS_4ItemERKNS_10CollectionE@Base 4:4.3.4
  _ZN7Akonadi7Monitor9itemMovedERKNS_4ItemERKNS_10CollectionES6_@Base 4:4.3.4
  _ZN7Akonadi7MonitorC1EP7QObject@Base 4:4.3.4
@@ -1781,21 +1781,21 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi8RelationD1Ev@Base 4:4.13.0~kolab
  _ZN7Akonadi8RelationD2Ev@Base 4:4.13.0~kolab
  _ZN7Akonadi8RelationaSERKS0_@Base 4:4.13.0~kolab
- _ZN7Akonadi8TagModel10insertRowsEiiRK11QModelIndex@Base 4:4.13.1
- _ZN7Akonadi8TagModel10removeRowsEiiRK11QModelIndex@Base 4:4.13.1
- _ZN7Akonadi8TagModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.1
- _ZN7Akonadi8TagModel11qt_metacastEPKc@Base 4:4.13.1
- _ZN7Akonadi8TagModel13insertColumnsEiiRK11QModelIndex@Base 4:4.13.1
- _ZN7Akonadi8TagModel13removeColumnsEiiRK11QModelIndex@Base 4:4.13.1
- _ZN7Akonadi8TagModel16staticMetaObjectE@Base 4:4.13.1
+ _ZN7Akonadi8TagModel10insertRowsEiiRK11QModelIndex@Base 4:4.13.0.6
+ _ZN7Akonadi8TagModel10removeRowsEiiRK11QModelIndex@Base 4:4.13.0.6
+ _ZN7Akonadi8TagModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.6
+ _ZN7Akonadi8TagModel11qt_metacastEPKc@Base 4:4.13.0.6
+ _ZN7Akonadi8TagModel13insertColumnsEiiRK11QModelIndex@Base 4:4.13.0.6
+ _ZN7Akonadi8TagModel13removeColumnsEiiRK11QModelIndex@Base 4:4.13.0.6
+ _ZN7Akonadi8TagModel16staticMetaObjectE@Base 4:4.13.0.6
  _ZN7Akonadi8TagModel9populatedEv@Base 4:4.13.0.5
- _ZN7Akonadi8TagModelC1EPNS_7MonitorEP7QObject@Base 4:4.13.1
- _ZN7Akonadi8TagModelC1EPNS_7MonitorEPNS_15TagModelPrivateEP7QObject@Base 4:4.13.1
- _ZN7Akonadi8TagModelC2EPNS_7MonitorEP7QObject@Base 4:4.13.1
- _ZN7Akonadi8TagModelC2EPNS_7MonitorEPNS_15TagModelPrivateEP7QObject@Base 4:4.13.1
- _ZN7Akonadi8TagModelD0Ev@Base 4:4.13.1
- _ZN7Akonadi8TagModelD1Ev@Base 4:4.13.1
- _ZN7Akonadi8TagModelD2Ev@Base 4:4.13.1
+ _ZN7Akonadi8TagModelC1EPNS_7MonitorEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi8TagModelC1EPNS_7MonitorEPNS_15TagModelPrivateEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi8TagModelC2EPNS_7MonitorEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi8TagModelC2EPNS_7MonitorEPNS_15TagModelPrivateEP7QObject@Base 4:4.13.0.6
+ _ZN7Akonadi8TagModelD0Ev@Base 4:4.13.0.6
+ _ZN7Akonadi8TagModelD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi8TagModelD2Ev@Base 4:4.13.0.6
  _ZN7Akonadi8TrashJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.8.1
  _ZN7Akonadi8TrashJob11qt_metacastEPKc@Base 4:4.8.1
  _ZN7Akonadi8TrashJob15TrashJobPrivate12selectResultEP4KJob@Base 4:4.8.1
@@ -1838,16 +1838,16 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi9AgentBase10ObserverV3D0Ev@Base 4:4.11.1
  _ZN7Akonadi9AgentBase10ObserverV3D1Ev@Base 4:4.11.1
  _ZN7Akonadi9AgentBase10ObserverV3D2Ev@Base 4:4.11.1
- _ZN7Akonadi9AgentBase10ObserverV410tagChangedERKNS_3TagE@Base 4:4.13.1
- _ZN7Akonadi9AgentBase10ObserverV410tagRemovedERKNS_3TagE@Base 4:4.13.1
+ _ZN7Akonadi9AgentBase10ObserverV410tagChangedERKNS_3TagE@Base 4:4.13.0.6
+ _ZN7Akonadi9AgentBase10ObserverV410tagRemovedERKNS_3TagE@Base 4:4.13.0.6
  _ZN7Akonadi9AgentBase10ObserverV413relationAddedERKNS_8RelationE@Base 4:4.13.0~kolab
  _ZN7Akonadi9AgentBase10ObserverV415relationRemovedERKNS_8RelationE@Base 4:4.13.0~kolab
- _ZN7Akonadi9AgentBase10ObserverV416itemsTagsChangedERK5QListINS_4ItemEERK4QSetINS_3TagEESB_@Base 4:4.13.1
+ _ZN7Akonadi9AgentBase10ObserverV416itemsTagsChangedERK5QListINS_4ItemEERK4QSetINS_3TagEESB_@Base 4:4.13.0.6
  _ZN7Akonadi9AgentBase10ObserverV421itemsRelationsChangedERK5QListINS_4ItemEERKS2_INS_8RelationEESA_@Base 4:4.13.0~kolab
- _ZN7Akonadi9AgentBase10ObserverV48tagAddedERKNS_3TagE@Base 4:4.13.1
- _ZN7Akonadi9AgentBase10ObserverV4D0Ev@Base 4:4.13.1
- _ZN7Akonadi9AgentBase10ObserverV4D1Ev@Base 4:4.13.1
- _ZN7Akonadi9AgentBase10ObserverV4D2Ev@Base 4:4.13.1
+ _ZN7Akonadi9AgentBase10ObserverV48tagAddedERKNS_3TagE@Base 4:4.13.0.6
+ _ZN7Akonadi9AgentBase10ObserverV4D0Ev@Base 4:4.13.0.6
+ _ZN7Akonadi9AgentBase10ObserverV4D1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi9AgentBase10ObserverV4D2Ev@Base 4:4.13.0.6
  _ZN7Akonadi9AgentBase11aboutToQuitEv@Base 4:4.3.4
  _ZN7Akonadi9AgentBase11doSetOnlineEb@Base 4:4.3.4
  _ZN7Akonadi9AgentBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1866,7 +1866,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi9AgentBase16staticMetaObjectE@Base 4:4.3.4
  _ZN7Akonadi9AgentBase17setOnlineInternalEb@Base 4:4.9.5
  _ZN7Akonadi9AgentBase19reloadConfigurationEv@Base 4:4.3.4
- _ZN7Akonadi9AgentBase19setTemporaryOfflineEi@Base 4:4.13.1
+ _ZN7Akonadi9AgentBase19setTemporaryOfflineEi@Base 4:4.13.0.6
  _ZN7Akonadi9AgentBase27configurationDialogAcceptedEv@Base 4:4.4.0
  _ZN7Akonadi9AgentBase27configurationDialogRejectedEv@Base 4:4.4.0
  _ZN7Akonadi9AgentBase4initEPS0_@Base 4:4.3.4
@@ -1940,18 +1940,18 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi9ItemModelD0Ev@Base 4:4.3.4
  _ZN7Akonadi9ItemModelD1Ev@Base 4:4.3.4
  _ZN7Akonadi9ItemModelD2Ev@Base 4:4.3.4
- _ZN7Akonadi9TagWidget10updateViewEv@Base 4:4.13.1
- _ZN7Akonadi9TagWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.1
- _ZN7Akonadi9TagWidget11qt_metacastEPKc@Base 4:4.13.1
- _ZN7Akonadi9TagWidget12setSelectionERK5QListINS_3TagEE@Base 4:4.13.1
- _ZN7Akonadi9TagWidget16selectionChangedERK5QListINS_3TagEE@Base 4:4.13.1
- _ZN7Akonadi9TagWidget16staticMetaObjectE@Base 4:4.13.1
- _ZN7Akonadi9TagWidget8editTagsEv@Base 4:4.13.1
- _ZN7Akonadi9TagWidgetC1EP7QWidget@Base 4:4.13.1
- _ZN7Akonadi9TagWidgetC2EP7QWidget@Base 4:4.13.1
- _ZN7Akonadi9TagWidgetD0Ev@Base 4:4.13.1
- _ZN7Akonadi9TagWidgetD1Ev@Base 4:4.13.1
- _ZN7Akonadi9TagWidgetD2Ev@Base 4:4.13.1
+ _ZN7Akonadi9TagWidget10updateViewEv@Base 4:4.13.0.6
+ _ZN7Akonadi9TagWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.6
+ _ZN7Akonadi9TagWidget11qt_metacastEPKc@Base 4:4.13.0.6
+ _ZN7Akonadi9TagWidget12setSelectionERK5QListINS_3TagEE@Base 4:4.13.0.6
+ _ZN7Akonadi9TagWidget16selectionChangedERK5QListINS_3TagEE@Base 4:4.13.0.6
+ _ZN7Akonadi9TagWidget16staticMetaObjectE@Base 4:4.13.0.6
+ _ZN7Akonadi9TagWidget8editTagsEv@Base 4:4.13.0.6
+ _ZN7Akonadi9TagWidgetC1EP7QWidget@Base 4:4.13.0.6
+ _ZN7Akonadi9TagWidgetC2EP7QWidget@Base 4:4.13.0.6
+ _ZN7Akonadi9TagWidgetD0Ev@Base 4:4.13.0.6
+ _ZN7Akonadi9TagWidgetD1Ev@Base 4:4.13.0.6
+ _ZN7Akonadi9TagWidgetD2Ev@Base 4:4.13.0.6
  _ZN7Akonadi9UnlinkJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi9UnlinkJob11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi9UnlinkJob16staticMetaObjectE@Base 4:4.3.4
@@ -2006,14 +2006,14 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi10Collection7enabledEv@Base 4:4.13.0~kolab
  _ZNK7Akonadi10Collection8resourceEv@Base 4:4.3.4
  _ZNK7Akonadi10Collection9isVirtualEv@Base 4:4.5.90
- _ZNK7Akonadi10SearchTerm3keyEv@Base 4:4.13.1
- _ZNK7Akonadi10SearchTerm5valueEv@Base 4:4.13.1
- _ZNK7Akonadi10SearchTerm6isNullEv@Base 4:4.13.1
- _ZNK7Akonadi10SearchTerm8relationEv@Base 4:4.13.1
- _ZNK7Akonadi10SearchTerm8subTermsEv@Base 4:4.13.1
- _ZNK7Akonadi10SearchTerm9conditionEv@Base 4:4.13.1
- _ZNK7Akonadi10SearchTerm9isNegatedEv@Base 4:4.13.1
- _ZNK7Akonadi10SearchTermeqERKS0_@Base 4:4.13.1
+ _ZNK7Akonadi10SearchTerm3keyEv@Base 4:4.13.0.6
+ _ZNK7Akonadi10SearchTerm5valueEv@Base 4:4.13.0.6
+ _ZNK7Akonadi10SearchTerm6isNullEv@Base 4:4.13.0.6
+ _ZNK7Akonadi10SearchTerm8relationEv@Base 4:4.13.0.6
+ _ZNK7Akonadi10SearchTerm8subTermsEv@Base 4:4.13.0.6
+ _ZNK7Akonadi10SearchTerm9conditionEv@Base 4:4.13.0.6
+ _ZNK7Akonadi10SearchTerm9isNegatedEv@Base 4:4.13.0.6
+ _ZNK7Akonadi10SearchTermeqERKS0_@Base 4:4.13.0.6
  _ZNK7Akonadi11CachePolicy10localPartsEv@Base 4:4.3.4
  _ZNK7Akonadi11CachePolicy12cacheTimeoutEv@Base 4:4.3.4
  _ZNK7Akonadi11CachePolicy12syncOnDemandEv@Base 4:4.3.4
@@ -2030,20 +2030,20 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi11PartFetcher4itemEv@Base 4:4.4.0
  _ZNK7Akonadi11PartFetcher5indexEv@Base 4:4.4.0
  _ZNK7Akonadi11PartFetcher8partNameEv@Base 4:4.4.0
- _ZNK7Akonadi11SearchQuery4termEv@Base 4:4.13.1
- _ZNK7Akonadi11SearchQuery5limitEv@Base 4:4.13.1
- _ZNK7Akonadi11SearchQuery6isNullEv@Base 4:4.13.1
- _ZNK7Akonadi11SearchQuery6toJSONEv@Base 4:4.13.1
- _ZNK7Akonadi11SearchQueryeqERKS0_@Base 4:4.13.1
- _ZNK7Akonadi11TagFetchJob10metaObjectEv@Base 4:4.13.1
- _ZNK7Akonadi11TagFetchJob4tagsEv@Base 4:4.13.1
+ _ZNK7Akonadi11SearchQuery4termEv@Base 4:4.13.0.6
+ _ZNK7Akonadi11SearchQuery5limitEv@Base 4:4.13.0.6
+ _ZNK7Akonadi11SearchQuery6isNullEv@Base 4:4.13.0.6
+ _ZNK7Akonadi11SearchQuery6toJSONEv@Base 4:4.13.0.6
+ _ZNK7Akonadi11SearchQueryeqERKS0_@Base 4:4.13.0.6
+ _ZNK7Akonadi11TagFetchJob10metaObjectEv@Base 4:4.13.0.6
+ _ZNK7Akonadi11TagFetchJob4tagsEv@Base 4:4.13.0.6
  _ZNK7Akonadi12AgentManager10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi12AgentManager4typeERK7QString@Base 4:4.3.4
  _ZNK7Akonadi12AgentManager5typesEv@Base 4:4.3.4
  _ZNK7Akonadi12AgentManager8instanceERK7QString@Base 4:4.3.4
  _ZNK7Akonadi12AgentManager9instancesEv@Base 4:4.3.4
  _ZNK7Akonadi12ItemFetchJob10metaObjectEv@Base 4:4.3.4
- _ZNK7Akonadi12ItemFetchJob15deliveryOptionsEv@Base 4:4.13.1
+ _ZNK7Akonadi12ItemFetchJob15deliveryOptionsEv@Base 4:4.13.0.6
  _ZNK7Akonadi12ItemFetchJob5countEv@Base 4:4.13.0~kolab
  _ZNK7Akonadi12ItemFetchJob5itemsEv@Base 4:4.3.4
  _ZNK7Akonadi12ResourceBase10metaObjectEv@Base 4:4.3.4
@@ -2055,22 +2055,22 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi12ResourceBase22dumpMemoryInfoToStringEv@Base 4:4.11.1
  _ZNK7Akonadi12ResourceBase28dumpNotificationListToStringEv@Base 4:4.8.1
  _ZNK7Akonadi12ResourceBase4nameEv@Base 4:4.3.4
- _ZNK7Akonadi12TagAttribute10serializedEv@Base 4:4.13.1
- _ZNK7Akonadi12TagAttribute11displayNameEv@Base 4:4.13.1
- _ZNK7Akonadi12TagAttribute15backgroundColorEv@Base 4:4.13.1
- _ZNK7Akonadi12TagAttribute4fontEv@Base 4:4.13.1
- _ZNK7Akonadi12TagAttribute4typeEv@Base 4:4.13.1
- _ZNK7Akonadi12TagAttribute5cloneEv@Base 4:4.13.1
- _ZNK7Akonadi12TagAttribute8iconNameEv@Base 4:4.13.1
- _ZNK7Akonadi12TagAttribute8priorityEv@Base 4:4.13.1
- _ZNK7Akonadi12TagAttribute8shortcutEv@Base 4:4.13.1
- _ZNK7Akonadi12TagAttribute9inToolbarEv@Base 4:4.13.1
- _ZNK7Akonadi12TagAttribute9textColorEv@Base 4:4.13.1
- _ZNK7Akonadi12TagCreateJob10metaObjectEv@Base 4:4.13.1
- _ZNK7Akonadi12TagCreateJob3tagEv@Base 4:4.13.1
- _ZNK7Akonadi12TagDeleteJob10metaObjectEv@Base 4:4.13.1
- _ZNK7Akonadi12TagDeleteJob4tagsEv@Base 4:4.13.1
- _ZNK7Akonadi12TagModifyJob10metaObjectEv@Base 4:4.13.1
+ _ZNK7Akonadi12TagAttribute10serializedEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagAttribute11displayNameEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagAttribute15backgroundColorEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagAttribute4fontEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagAttribute4typeEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagAttribute5cloneEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagAttribute8iconNameEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagAttribute8priorityEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagAttribute8shortcutEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagAttribute9inToolbarEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagAttribute9textColorEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagCreateJob10metaObjectEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagCreateJob3tagEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagDeleteJob10metaObjectEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagDeleteJob4tagsEv@Base 4:4.13.0.6
+ _ZNK7Akonadi12TagModifyJob10metaObjectEv@Base 4:4.13.0.6
  _ZNK7Akonadi13AgentInstance10identifierEv@Base 4:4.3.4
  _ZNK7Akonadi13AgentInstance11reconfigureEv@Base 4:4.3.4
  _ZNK7Akonadi13AgentInstance13statusMessageEv@Base 4:4.3.4
@@ -2093,13 +2093,13 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi13ItemModifyJob5itemsEv@Base 4:4.5.86
  _ZNK7Akonadi13ItemModifyJob9updateGidEv@Base 4:4.12.2
  _ZNK7Akonadi13ItemSearchJob10metaObjectEv@Base 4:4.4.0
- _ZNK7Akonadi13ItemSearchJob11isRecursiveEv@Base 4:4.13.1
- _ZNK7Akonadi13ItemSearchJob17searchCollectionsEv@Base 4:4.13.1
- _ZNK7Akonadi13ItemSearchJob21isRemoteSearchEnabledEv@Base 4:4.13.1
+ _ZNK7Akonadi13ItemSearchJob11isRecursiveEv@Base 4:4.13.0.6
+ _ZNK7Akonadi13ItemSearchJob17searchCollectionsEv@Base 4:4.13.0.6
+ _ZNK7Akonadi13ItemSearchJob21isRemoteSearchEnabledEv@Base 4:4.13.0.6
  _ZNK7Akonadi13ItemSearchJob5itemsEv@Base 4:4.4.0
- _ZNK7Akonadi13ItemSearchJob9mimeTypesEv@Base 4:4.13.1
+ _ZNK7Akonadi13ItemSearchJob9mimeTypesEv@Base 4:4.13.0.6
  _ZNK7Akonadi13ServerManager10metaObjectEv@Base 4:4.3.4
- _ZNK7Akonadi13TagFetchScope10attributesEv@Base 4:4.13.1
+ _ZNK7Akonadi13TagFetchScope10attributesEv@Base 4:4.13.0.6
  _ZNK7Akonadi13TagFetchScope11fetchIdOnlyEv@Base 4:4.13.0~kolab
  _ZNK7Akonadi14AgentTypeModel10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi14AgentTypeModel11columnCountERK11QModelIndex@Base 4:4.3.4
@@ -2135,17 +2135,17 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi14ItemFetchScope7isEmptyEv@Base 4:4.3.4
  _ZNK7Akonadi14ItemFetchScope8fetchGidEv@Base 4:4.12.2
  _ZNK7Akonadi14ItemFetchScope9cacheOnlyEv@Base 4:4.3.4
- _ZNK7Akonadi14ItemFetchScope9fetchTagsEv@Base 4:4.13.1
+ _ZNK7Akonadi14ItemFetchScope9fetchTagsEv@Base 4:4.13.0.6
  _ZNK7Akonadi15AgentTypeDialog10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi15AgentTypeDialog21agentFilterProxyModelEv@Base 4:4.3.4
  _ZNK7Akonadi15AgentTypeDialog9agentTypeEv@Base 4:4.3.4
  _ZNK7Akonadi15AgentTypeWidget10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi15AgentTypeWidget16currentAgentTypeEv@Base 4:4.3.4
  _ZNK7Akonadi15AgentTypeWidget21agentFilterProxyModelEv@Base 4:4.3.4
- _ZNK7Akonadi15AttributeEntity10attributesEv@Base 4:4.13.1
- _ZNK7Akonadi15AttributeEntity12hasAttributeERK10QByteArray@Base 4:4.13.1
- _ZNK7Akonadi15AttributeEntity17removedAttributesEv@Base 4:4.13.1
- _ZNK7Akonadi15AttributeEntity9attributeERK10QByteArray@Base 4:4.13.1
+ _ZNK7Akonadi15AttributeEntity10attributesEv@Base 4:4.13.0.6
+ _ZNK7Akonadi15AttributeEntity12hasAttributeERK10QByteArray@Base 4:4.13.0.6
+ _ZNK7Akonadi15AttributeEntity17removedAttributesEv@Base 4:4.13.0.6
+ _ZNK7Akonadi15AttributeEntity9attributeERK10QByteArray@Base 4:4.13.0.6
  _ZNK7Akonadi15CachePolicyPage10metaObjectEv@Base 4:4.5.86
  _ZNK7Akonadi15CachePolicyPage9canHandleERKNS_10CollectionE@Base 4:4.5.86
  _ZNK7Akonadi15CollectionModel10headerDataEiN2Qt11OrientationEi@Base 4:4.3.4
@@ -2196,11 +2196,11 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi15MimeTypeChecker18isWantedCollectionERKNS_10CollectionE@Base 4:4.3.4
  _ZNK7Akonadi15MimeTypeChecker22containsWantedMimeTypeERK11QStringList@Base 4:4.5.86
  _ZNK7Akonadi15SearchCreateJob10metaObjectEv@Base 4:4.3.4
- _ZNK7Akonadi15SearchCreateJob11isRecursiveEv@Base 4:4.13.1
- _ZNK7Akonadi15SearchCreateJob15searchMimeTypesEv@Base 4:4.13.1
+ _ZNK7Akonadi15SearchCreateJob11isRecursiveEv@Base 4:4.13.0.6
+ _ZNK7Akonadi15SearchCreateJob15searchMimeTypesEv@Base 4:4.13.0.6
  _ZNK7Akonadi15SearchCreateJob17createdCollectionEv@Base 4:4.4.0
- _ZNK7Akonadi15SearchCreateJob17searchCollectionsEv@Base 4:4.13.1
- _ZNK7Akonadi15SearchCreateJob21isRemoteSearchEnabledEv@Base 4:4.13.1
+ _ZNK7Akonadi15SearchCreateJob17searchCollectionsEv@Base 4:4.13.0.6
+ _ZNK7Akonadi15SearchCreateJob21isRemoteSearchEnabledEv@Base 4:4.13.0.6
  _ZNK7Akonadi15SubscriptionJob10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi15TrashRestoreJob10metaObjectEv@Base 4:4.8.1
  _ZNK7Akonadi15TrashRestoreJob5itemsEv@Base 4:4.8.1
@@ -2211,7 +2211,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi16CollectionDialog14mimeTypeFilterEv@Base 4:4.3.4
  _ZNK7Akonadi16CollectionDialog18accessRightsFilterEv@Base 4:4.4.0
  _ZNK7Akonadi16CollectionDialog18selectedCollectionEv@Base 4:4.3.4
- _ZNK7Akonadi16CollectionDialog18useFolderByDefaultEv@Base 4:4.13.1
+ _ZNK7Akonadi16CollectionDialog18useFolderByDefaultEv@Base 4:4.13.0.6
  _ZNK7Akonadi16CollectionDialog19selectedCollectionsEv@Base 4:4.3.4
  _ZNK7Akonadi16CollectionDialog7Private19canCreateCollectionERKNS_10CollectionE@Base 4:4.5.86
  _ZNK7Akonadi16PayloadException4typeEv@Base 4:4.5.86
@@ -2252,8 +2252,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi18SpecialCollections17defaultCollectionERK10QByteArray@Base 4:4.4.0
  _ZNK7Akonadi18SpecialCollections20hasDefaultCollectionERK10QByteArray@Base 4:4.4.0
  _ZNK7Akonadi18SubscriptionDialog10metaObjectEv@Base 4:4.3.4
- _ZNK7Akonadi18TagSelectionDialog10metaObjectEv@Base 4:4.13.1
- _ZNK7Akonadi18TagSelectionDialog9selectionEv@Base 4:4.13.1
+ _ZNK7Akonadi18TagSelectionDialog10metaObjectEv@Base 4:4.13.0.6
+ _ZNK7Akonadi18TagSelectionDialog9selectionEv@Base 4:4.13.0.6
  _ZNK7Akonadi19AgentInstanceWidget10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi19AgentInstanceWidget20currentAgentInstanceEv@Base 4:4.3.4
  _ZNK7Akonadi19AgentInstanceWidget21agentFilterProxyModelEv@Base 4:4.3.4
@@ -2270,7 +2270,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi19CollectionRequester18accessRightsFilterEv@Base 4:4.4.0
  _ZNK7Akonadi19CollectionSelectJob10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi19SelectionProxyModel10metaObjectEv@Base 4:4.4.0
- _ZNK7Akonadi19TagManagementDialog10metaObjectEv@Base 4:4.13.1
+ _ZNK7Akonadi19TagManagementDialog10metaObjectEv@Base 4:4.13.0.6
  _ZNK7Akonadi19TransactionBeginJob10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi19TransactionSequence10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi20CollectionFetchScope10attributesEv@Base 4:4.13.0~kolab
@@ -2389,11 +2389,11 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi25EntityMimeTypeFilterModel24mimeTypeInclusionFiltersEv@Base 4:4.4.0
  _ZNK7Akonadi25EntityMimeTypeFilterModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 4:4.4.0
  _ZNK7Akonadi25PersistentSearchAttribute10serializedEv@Base 4:4.5.0
- _ZNK7Akonadi25PersistentSearchAttribute11isRecursiveEv@Base 4:4.13.1
+ _ZNK7Akonadi25PersistentSearchAttribute11isRecursiveEv@Base 4:4.13.0.6
  _ZNK7Akonadi25PersistentSearchAttribute11queryStringEv@Base 4:4.5.0
  _ZNK7Akonadi25PersistentSearchAttribute13queryLanguageEv@Base 4:4.5.0
- _ZNK7Akonadi25PersistentSearchAttribute16queryCollectionsEv@Base 4:4.13.1
- _ZNK7Akonadi25PersistentSearchAttribute21isRemoteSearchEnabledEv@Base 4:4.13.1
+ _ZNK7Akonadi25PersistentSearchAttribute16queryCollectionsEv@Base 4:4.13.0.6
+ _ZNK7Akonadi25PersistentSearchAttribute21isRemoteSearchEnabledEv@Base 4:4.13.0.6
  _ZNK7Akonadi25PersistentSearchAttribute4typeEv@Base 4:4.5.0
  _ZNK7Akonadi25PersistentSearchAttribute5cloneEv@Base 4:4.5.0
  _ZNK7Akonadi26CollectionFilterProxyModel10metaObjectEv@Base 4:4.3.4
@@ -2402,11 +2402,11 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi26CollectionFilterProxyModel25excludeVirtualCollectionsEv@Base 4:4.12.2
  _ZNK7Akonadi26CollectionFilterProxyModel5flagsERK11QModelIndex@Base 4:4.4.0
  _ZNK7Akonadi26CollectionPropertiesDialog10metaObjectEv@Base 4:4.3.4
- _ZNK7Akonadi26EntityAnnotationsAttribute10serializedEv@Base 4:4.13.1
- _ZNK7Akonadi26EntityAnnotationsAttribute11annotationsEv@Base 4:4.13.1
- _ZNK7Akonadi26EntityAnnotationsAttribute4typeEv@Base 4:4.13.1
- _ZNK7Akonadi26EntityAnnotationsAttribute5cloneEv@Base 4:4.13.1
- _ZNK7Akonadi26EntityAnnotationsAttribute8containsERK10QByteArray@Base 4:4.13.1
+ _ZNK7Akonadi26EntityAnnotationsAttribute10serializedEv@Base 4:4.13.0.6
+ _ZNK7Akonadi26EntityAnnotationsAttribute11annotationsEv@Base 4:4.13.0.6
+ _ZNK7Akonadi26EntityAnnotationsAttribute4typeEv@Base 4:4.13.0.6
+ _ZNK7Akonadi26EntityAnnotationsAttribute5cloneEv@Base 4:4.13.0.6
+ _ZNK7Akonadi26EntityAnnotationsAttribute8containsERK10QByteArray@Base 4:4.13.0.6
  _ZNK7Akonadi26ResourceSynchronizationJob10metaObjectEv@Base 4:4.4.0
  _ZNK7Akonadi26ResourceSynchronizationJob18collectionTreeOnlyEv@Base 4:4.8.1
  _ZNK7Akonadi26ResourceSynchronizationJob8resourceEv@Base 4:4.4.0
@@ -2429,19 +2429,19 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi38CollectionAttributesSynchronizationJob10metaObjectEv@Base 4:4.5.86
  _ZNK7Akonadi3Job10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi3Job11errorStringEv@Base 4:4.3.4
- _ZNK7Akonadi3Tag11isImmutableEv@Base 4:4.13.1
- _ZNK7Akonadi3Tag11setRemoteIdERK10QByteArray@Base 4:4.13.1
- _ZNK7Akonadi3Tag2idEv@Base 4:4.13.1
- _ZNK7Akonadi3Tag3gidEv@Base 4:4.13.1
- _ZNK7Akonadi3Tag3urlEv@Base 4:4.13.1
- _ZNK7Akonadi3Tag4nameEv@Base 4:4.13.1
- _ZNK7Akonadi3Tag4typeEv@Base 4:4.13.1
- _ZNK7Akonadi3Tag6parentEv@Base 4:4.13.1
- _ZNK7Akonadi3Tag6setGidERK10QByteArray@Base 4:4.13.1
- _ZNK7Akonadi3Tag7isValidEv@Base 4:4.13.1
- _ZNK7Akonadi3Tag7setTypeERK10QByteArray@Base 4:4.13.1
- _ZNK7Akonadi3Tag8remoteIdEv@Base 4:4.13.1
- _ZNK7Akonadi3TageqERKS0_@Base 4:4.13.1
+ _ZNK7Akonadi3Tag11isImmutableEv@Base 4:4.13.0.6
+ _ZNK7Akonadi3Tag11setRemoteIdERK10QByteArray@Base 4:4.13.0.6
+ _ZNK7Akonadi3Tag2idEv@Base 4:4.13.0.6
+ _ZNK7Akonadi3Tag3gidEv@Base 4:4.13.0.6
+ _ZNK7Akonadi3Tag3urlEv@Base 4:4.13.0.6
+ _ZNK7Akonadi3Tag4nameEv@Base 4:4.13.0.6
+ _ZNK7Akonadi3Tag4typeEv@Base 4:4.13.0.6
+ _ZNK7Akonadi3Tag6parentEv@Base 4:4.13.0.6
+ _ZNK7Akonadi3Tag6setGidERK10QByteArray@Base 4:4.13.0.6
+ _ZNK7Akonadi3Tag7isValidEv@Base 4:4.13.0.6
+ _ZNK7Akonadi3Tag7setTypeERK10QByteArray@Base 4:4.13.0.6
+ _ZNK7Akonadi3Tag8remoteIdEv@Base 4:4.13.0.6
+ _ZNK7Akonadi3TageqERKS0_@Base 4:4.13.0.6
  _ZNK7Akonadi4Item10hasPayloadEv@Base 4:4.3.4
  _ZNK7Akonadi4Item11payloadBaseEv@Base 4:4.3.4
  _ZNK7Akonadi4Item11payloadDataEv@Base 4:4.3.4
@@ -2461,17 +2461,16 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi4Item3gidEv@Base 4:4.12.2
  _ZNK7Akonadi4Item3urlENS0_7UrlTypeE@Base 4:4.3.4
  _ZNK7Akonadi4Item4sizeEv@Base 4:4.3.4
- _ZNK7Akonadi4Item4tagsEv@Base 4:4.13.1
+ _ZNK7Akonadi4Item4tagsEv@Base 4:4.13.0.6
  _ZNK7Akonadi4Item5flagsEv@Base 4:4.3.4
  _ZNK7Akonadi4Item6d_funcEv@Base 4:4.3.4
- _ZNK7Akonadi4Item6hasTagERKNS_3TagE@Base 4:4.13.1
+ _ZNK7Akonadi4Item6hasTagERKNS_3TagE@Base 4:4.13.0.6
  _ZNK7Akonadi4Item7hasFlagERK10QByteArray@Base 4:4.3.4
  _ZNK7Akonadi4Item8mimeTypeEv@Base 4:4.3.4
  _ZNK7Akonadi4Item8revisionEv@Base 4:4.3.4
  _ZNK7Akonadi4Item9relationsEv@Base 4:4.13.0~kolab
  _ZNK7Akonadi6Entity10attributesEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity12hasAttributeERK10QByteArray@Base 4:4.3.4
- (optional|arch=amd64)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.13.0~kolab
  _ZNK7Akonadi6Entity14remoteRevisionEv@Base 4:4.5.0
  _ZNK7Akonadi6Entity16parentCollectionEv@Base 4:4.4.0
  _ZNK7Akonadi6Entity2idEv@Base 4:4.3.4
@@ -2486,10 +2485,10 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi7Control10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi7LinkJob10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi7Monitor10metaObjectEv@Base 4:4.3.4
- _ZNK7Akonadi7Monitor13tagsMonitoredEv@Base 4:4.13.1
+ _ZNK7Akonadi7Monitor13tagsMonitoredEv@Base 4:4.13.0.6
  _ZNK7Akonadi7Monitor14isAllMonitoredEv@Base 4:4.3.4
  _ZNK7Akonadi7Monitor14itemsMonitoredEv@Base 4:4.3.4
- _ZNK7Akonadi7Monitor14typesMonitoredEv@Base 4:4.13.1
+ _ZNK7Akonadi7Monitor14typesMonitoredEv@Base 4:4.13.0.6
  _ZNK7Akonadi7Monitor16itemsMonitoredExEv@Base 4:4.5.86
  _ZNK7Akonadi7Monitor17numItemsMonitoredEv@Base 4:4.13.0~kolab
  _ZNK7Akonadi7Monitor18mimeTypesMonitoredEv@Base 4:4.3.4
@@ -2513,14 +2512,14 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi8Relation8remoteIdEv@Base 4:4.13.0~kolab
  _ZNK7Akonadi8RelationeqERKS0_@Base 4:4.13.0~kolab
  _ZNK7Akonadi8RelationneERKS0_@Base 4:4.13.0~kolab
- _ZNK7Akonadi8TagModel10headerDataEiN2Qt11OrientationEi@Base 4:4.13.1
- _ZNK7Akonadi8TagModel10metaObjectEv@Base 4:4.13.1
- _ZNK7Akonadi8TagModel11columnCountERK11QModelIndex@Base 4:4.13.1
- _ZNK7Akonadi8TagModel4dataERK11QModelIndexi@Base 4:4.13.1
- _ZNK7Akonadi8TagModel5flagsERK11QModelIndex@Base 4:4.13.1
- _ZNK7Akonadi8TagModel5indexEiiRK11QModelIndex@Base 4:4.13.1
- _ZNK7Akonadi8TagModel6parentERK11QModelIndex@Base 4:4.13.1
- _ZNK7Akonadi8TagModel8rowCountERK11QModelIndex@Base 4:4.13.1
+ _ZNK7Akonadi8TagModel10headerDataEiN2Qt11OrientationEi@Base 4:4.13.0.6
+ _ZNK7Akonadi8TagModel10metaObjectEv@Base 4:4.13.0.6
+ _ZNK7Akonadi8TagModel11columnCountERK11QModelIndex@Base 4:4.13.0.6
+ _ZNK7Akonadi8TagModel4dataERK11QModelIndexi@Base 4:4.13.0.6
+ _ZNK7Akonadi8TagModel5flagsERK11QModelIndex@Base 4:4.13.0.6
+ _ZNK7Akonadi8TagModel5indexEiiRK11QModelIndex@Base 4:4.13.0.6
+ _ZNK7Akonadi8TagModel6parentERK11QModelIndex@Base 4:4.13.0.6
+ _ZNK7Akonadi8TagModel8rowCountERK11QModelIndex@Base 4:4.13.0.6
  _ZNK7Akonadi8TrashJob10metaObjectEv@Base 4:4.8.1
  _ZNK7Akonadi8TrashJob5itemsEv@Base 4:4.8.1
  _ZNK7Akonadi9AgentBase10identifierEv@Base 4:4.3.4
