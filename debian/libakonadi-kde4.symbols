@@ -1,49 +1,468 @@
 # SymbolsHelper-Confirmed: 4:4.13.0.5 amd64 i386
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
+ (optional)_ZTIN5boost16exception_detail10clone_baseE@Base 4:4.13.0.1
+ (optional)_ZTSN5boost16exception_detail10clone_baseE@Base 4:4.13.0.1
+ (optional)_ZTVN5boost16exception_detail10clone_baseE@Base 4:4.13.0.1
+ (optional=external)_ZTIN5boost9exceptionE@Base 4:4.7.4
+ _ZTIN7Akonadi11ItemCopyJobE@Base 4:4.3.4
+ _ZTIN7Akonadi11ItemMonitor7PrivateE@Base 4:4.3.4
+ _ZTIN7Akonadi11ItemMonitorE@Base 4:4.3.4
+ _ZTIN7Akonadi11ItemMoveJobE@Base 4:4.3.4
+ _ZTIN7Akonadi11PartFetcherE@Base 4:4.4.0
+ _ZTIN7Akonadi11TagFetchJobE@Base 4:4.13.1
+ _ZTIN7Akonadi12AgentManagerE@Base 4:4.3.4
+ _ZTIN7Akonadi12ItemFetchJobE@Base 4:4.3.4
+ _ZTIN7Akonadi12ResourceBaseE@Base 4:4.3.4
+ _ZTIN7Akonadi12TagAttributeE@Base 4:4.13.1
+ _ZTIN7Akonadi12TagCreateJobE@Base 4:4.13.1
+ _ZTIN7Akonadi12TagDeleteJobE@Base 4:4.13.1
+ _ZTIN7Akonadi12TagModifyJobE@Base 4:4.13.1
+ _ZTIN7Akonadi13ItemCreateJobE@Base 4:4.3.4
+ _ZTIN7Akonadi13ItemDeleteJobE@Base 4:4.3.4
+ _ZTIN7Akonadi13ItemModifyJobE@Base 4:4.3.4
+ _ZTIN7Akonadi13ItemSearchJobE@Base 4:4.4.0
+ _ZTIN7Akonadi13ServerManagerE@Base 4:4.3.4
+ _ZTIN7Akonadi14AgentTypeModelE@Base 4:4.3.4
+ _ZTIN7Akonadi14ChangeRecorderE@Base 4:4.3.4
+ _ZTIN7Akonadi14CollectionViewE@Base 4:4.3.4
+ _ZTIN7Akonadi14EntityListViewE@Base 4:4.4.0
+ _ZTIN7Akonadi14EntityTreeViewE@Base 4:4.4.0
+ _ZTIN7Akonadi15AgentTypeDialogE@Base 4:4.3.4
+ _ZTIN7Akonadi15AgentTypeWidgetE@Base 4:4.3.4
+ _ZTIN7Akonadi15AttributeEntityE@Base 4:4.13.1
+ _ZTIN7Akonadi15CachePolicyPageE@Base 4:4.5.86
+ _ZTIN7Akonadi15CollectionModelE@Base 4:4.3.4
+ _ZTIN7Akonadi15EntityTreeModelE@Base 4:4.4.0
+ _ZTIN7Akonadi15SearchCreateJobE@Base 4:4.3.4
+ _ZTIN7Akonadi15SubscriptionJobE@Base 4:4.3.4
+ _ZTIN7Akonadi15TrashRestoreJob22TrashRestoreJobPrivateE@Base 4:4.8.1
+ _ZTIN7Akonadi15TrashRestoreJobE@Base 4:4.8.1
+ _ZTIN7Akonadi16AgentFactoryBaseE@Base 4:4.5.86
+ _ZTIN7Akonadi16CollectionDialogE@Base 4:4.3.4
+ _ZTIN7Akonadi16PayloadExceptionE@Base 4:4.5.86
+ _ZTIN7Akonadi16PreprocessorBaseE@Base 4:4.4.0
+ _ZTIN7Akonadi16RelationFetchJobE@Base 4:4.13.0.1
+ _ZTIN7Akonadi16ResourceSettingsE@Base 4:4.5.86
+ _ZTIN7Akonadi17CollectionCopyJobE@Base 4:4.3.4
+ _ZTIN7Akonadi17CollectionMoveJobE@Base 4:4.3.4
+ _ZTIN7Akonadi17ETMViewStateSaverE@Base 4:4.5.86
+ _ZTIN7Akonadi17RelationCreateJobE@Base 4:4.13.0.1
+ _ZTIN7Akonadi17RelationDeleteJobE@Base 4:4.13.0.1
+ _ZTIN7Akonadi18AgentActionManagerE@Base 4:4.5.86
+ _ZTIN7Akonadi18AgentInstanceModelE@Base 4:4.3.4
+ _ZTIN7Akonadi18CollectionComboBoxE@Base 4:4.4.0
+ _ZTIN7Akonadi18CollectionFetchJobE@Base 4:4.3.4
+ _ZTIN7Akonadi18SpecialCollectionsE@Base 4:4.4.0
+ _ZTIN7Akonadi18SubscriptionDialogE@Base 4:4.3.4
+ _ZTIN7Akonadi18TagSelectionDialogE@Base 4:4.13.1
+ _ZTIN7Akonadi19AgentInstanceWidgetE@Base 4:4.3.4
+ _ZTIN7Akonadi19CollectionCreateJobE@Base 4:4.3.4
+ _ZTIN7Akonadi19CollectionDeleteJobE@Base 4:4.3.4
+ _ZTIN7Akonadi19CollectionModifyJobE@Base 4:4.3.4
+ _ZTIN7Akonadi19CollectionRequesterE@Base 4:4.3.4
+ _ZTIN7Akonadi19CollectionSelectJobE@Base 4:4.3.4
+ _ZTIN7Akonadi19SelectionProxyModelE@Base 4:4.4.0
+ _ZTIN7Akonadi19TagManagementDialogE@Base 4:4.13.1
+ _ZTIN7Akonadi19TransactionBeginJobE@Base 4:4.3.4
+ _ZTIN7Akonadi19TransactionSequenceE@Base 4:4.3.4
+ _ZTIN7Akonadi20AgentSearchInterfaceE@Base 4:4.5.0
+ _ZTIN7Akonadi20IndexPolicyAttributeE@Base 4:4.5.86
+ _ZTIN7Akonadi20ItemSerializerPluginE@Base 4:4.3.4
+ _ZTIN7Akonadi20ResourceBaseSettingsE@Base 4:4.5.86
+ _ZTIN7Akonadi20StatisticsProxyModelE@Base 4:4.4.0
+ _ZTIN7Akonadi20TransactionCommitJobE@Base 4:4.3.4
+ _ZTIN7Akonadi21AgentFilterProxyModelE@Base 4:4.3.4
+ _ZTIN7Akonadi21EntityHiddenAttributeE@Base 4:4.4.0
+ _ZTIN7Akonadi21EntityOrderProxyModelE@Base 4:4.5.86
+ _ZTIN7Akonadi21RecursiveItemFetchJobE@Base 4:4.5.86
+ _ZTIN7Akonadi21StandardActionManagerE@Base 4:4.3.4
+ _ZTIN7Akonadi21TransportResourceBaseE@Base 4:4.4.0
+ _ZTIN7Akonadi21TrashFilterProxyModelE@Base 4:4.8.1
+ _ZTIN7Akonadi22AgentInstanceCreateJobE@Base 4:4.3.4
+ _ZTIN7Akonadi22CollectionPathResolverE@Base 4:4.3.4
+ _ZTIN7Akonadi22EntityDeletedAttributeE@Base 4:4.8.1
+ _ZTIN7Akonadi22EntityDisplayAttributeE@Base 4:4.3.4
+ _ZTIN7Akonadi22ItemSerializerPluginV2E@Base 4:4.4.0
+ _ZTIN7Akonadi22TransactionRollbackJobE@Base 4:4.3.4
+ _ZTIN7Akonadi23CollectionStatisticsJobE@Base 4:4.3.4
+ _ZTIN7Akonadi23EntityRightsFilterModelE@Base 4:4.5.86
+ _ZTIN7Akonadi24CollectionPropertiesPageE@Base 4:4.3.4
+ _ZTIN7Akonadi24CollectionQuotaAttributeE@Base 4:4.4.0
+ _ZTIN7Akonadi24EntityTreeViewStateSaverE@Base 4:4.4.0
+ _ZTIN7Akonadi24FavoriteCollectionsModelE@Base 4:4.4.0
+ _ZTIN7Akonadi25CollectionRightsAttributeE@Base 4:4.3.4
+ _ZTIN7Akonadi25CollectionStatisticsModelE@Base 4:4.3.4
+ _ZTIN7Akonadi25EntityMimeTypeFilterModelE@Base 4:4.4.0
+ _ZTIN7Akonadi25PersistentSearchAttributeE@Base 4:4.5.0
+ _ZTIN7Akonadi26CollectionFilterProxyModelE@Base 4:4.3.4
+ _ZTIN7Akonadi26CollectionPropertiesDialogE@Base 4:4.3.4
+ _ZTIN7Akonadi26EntityAnnotationsAttributeE@Base 4:4.13.1
+ _ZTIN7Akonadi26ResourceSynchronizationJobE@Base 4:4.4.0
+ _ZTIN7Akonadi26SpecialCollectionAttributeE@Base 4:4.4.0
+ _ZTIN7Akonadi28CollectionStatisticsDelegateE@Base 4:4.3.4
+ _ZTIN7Akonadi28SpecialCollectionsRequestJobE@Base 4:4.4.0
+ _ZTIN7Akonadi30SpecialCollectionsDiscoveryJobE@Base 4:4.11.1
+ _ZTIN7Akonadi31CollectionPropertiesPageFactoryE@Base 4:4.3.4
+ _ZTIN7Akonadi35RecursiveCollectionFilterProxyModelE@Base 4:4.5.86
+ _ZTIN7Akonadi38CollectionAttributesSynchronizationJobE@Base 4:4.5.86
+ _ZTIN7Akonadi3JobE@Base 4:4.3.4
+ _ZTIN7Akonadi3TagE@Base 4:4.13.1
+ _ZTIN7Akonadi7ControlE@Base 4:4.3.4
+ _ZTIN7Akonadi7LinkJobE@Base 4:4.3.4
+ _ZTIN7Akonadi7MonitorE@Base 4:4.3.4
+ _ZTIN7Akonadi7SessionE@Base 4:4.3.4
+ _ZTIN7Akonadi8ItemSyncE@Base 4:4.3.4
+ _ZTIN7Akonadi8ItemViewE@Base 4:4.3.4
+ _ZTIN7Akonadi8TagModelE@Base 4:4.13.1
+ _ZTIN7Akonadi8TrashJob15TrashJobPrivateE@Base 4:4.8.1
+ _ZTIN7Akonadi8TrashJobE@Base 4:4.8.1
+ _ZTIN7Akonadi9AgentBase10ObserverV2E@Base 4:4.4.0
+ _ZTIN7Akonadi9AgentBase10ObserverV3E@Base 4:4.11.1
+ _ZTIN7Akonadi9AgentBase10ObserverV4E@Base 4:4.13.1
+ _ZTIN7Akonadi9AgentBase8ObserverE@Base 4:4.3.4
+ _ZTIN7Akonadi9AgentBaseE@Base 4:4.3.4
+ _ZTIN7Akonadi9AttributeE@Base 4:4.3.4
+ _ZTIN7Akonadi9ExceptionE@Base 4:4.3.4
+ _ZTIN7Akonadi9ItemModelE@Base 4:4.3.4
+ _ZTIN7Akonadi9TagWidgetE@Base 4:4.13.1
+ _ZTIN7Akonadi9UnlinkJobE@Base 4:4.3.4
+ _ZTS12RelationSync@Base 4:4.13.0.1
+ _ZTS33CollectionIdentificationAttribute@Base 4:4.13.0.1
+ _ZTS7TagSync@Base 4:4.13.0.1
+ (optional=external)_ZTSN5boost9exceptionE@Base 4:4.7.4
+ _ZTSN7Akonadi11ItemCopyJobE@Base 4:4.3.4
+ _ZTSN7Akonadi11ItemMonitor7PrivateE@Base 4:4.3.4
+ _ZTSN7Akonadi11ItemMonitorE@Base 4:4.3.4
+ _ZTSN7Akonadi11ItemMoveJobE@Base 4:4.3.4
+ _ZTSN7Akonadi11PartFetcherE@Base 4:4.4.0
+ _ZTSN7Akonadi11TagFetchJobE@Base 4:4.13.1
+ _ZTSN7Akonadi12AgentManagerE@Base 4:4.3.4
+ _ZTSN7Akonadi12ItemFetchJobE@Base 4:4.3.4
+ _ZTSN7Akonadi12ResourceBaseE@Base 4:4.3.4
+ _ZTSN7Akonadi12TagAttributeE@Base 4:4.13.1
+ _ZTSN7Akonadi12TagCreateJobE@Base 4:4.13.1
+ _ZTSN7Akonadi12TagDeleteJobE@Base 4:4.13.1
+ _ZTSN7Akonadi12TagModifyJobE@Base 4:4.13.1
+ _ZTSN7Akonadi13ItemCreateJobE@Base 4:4.3.4
+ _ZTSN7Akonadi13ItemDeleteJobE@Base 4:4.3.4
+ _ZTSN7Akonadi13ItemModifyJobE@Base 4:4.3.4
+ _ZTSN7Akonadi13ItemSearchJobE@Base 4:4.4.0
+ _ZTSN7Akonadi13ServerManagerE@Base 4:4.3.4
+ _ZTSN7Akonadi14AgentTypeModelE@Base 4:4.3.4
+ _ZTSN7Akonadi14ChangeRecorderE@Base 4:4.3.4
+ _ZTSN7Akonadi14CollectionViewE@Base 4:4.3.4
+ _ZTSN7Akonadi14EntityListViewE@Base 4:4.4.0
+ _ZTSN7Akonadi14EntityTreeViewE@Base 4:4.4.0
+ _ZTSN7Akonadi15AgentTypeDialogE@Base 4:4.3.4
+ _ZTSN7Akonadi15AgentTypeWidgetE@Base 4:4.3.4
+ _ZTSN7Akonadi15AttributeEntityE@Base 4:4.13.1
+ _ZTSN7Akonadi15CachePolicyPageE@Base 4:4.5.86
+ _ZTSN7Akonadi15CollectionModelE@Base 4:4.3.4
+ _ZTSN7Akonadi15EntityTreeModelE@Base 4:4.4.0
+ _ZTSN7Akonadi15SearchCreateJobE@Base 4:4.3.4
+ _ZTSN7Akonadi15SubscriptionJobE@Base 4:4.3.4
+ _ZTSN7Akonadi15TrashRestoreJob22TrashRestoreJobPrivateE@Base 4:4.8.1
+ _ZTSN7Akonadi15TrashRestoreJobE@Base 4:4.8.1
+ _ZTSN7Akonadi16AgentFactoryBaseE@Base 4:4.5.86
+ _ZTSN7Akonadi16CollectionDialogE@Base 4:4.3.4
+ _ZTSN7Akonadi16PayloadExceptionE@Base 4:4.5.86
+ _ZTSN7Akonadi16PreprocessorBaseE@Base 4:4.4.0
+ _ZTSN7Akonadi16RelationFetchJobE@Base 4:4.13.0.1
+ _ZTSN7Akonadi16ResourceSettingsE@Base 4:4.5.86
+ _ZTSN7Akonadi17CollectionCopyJobE@Base 4:4.3.4
+ _ZTSN7Akonadi17CollectionMoveJobE@Base 4:4.3.4
+ _ZTSN7Akonadi17ETMViewStateSaverE@Base 4:4.5.86
+ _ZTSN7Akonadi17RelationCreateJobE@Base 4:4.13.0.1
+ _ZTSN7Akonadi17RelationDeleteJobE@Base 4:4.13.0.1
+ _ZTSN7Akonadi18AgentActionManagerE@Base 4:4.5.86
+ _ZTSN7Akonadi18AgentInstanceModelE@Base 4:4.3.4
+ _ZTSN7Akonadi18CollectionComboBoxE@Base 4:4.4.0
+ _ZTSN7Akonadi18CollectionFetchJobE@Base 4:4.3.4
+ _ZTSN7Akonadi18SpecialCollectionsE@Base 4:4.4.0
+ _ZTSN7Akonadi18SubscriptionDialogE@Base 4:4.3.4
+ _ZTSN7Akonadi18TagSelectionDialogE@Base 4:4.13.1
+ _ZTSN7Akonadi19AgentInstanceWidgetE@Base 4:4.3.4
+ _ZTSN7Akonadi19CollectionCreateJobE@Base 4:4.3.4
+ _ZTSN7Akonadi19CollectionDeleteJobE@Base 4:4.3.4
+ _ZTSN7Akonadi19CollectionModifyJobE@Base 4:4.3.4
+ _ZTSN7Akonadi19CollectionRequesterE@Base 4:4.3.4
+ _ZTSN7Akonadi19CollectionSelectJobE@Base 4:4.3.4
+ _ZTSN7Akonadi19SelectionProxyModelE@Base 4:4.4.0
+ _ZTSN7Akonadi19TagManagementDialogE@Base 4:4.13.1
+ _ZTSN7Akonadi19TransactionBeginJobE@Base 4:4.3.4
+ _ZTSN7Akonadi19TransactionSequenceE@Base 4:4.3.4
+ _ZTSN7Akonadi20AgentSearchInterfaceE@Base 4:4.5.0
+ _ZTSN7Akonadi20IndexPolicyAttributeE@Base 4:4.5.86
+ _ZTSN7Akonadi20ItemSerializerPluginE@Base 4:4.3.4
+ _ZTSN7Akonadi20ResourceBaseSettingsE@Base 4:4.5.86
+ _ZTSN7Akonadi20StatisticsProxyModelE@Base 4:4.4.0
+ _ZTSN7Akonadi20TransactionCommitJobE@Base 4:4.3.4
+ _ZTSN7Akonadi21AgentFilterProxyModelE@Base 4:4.3.4
+ _ZTSN7Akonadi21EntityHiddenAttributeE@Base 4:4.4.0
+ _ZTSN7Akonadi21EntityOrderProxyModelE@Base 4:4.5.86
+ _ZTSN7Akonadi21RecursiveItemFetchJobE@Base 4:4.5.86
+ _ZTSN7Akonadi21StandardActionManagerE@Base 4:4.3.4
+ _ZTSN7Akonadi21TransportResourceBaseE@Base 4:4.4.0
+ _ZTSN7Akonadi21TrashFilterProxyModelE@Base 4:4.8.1
+ _ZTSN7Akonadi22AgentInstanceCreateJobE@Base 4:4.3.4
+ _ZTSN7Akonadi22CollectionPathResolverE@Base 4:4.3.4
+ _ZTSN7Akonadi22EntityDeletedAttributeE@Base 4:4.8.1
+ _ZTSN7Akonadi22EntityDisplayAttributeE@Base 4:4.3.4
+ _ZTSN7Akonadi22ItemSerializerPluginV2E@Base 4:4.4.0
+ _ZTSN7Akonadi22TransactionRollbackJobE@Base 4:4.3.4
+ _ZTSN7Akonadi23CollectionStatisticsJobE@Base 4:4.3.4
+ _ZTSN7Akonadi23EntityRightsFilterModelE@Base 4:4.5.86
+ _ZTSN7Akonadi24CollectionPropertiesPageE@Base 4:4.3.4
+ _ZTSN7Akonadi24CollectionQuotaAttributeE@Base 4:4.4.0
+ _ZTSN7Akonadi24EntityTreeViewStateSaverE@Base 4:4.4.0
+ _ZTSN7Akonadi24FavoriteCollectionsModelE@Base 4:4.4.0
+ _ZTSN7Akonadi25CollectionRightsAttributeE@Base 4:4.3.4
+ _ZTSN7Akonadi25CollectionStatisticsModelE@Base 4:4.3.4
+ _ZTSN7Akonadi25EntityMimeTypeFilterModelE@Base 4:4.4.0
+ _ZTSN7Akonadi25PersistentSearchAttributeE@Base 4:4.5.0
+ _ZTSN7Akonadi26CollectionFilterProxyModelE@Base 4:4.3.4
+ _ZTSN7Akonadi26CollectionPropertiesDialogE@Base 4:4.3.4
+ _ZTSN7Akonadi26EntityAnnotationsAttributeE@Base 4:4.13.1
+ _ZTSN7Akonadi26ResourceSynchronizationJobE@Base 4:4.4.0
+ _ZTSN7Akonadi26SpecialCollectionAttributeE@Base 4:4.4.0
+ _ZTSN7Akonadi28CollectionStatisticsDelegateE@Base 4:4.3.4
+ _ZTSN7Akonadi28SpecialCollectionsRequestJobE@Base 4:4.4.0
+ _ZTSN7Akonadi30SpecialCollectionsDiscoveryJobE@Base 4:4.11.1
+ _ZTSN7Akonadi31CollectionPropertiesPageFactoryE@Base 4:4.3.4
+ _ZTSN7Akonadi35RecursiveCollectionFilterProxyModelE@Base 4:4.5.86
+ _ZTSN7Akonadi38CollectionAttributesSynchronizationJobE@Base 4:4.5.86
+ _ZTSN7Akonadi3JobE@Base 4:4.3.4
+ _ZTSN7Akonadi3TagE@Base 4:4.13.1
+ _ZTSN7Akonadi7ControlE@Base 4:4.3.4
+ _ZTSN7Akonadi7LinkJobE@Base 4:4.3.4
+ _ZTSN7Akonadi7MonitorE@Base 4:4.3.4
+ _ZTSN7Akonadi7SessionE@Base 4:4.3.4
+ _ZTSN7Akonadi8ItemSyncE@Base 4:4.3.4
+ _ZTSN7Akonadi8ItemViewE@Base 4:4.3.4
+ _ZTSN7Akonadi8TagModelE@Base 4:4.13.1
+ _ZTSN7Akonadi8TrashJob15TrashJobPrivateE@Base 4:4.8.1
+ _ZTSN7Akonadi8TrashJobE@Base 4:4.8.1
+ _ZTSN7Akonadi9AgentBase10ObserverV2E@Base 4:4.4.0
+ _ZTSN7Akonadi9AgentBase10ObserverV3E@Base 4:4.11.1
+ _ZTSN7Akonadi9AgentBase10ObserverV4E@Base 4:4.13.1
+ _ZTSN7Akonadi9AgentBase8ObserverE@Base 4:4.3.4
+ _ZTSN7Akonadi9AgentBaseE@Base 4:4.3.4
+ _ZTSN7Akonadi9AttributeE@Base 4:4.3.4
+ _ZTSN7Akonadi9ExceptionE@Base 4:4.3.4
+ _ZTSN7Akonadi9ItemModelE@Base 4:4.3.4
+ _ZTSN7Akonadi9TagWidgetE@Base 4:4.13.1
+ _ZTSN7Akonadi9UnlinkJobE@Base 4:4.3.4
+ _ZTV12RelationSync@Base 4:4.13.0.1
+ _ZTV33CollectionIdentificationAttribute@Base 4:4.13.0.1
+ _ZTV7TagSync@Base 4:4.13.0.1
+ (optional=external)_ZTVN5boost9exceptionE@Base 4:4.7.4
+ _ZTVN7Akonadi11ItemCopyJobE@Base 4:4.3.4
+ _ZTVN7Akonadi11ItemMonitor7PrivateE@Base 4:4.3.4
+ _ZTVN7Akonadi11ItemMonitorE@Base 4:4.3.4
+ _ZTVN7Akonadi11ItemMoveJobE@Base 4:4.3.4
+ _ZTVN7Akonadi11PartFetcherE@Base 4:4.4.0
+ _ZTVN7Akonadi11TagFetchJobE@Base 4:4.13.1
+ _ZTVN7Akonadi12AgentManagerE@Base 4:4.3.4
+ _ZTVN7Akonadi12ItemFetchJobE@Base 4:4.3.4
+ _ZTVN7Akonadi12ResourceBaseE@Base 4:4.3.4
+ _ZTVN7Akonadi12TagAttributeE@Base 4:4.13.1
+ _ZTVN7Akonadi12TagCreateJobE@Base 4:4.13.1
+ _ZTVN7Akonadi12TagDeleteJobE@Base 4:4.13.1
+ _ZTVN7Akonadi12TagModifyJobE@Base 4:4.13.1
+ _ZTVN7Akonadi13ItemCreateJobE@Base 4:4.3.4
+ _ZTVN7Akonadi13ItemDeleteJobE@Base 4:4.3.4
+ _ZTVN7Akonadi13ItemModifyJobE@Base 4:4.3.4
+ _ZTVN7Akonadi13ItemSearchJobE@Base 4:4.4.0
+ _ZTVN7Akonadi13ServerManagerE@Base 4:4.3.4
+ _ZTVN7Akonadi14AgentTypeModelE@Base 4:4.3.4
+ _ZTVN7Akonadi14ChangeRecorderE@Base 4:4.3.4
+ _ZTVN7Akonadi14CollectionViewE@Base 4:4.3.4
+ _ZTVN7Akonadi14EntityListViewE@Base 4:4.4.0
+ _ZTVN7Akonadi14EntityTreeViewE@Base 4:4.4.0
+ _ZTVN7Akonadi15AgentTypeDialogE@Base 4:4.3.4
+ _ZTVN7Akonadi15AgentTypeWidgetE@Base 4:4.3.4
+ _ZTVN7Akonadi15AttributeEntityE@Base 4:4.13.1
+ _ZTVN7Akonadi15CachePolicyPageE@Base 4:4.5.86
+ _ZTVN7Akonadi15CollectionModelE@Base 4:4.3.4
+ _ZTVN7Akonadi15EntityTreeModelE@Base 4:4.4.0
+ _ZTVN7Akonadi15SearchCreateJobE@Base 4:4.3.4
+ _ZTVN7Akonadi15SubscriptionJobE@Base 4:4.3.4
+ _ZTVN7Akonadi15TrashRestoreJob22TrashRestoreJobPrivateE@Base 4:4.8.1
+ _ZTVN7Akonadi15TrashRestoreJobE@Base 4:4.8.1
+ _ZTVN7Akonadi16AgentFactoryBaseE@Base 4:4.5.86
+ _ZTVN7Akonadi16CollectionDialogE@Base 4:4.3.4
+ _ZTVN7Akonadi16PayloadExceptionE@Base 4:4.5.86
+ _ZTVN7Akonadi16PreprocessorBaseE@Base 4:4.4.0
+ _ZTVN7Akonadi16RelationFetchJobE@Base 4:4.13.0.1
+ _ZTVN7Akonadi16ResourceSettingsE@Base 4:4.5.86
+ _ZTVN7Akonadi17CollectionCopyJobE@Base 4:4.3.4
+ _ZTVN7Akonadi17CollectionMoveJobE@Base 4:4.3.4
+ _ZTVN7Akonadi17ETMViewStateSaverE@Base 4:4.5.86
+ _ZTVN7Akonadi17RelationCreateJobE@Base 4:4.13.0.1
+ _ZTVN7Akonadi17RelationDeleteJobE@Base 4:4.13.0.1
+ _ZTVN7Akonadi18AgentActionManagerE@Base 4:4.5.86
+ _ZTVN7Akonadi18AgentInstanceModelE@Base 4:4.3.4
+ _ZTVN7Akonadi18CollectionComboBoxE@Base 4:4.4.0
+ _ZTVN7Akonadi18CollectionFetchJobE@Base 4:4.3.4
+ _ZTVN7Akonadi18SpecialCollectionsE@Base 4:4.4.0
+ _ZTVN7Akonadi18SubscriptionDialogE@Base 4:4.3.4
+ _ZTVN7Akonadi18TagSelectionDialogE@Base 4:4.13.1
+ _ZTVN7Akonadi19AgentInstanceWidgetE@Base 4:4.3.4
+ _ZTVN7Akonadi19CollectionCreateJobE@Base 4:4.3.4
+ _ZTVN7Akonadi19CollectionDeleteJobE@Base 4:4.3.4
+ _ZTVN7Akonadi19CollectionModifyJobE@Base 4:4.3.4
+ _ZTVN7Akonadi19CollectionRequesterE@Base 4:4.3.4
+ _ZTVN7Akonadi19CollectionSelectJobE@Base 4:4.3.4
+ _ZTVN7Akonadi19SelectionProxyModelE@Base 4:4.4.0
+ _ZTVN7Akonadi19TagManagementDialogE@Base 4:4.13.1
+ _ZTVN7Akonadi19TransactionBeginJobE@Base 4:4.3.4
+ _ZTVN7Akonadi19TransactionSequenceE@Base 4:4.3.4
+ _ZTVN7Akonadi20AgentSearchInterfaceE@Base 4:4.5.0
+ _ZTVN7Akonadi20IndexPolicyAttributeE@Base 4:4.5.86
+ _ZTVN7Akonadi20ItemSerializerPluginE@Base 4:4.3.4
+ _ZTVN7Akonadi20ResourceBaseSettingsE@Base 4:4.5.86
+ _ZTVN7Akonadi20StatisticsProxyModelE@Base 4:4.4.0
+ _ZTVN7Akonadi20TransactionCommitJobE@Base 4:4.3.4
+ _ZTVN7Akonadi21AgentFilterProxyModelE@Base 4:4.3.4
+ _ZTVN7Akonadi21EntityHiddenAttributeE@Base 4:4.4.0
+ _ZTVN7Akonadi21EntityOrderProxyModelE@Base 4:4.5.86
+ _ZTVN7Akonadi21RecursiveItemFetchJobE@Base 4:4.5.86
+ _ZTVN7Akonadi21StandardActionManagerE@Base 4:4.3.4
+ _ZTVN7Akonadi21TransportResourceBaseE@Base 4:4.4.0
+ _ZTVN7Akonadi21TrashFilterProxyModelE@Base 4:4.8.1
+ _ZTVN7Akonadi22AgentInstanceCreateJobE@Base 4:4.3.4
+ _ZTVN7Akonadi22CollectionPathResolverE@Base 4:4.3.4
+ _ZTVN7Akonadi22EntityDeletedAttributeE@Base 4:4.8.1
+ _ZTVN7Akonadi22EntityDisplayAttributeE@Base 4:4.3.4
+ _ZTVN7Akonadi22ItemSerializerPluginV2E@Base 4:4.4.0
+ _ZTVN7Akonadi22TransactionRollbackJobE@Base 4:4.3.4
+ _ZTVN7Akonadi23CollectionStatisticsJobE@Base 4:4.3.4
+ _ZTVN7Akonadi23EntityRightsFilterModelE@Base 4:4.5.86
+ _ZTVN7Akonadi24CollectionPropertiesPageE@Base 4:4.3.4
+ _ZTVN7Akonadi24CollectionQuotaAttributeE@Base 4:4.4.0
+ _ZTVN7Akonadi24EntityTreeViewStateSaverE@Base 4:4.4.0
+ _ZTVN7Akonadi24FavoriteCollectionsModelE@Base 4:4.4.0
+ _ZTVN7Akonadi25CollectionRightsAttributeE@Base 4:4.3.4
+ _ZTVN7Akonadi25CollectionStatisticsModelE@Base 4:4.3.4
+ _ZTVN7Akonadi25EntityMimeTypeFilterModelE@Base 4:4.4.0
+ _ZTVN7Akonadi25PersistentSearchAttributeE@Base 4:4.5.0
+ _ZTVN7Akonadi26CollectionFilterProxyModelE@Base 4:4.3.4
+ _ZTVN7Akonadi26CollectionPropertiesDialogE@Base 4:4.3.4
+ _ZTVN7Akonadi26EntityAnnotationsAttributeE@Base 4:4.13.1
+ _ZTVN7Akonadi26ResourceSynchronizationJobE@Base 4:4.4.0
+ _ZTVN7Akonadi26SpecialCollectionAttributeE@Base 4:4.4.0
+ _ZTVN7Akonadi28CollectionStatisticsDelegateE@Base 4:4.3.4
+ _ZTVN7Akonadi28SpecialCollectionsRequestJobE@Base 4:4.4.0
+ _ZTVN7Akonadi30SpecialCollectionsDiscoveryJobE@Base 4:4.11.1
+ _ZTVN7Akonadi31CollectionPropertiesPageFactoryE@Base 4:4.3.4
+ _ZTVN7Akonadi35RecursiveCollectionFilterProxyModelE@Base 4:4.5.86
+ _ZTVN7Akonadi38CollectionAttributesSynchronizationJobE@Base 4:4.5.86
+ _ZTVN7Akonadi3JobE@Base 4:4.3.4
+ _ZTVN7Akonadi3TagE@Base 4:4.13.1
+ _ZTVN7Akonadi7ControlE@Base 4:4.3.4
+ _ZTVN7Akonadi7LinkJobE@Base 4:4.3.4
+ _ZTVN7Akonadi7MonitorE@Base 4:4.3.4
+ _ZTVN7Akonadi7SessionE@Base 4:4.3.4
+ _ZTVN7Akonadi8ItemSyncE@Base 4:4.3.4
+ _ZTVN7Akonadi8ItemViewE@Base 4:4.3.4
+ _ZTVN7Akonadi8TagModelE@Base 4:4.13.1
+ _ZTVN7Akonadi8TrashJob15TrashJobPrivateE@Base 4:4.8.1
+ _ZTVN7Akonadi8TrashJobE@Base 4:4.8.1
+ _ZTVN7Akonadi9AgentBase10ObserverV2E@Base 4:4.4.0
+ _ZTVN7Akonadi9AgentBase10ObserverV3E@Base 4:4.11.1
+ _ZTVN7Akonadi9AgentBase10ObserverV4E@Base 4:4.13.1
+ _ZTVN7Akonadi9AgentBase8ObserverE@Base 4:4.3.4
+ _ZTVN7Akonadi9AgentBaseE@Base 4:4.3.4
+ _ZTVN7Akonadi9AttributeE@Base 4:4.3.4
+ _ZTVN7Akonadi9ExceptionE@Base 4:4.3.4
+ _ZTVN7Akonadi9ItemModelE@Base 4:4.3.4
+ _ZTVN7Akonadi9TagWidgetE@Base 4:4.13.1
+ _ZTVN7Akonadi9UnlinkJobE@Base 4:4.3.4
+ _Zls6QDebugRKN7Akonadi10CollectionE@Base 4:4.3.4
+ _Zls6QDebugRKN7Akonadi11CachePolicyE@Base 4:4.3.4
+ _Zls6QDebugRKN7Akonadi20CollectionStatisticsE@Base 4:4.3.4
+ _ZlsR6QDebugRKN7Akonadi3TagE@Base 4:4.13.1
+ _ZlsR6QDebugRKN7Akonadi8RelationE@Base 4:4.13.0.1
+ (c++)"non-virtual thunk to Akonadi::AgentInstanceWidget::~AgentInstanceWidget()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to Akonadi::AgentTypeDialog::~AgentTypeDialog()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to Akonadi::AgentTypeWidget::~AgentTypeWidget()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to Akonadi::CachePolicyPage::~CachePolicyPage()@Base" 4:4.5.86
+ (c++)"non-virtual thunk to Akonadi::CollectionComboBox::~CollectionComboBox()@Base" 4:4.4.0
+ (c++)"non-virtual thunk to Akonadi::CollectionDialog::~CollectionDialog()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to Akonadi::CollectionPropertiesDialog::~CollectionPropertiesDialog()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to Akonadi::CollectionPropertiesPage::~CollectionPropertiesPage()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to Akonadi::CollectionRequester::~CollectionRequester()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to Akonadi::CollectionView::~CollectionView()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to Akonadi::EntityListView::~EntityListView()@Base" 4:4.4.0
+ (c++)"non-virtual thunk to Akonadi::EntityTreeView::~EntityTreeView()@Base" 4:4.4.0
+ (c++)"non-virtual thunk to Akonadi::ItemView::~ItemView()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to Akonadi::SubscriptionDialog::~SubscriptionDialog()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to Akonadi::TagManagementDialog::~TagManagementDialog()@Base" 4:4.13.1
+ (c++)"non-virtual thunk to Akonadi::TagSelectionDialog::~TagSelectionDialog()@Base" 4:4.13.1
+ (c++)"non-virtual thunk to Akonadi::TagWidget::~TagWidget()@Base" 4:4.13.1
+ (optional=templinst)_ZSt4swapIN7Akonadi3TagEEvRT_S3_@Base 4:4.13.0.1
+ (optional=templinst)_ZSt4swapIN7Akonadi4ItemEEvRT_S3_@Base 4:4.13.0.1
+ (optional=templinst)_ZSt6__findIPK10QByteArrayS0_ET_S3_S3_RKT0_St26random_access_iterator_tag@Base 4:4.13.0.5
+ (optional=templinst)_ZSt6__findIPK7QStringS0_ET_S3_S3_RKT0_St26random_access_iterator_tag@Base 4:4.13.0.5
+ (optional=templinst)_ZSt9__find_ifIN5QListIN7Akonadi10CollectionEE14const_iteratorEN5boost3_bi6bind_tIbNS5_4_mfi4cmf0Ib7QStringEENS6_5list1INS7_ISA_NS9_ISA_NS1_6EntityEEENSC_INS5_3argILi1EEEEEEEEEEEET_SL_SL_T0_St26random_access_iterator_tag@Base 4:4.13.0.5
+ (optional=templinst)_ZSt9__find_ifIN5QListIN7Akonadi10CollectionEE14const_iteratorEN5boost3_bi6bind_tIbNS6_11logical_notENS6_5list1INS7_IbPFbRKS2_ENS9_INS5_3argILi1EEEEEEEEEEEET_SK_SK_T0_St26random_access_iterator_tag@Base 4:4.13.0.5
+ (optional=templinst)_ZSt9__find_ifIN5QListIN7Akonadi3TagEE14const_iteratorEN5boost3_bi6bind_tIbNS5_4_mfi4cmf0Ib10QByteArrayEENS6_5list1INS7_ISA_NS9_ISA_S2_EENSC_INS5_3argILi1EEEEEEEEEEEET_SK_SK_T0_St26random_access_iterator_tag@Base 4:4.13.0.5
+ (optional=templinst)_ZSt9__find_ifIN5QListIN7Akonadi4ItemEE14const_iteratorEN5boost3_bi6bind_tIbNS5_4_mfi4cmf0Ib7QStringEENS6_5list1INS7_ISA_NS9_ISA_NS1_6EntityEEENSC_INS5_3argILi1EEEEEEEEEEEET_SL_SL_T0_St26random_access_iterator_tag@Base 4:4.13.0.5
+ (optional=templinst)_ZSt9__find_ifIN5QListIN7Akonadi4ItemEE14const_iteratorEN5boost3_bi6bind_tIbNS5_4_mfi4cmf0Ib7QStringEENS6_5list1INS7_ISA_NS9_ISA_S2_EENSC_INS5_3argILi1EEEEEEEEEEEET_SK_SK_T0_St26random_access_iterator_tag@Base 4:4.13.0.5
+ (optional=templinst)_ZSt9__find_ifIN5QListIN7Akonadi4ItemEE14const_iteratorEN5boost3_bi6bind_tIbNS5_4_mfi4cmf1IbNS1_6EntityERKSA_EENS6_5list2INS7_INS1_10CollectionENS8_4cmf0ISF_S2_EENS6_5list1INS5_3argILi1EEEEEEENS6_5valueISF_EEEEEEET_SR_SR_T0_St26random_access_iterator_tag@Base 4:4.13.0.5
+ (optional=templinst)_ZSt9__find_ifIN5QListIN7Akonadi4ItemEE14const_iteratorEN5boost3_bi6bind_tIbNS6_11logical_notENS6_5list1INS7_IbPFbRKS2_ENS9_INS5_3argILi1EEEEEEEEEEEET_SK_SK_T0_St26random_access_iterator_tag@Base 4:4.13.0.5
+ (optional=templinst)_ZSt9__find_ifIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_5equalENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS6_5valueIxEEEEEEET_SN_SN_T0_St26random_access_iterator_tag@Base 4:4.13.0.5
+ (optional=templinst)_ZSt9__find_ifIN9__gnu_cxx17__normal_iteratorIPN7Akonadi7_detail12TypedPayloadESt6vectorIS4_SaIS4_EEEENS3_28BySharedPointerAndMetaTypeIDEET_SB_SB_T0_St26random_access_iterator_tag@Base 4:4.13.0.5
+ (optional=templinst)_ZSt9make_heapIN5QListIN7Akonadi10CollectionEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.13.0.5
+ (optional=templinst)_ZSt9make_heapIN5QListIN7Akonadi3TagEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxS2_EENS6_5list1INS5_3argILi1EEEEEEENS7_IxSC_NSD_INSE_ILi2EEEEEEEEEEEEvT_SN_T0_@Base 4:4.13.0.5
+ (optional=templinst)_ZSt9make_heapIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.13.0.5
+ _ZTI12RelationSync@Base 4:4.13.0.1
+ _ZTI33CollectionIdentificationAttribute@Base 4:4.13.0.1
+ _ZTI7TagSync@Base 4:4.13.0.1
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
  _Z5qHashRKN7Akonadi3TagE@Base 4:4.13.1
  _Z5qHashRKN7Akonadi6EntityE@Base 4:4.3.4
- _Z5qHashRKN7Akonadi8RelationE@Base 4:4.13.0~kolab
- _ZN12RelationSync10slotResultEP4KJob@Base 4:4.13.0~kolab
- _ZN12RelationSync11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0~kolab
- _ZN12RelationSync11qt_metacastEPKc@Base 4:4.13.0~kolab
- _ZN12RelationSync13diffRelationsEv@Base 4:4.13.0~kolab
- _ZN12RelationSync16onLocalFetchDoneEP4KJob@Base 4:4.13.0~kolab
- _ZN12RelationSync16staticMetaObjectE@Base 4:4.13.0~kolab
- _ZN12RelationSync18setRemoteRelationsERK5QListIN7Akonadi8RelationEE@Base 4:4.13.0~kolab
- _ZN12RelationSync7doStartEv@Base 4:4.13.0~kolab
- _ZN12RelationSync9checkDoneEv@Base 4:4.13.0~kolab
- _ZN12RelationSyncC1EP7QObject@Base 4:4.13.0~kolab
- _ZN12RelationSyncC2EP7QObject@Base 4:4.13.0~kolab
- _ZN12RelationSyncD0Ev@Base 4:4.13.0~kolab
- _ZN12RelationSyncD1Ev@Base 4:4.13.0~kolab
- _ZN12RelationSyncD2Ev@Base 4:4.13.0~kolab
- _ZN33CollectionIdentificationAttribute11deserializeERK10QByteArray@Base 4:4.13.0~kolab
- _ZN33CollectionIdentificationAttribute13setIdentifierERK10QByteArray@Base 4:4.13.0~kolab
- _ZN33CollectionIdentificationAttribute22setCollectionNamespaceERK10QByteArray@Base 4:4.13.0~kolab
- _ZN33CollectionIdentificationAttribute5setOuERK10QByteArray@Base 4:4.13.0~kolab
- _ZN33CollectionIdentificationAttribute7setMailERK10QByteArray@Base 4:4.13.0~kolab
- _ZN33CollectionIdentificationAttribute7setNameERK10QByteArray@Base 4:4.13.0~kolab
- _ZN33CollectionIdentificationAttributeC1ERK10QByteArrayS2_S2_S2_S2_@Base 4:4.13.0~kolab
- _ZN33CollectionIdentificationAttributeC2ERK10QByteArrayS2_S2_S2_S2_@Base 4:4.13.0~kolab
- _ZN33CollectionIdentificationAttributeD0Ev@Base 4:4.13.0~kolab
- _ZN33CollectionIdentificationAttributeD1Ev@Base 4:4.13.0~kolab
- _ZN33CollectionIdentificationAttributeD2Ev@Base 4:4.13.0~kolab
- (optional=tempinst) _ZN4KUrl4ListD1Ev@Base 4:4.13.0.5
- (optional=tempinst) _ZN4KUrl4ListD2Ev@Base 4:4.13.0.5
- _ZN7Akonadi10Collection10setEnabledEb@Base 4:4.13.0~kolab
+ _Z5qHashRKN7Akonadi8RelationE@Base 4:4.13.0.1
+ _ZN12RelationSync10slotResultEP4KJob@Base 4:4.13.0.1
+ _ZN12RelationSync11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.1
+ _ZN12RelationSync11qt_metacastEPKc@Base 4:4.13.0.1
+ _ZN12RelationSync13diffRelationsEv@Base 4:4.13.0.1
+ _ZN12RelationSync16onLocalFetchDoneEP4KJob@Base 4:4.13.0.1
+ _ZN12RelationSync16staticMetaObjectE@Base 4:4.13.0.1
+ _ZN12RelationSync18setRemoteRelationsERK5QListIN7Akonadi8RelationEE@Base 4:4.13.0.1
+ _ZN12RelationSync7doStartEv@Base 4:4.13.0.1
+ _ZN12RelationSync9checkDoneEv@Base 4:4.13.0.1
+ _ZN12RelationSyncC1EP7QObject@Base 4:4.13.0.1
+ _ZN12RelationSyncC2EP7QObject@Base 4:4.13.0.1
+ _ZN12RelationSyncD0Ev@Base 4:4.13.0.1
+ _ZN12RelationSyncD1Ev@Base 4:4.13.0.1
+ _ZN12RelationSyncD2Ev@Base 4:4.13.0.1
+ _ZN33CollectionIdentificationAttribute11deserializeERK10QByteArray@Base 4:4.13.0.1
+ _ZN33CollectionIdentificationAttribute13setIdentifierERK10QByteArray@Base 4:4.13.0.1
+ _ZN33CollectionIdentificationAttribute22setCollectionNamespaceERK10QByteArray@Base 4:4.13.0.1
+ _ZN33CollectionIdentificationAttribute5setOuERK10QByteArray@Base 4:4.13.0.1
+ _ZN33CollectionIdentificationAttribute7setMailERK10QByteArray@Base 4:4.13.0.1
+ _ZN33CollectionIdentificationAttribute7setNameERK10QByteArray@Base 4:4.13.0.1
+ _ZN33CollectionIdentificationAttributeC1ERK10QByteArrayS2_S2_S2_S2_@Base 4:4.13.0.1
+ _ZN33CollectionIdentificationAttributeC2ERK10QByteArrayS2_S2_S2_S2_@Base 4:4.13.0.1
+ _ZN33CollectionIdentificationAttributeD0Ev@Base 4:4.13.0.1
+ _ZN33CollectionIdentificationAttributeD1Ev@Base 4:4.13.0.1
+ _ZN33CollectionIdentificationAttributeD2Ev@Base 4:4.13.0.1
+ _ZN4KUrl4ListD1Ev@Base 4:4.13.0.5
+ _ZN4KUrl4ListD2Ev@Base 4:4.13.0.5
+ _ZN7Akonadi10Collection10setEnabledEb@Base 4:4.13.0.1
  _ZN7Akonadi10Collection10setVirtualEb@Base 4:4.10.0
  _ZN7Akonadi10Collection11setResourceERK7QString@Base 4:4.3.4
- _ZN7Akonadi10Collection13setReferencedEb@Base 4:4.13.0~kolab
- _ZN7Akonadi10Collection13setShouldListENS0_11ListPurposeEb@Base 4:4.13.0~kolab
+ _ZN7Akonadi10Collection13setReferencedEb@Base 4:4.13.0.1
+ _ZN7Akonadi10Collection13setShouldListENS0_11ListPurposeEb@Base 4:4.13.0.1
  _ZN7Akonadi10Collection13setStatisticsERKNS_20CollectionStatisticsE@Base 4:4.3.4
  _ZN7Akonadi10Collection14setCachePolicyERKNS_11CachePolicyE@Base 4:4.3.4
  _ZN7Akonadi10Collection15virtualMimeTypeEv@Base 4:4.11.1
  _ZN7Akonadi10Collection17setParentRemoteIdERK7QString@Base 4:4.3.4
  _ZN7Akonadi10Collection19setContentMimeTypesERK11QStringList@Base 4:4.3.4
- _ZN7Akonadi10Collection19setKeepLocalChangesERK4QSetI10QByteArrayE@Base 4:4.13.0~kolab
- _ZN7Akonadi10Collection22setLocalListPreferenceENS0_11ListPurposeENS0_14ListPreferenceE@Base 4:4.13.0~kolab
+ _ZN7Akonadi10Collection19setKeepLocalChangesERK4QSetI10QByteArrayE@Base 4:4.13.0.1
+ _ZN7Akonadi10Collection22setLocalListPreferenceENS0_11ListPurposeENS0_14ListPreferenceE@Base 4:4.13.0.1
  _ZN7Akonadi10Collection4rootEv@Base 4:4.3.4
  _ZN7Akonadi10Collection6d_funcEv@Base 4:4.3.4
  _ZN7Akonadi10Collection7fromUrlERK4KUrl@Base 4:4.3.4
@@ -112,10 +531,10 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi11ItemMoveJob16staticMetaObjectE@Base 4:4.3.4
  _ZN7Akonadi11ItemMoveJob7doStartEv@Base 4:4.3.4
  _ZN7Akonadi11ItemMoveJobC1ERK5QListINS_4ItemEERKNS_10CollectionEP7QObject@Base 4:4.3.4
- _ZN7Akonadi11ItemMoveJobC1ERK5QListINS_4ItemEERKNS_10CollectionES8_P7QObject@Base 4:4.13.0~kolab
+ _ZN7Akonadi11ItemMoveJobC1ERK5QListINS_4ItemEERKNS_10CollectionES8_P7QObject@Base 4:4.13.0.1
  _ZN7Akonadi11ItemMoveJobC1ERKNS_4ItemERKNS_10CollectionEP7QObject@Base 4:4.3.4
  _ZN7Akonadi11ItemMoveJobC2ERK5QListINS_4ItemEERKNS_10CollectionEP7QObject@Base 4:4.3.4
- _ZN7Akonadi11ItemMoveJobC2ERK5QListINS_4ItemEERKNS_10CollectionES8_P7QObject@Base 4:4.13.0~kolab
+ _ZN7Akonadi11ItemMoveJobC2ERK5QListINS_4ItemEERKNS_10CollectionES8_P7QObject@Base 4:4.13.0.1
  _ZN7Akonadi11ItemMoveJobC2ERKNS_4ItemERKNS_10CollectionEP7QObject@Base 4:4.3.4
  _ZN7Akonadi11ItemMoveJobD0Ev@Base 4:4.3.4
  _ZN7Akonadi11ItemMoveJobD1Ev@Base 4:4.3.4
@@ -197,12 +616,12 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi12ItemFetchJobC1ERK5QListINS_4ItemEEP7QObject@Base 4:4.4.0
  _ZN7Akonadi12ItemFetchJobC1ERK5QListIxEP7QObject@Base 4:4.8.1
  _ZN7Akonadi12ItemFetchJobC1ERKNS_10CollectionEP7QObject@Base 4:4.3.4
- _ZN7Akonadi12ItemFetchJobC1ERKNS_3TagEP7QObject@Base 4:4.13.0~kolab
+ _ZN7Akonadi12ItemFetchJobC1ERKNS_3TagEP7QObject@Base 4:4.13.0.1
  _ZN7Akonadi12ItemFetchJobC1ERKNS_4ItemEP7QObject@Base 4:4.3.4
  _ZN7Akonadi12ItemFetchJobC2ERK5QListINS_4ItemEEP7QObject@Base 4:4.4.0
  _ZN7Akonadi12ItemFetchJobC2ERK5QListIxEP7QObject@Base 4:4.8.1
  _ZN7Akonadi12ItemFetchJobC2ERKNS_10CollectionEP7QObject@Base 4:4.3.4
- _ZN7Akonadi12ItemFetchJobC2ERKNS_3TagEP7QObject@Base 4:4.13.0~kolab
+ _ZN7Akonadi12ItemFetchJobC2ERKNS_3TagEP7QObject@Base 4:4.13.0.1
  _ZN7Akonadi12ItemFetchJobC2ERKNS_4ItemEP7QObject@Base 4:4.3.4
  _ZN7Akonadi12ItemFetchJobD0Ev@Base 4:4.3.4
  _ZN7Akonadi12ItemFetchJobD1Ev@Base 4:4.3.4
@@ -215,29 +634,29 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi12ResourceBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase11synchronizeEv@Base 4:4.3.4
- _ZN7Akonadi12ResourceBase12retrieveTagsEv@Base 4:4.13.0~kolab
+ _ZN7Akonadi12ResourceBase12retrieveTagsEv@Base 4:4.13.0.1
  _ZN7Akonadi12ResourceBase12synchronizedEv@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase13abortActivityEv@Base 4:4.5.86
  _ZN7Akonadi12ResourceBase13itemRetrievedERKNS_4ItemE@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase13setTotalItemsEi@Base 4:4.3.4
- _ZN7Akonadi12ResourceBase13tagsRetrievedERK5QListINS_3TagEERK5QHashI7QStringS1_INS_4ItemEEE@Base 4:4.13.0~kolab
+ _ZN7Akonadi12ResourceBase13tagsRetrievedERK5QListINS_3TagEERK5QHashI7QStringS1_INS_4ItemEEE@Base 4:4.13.0.1
  _ZN7Akonadi12ResourceBase14itemsRetrievedERK5QListINS_4ItemEE@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase14parseArgumentsEiPPc@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase15changeCommittedERKNS_10CollectionE@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase15changeCommittedERKNS_3TagE@Base 4:4.13.0.6
  _ZN7Akonadi12ResourceBase15changeCommittedERKNS_4ItemE@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase15invalidateCacheERKNS_10CollectionE@Base 4:4.8.1
- _ZN7Akonadi12ResourceBase15synchronizeTagsEv@Base 4:4.13.0~kolab
+ _ZN7Akonadi12ResourceBase15synchronizeTagsEv@Base 4:4.13.0.1
  _ZN7Akonadi12ResourceBase16changesCommittedERK5QListINS_4ItemEE@Base 4:4.11.1
  _ZN7Akonadi12ResourceBase16staticMetaObjectE@Base 4:4.3.4
- _ZN7Akonadi12ResourceBase17retrieveRelationsEv@Base 4:4.13.0~kolab
+ _ZN7Akonadi12ResourceBase17retrieveRelationsEv@Base 4:4.13.0.1
  _ZN7Akonadi12ResourceBase18itemsRetrievalDoneEv@Base 4:4.3.4
- _ZN7Akonadi12ResourceBase18relationsRetrievedERK5QListINS_8RelationEE@Base 4:4.13.0~kolab
+ _ZN7Akonadi12ResourceBase18relationsRetrievedERK5QListINS_8RelationEE@Base 4:4.13.0.1
  _ZN7Akonadi12ResourceBase18scheduleCustomTaskEP7QObjectPKcRK8QVariantNS0_16SchedulePriorityE@Base 4:4.4.0
  _ZN7Akonadi12ResourceBase19requestItemDeliveryExRK7QStringS3_RK11QStringList@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase20collectionsRetrievedERK5QListINS_10CollectionEE@Base 4:4.3.4
- _ZN7Akonadi12ResourceBase20setItemSyncBatchSizeEi@Base 4:4.13.0~kolab
- _ZN7Akonadi12ResourceBase20synchronizeRelationsEv@Base 4:4.13.0~kolab
+ _ZN7Akonadi12ResourceBase20setItemSyncBatchSizeEi@Base 4:4.13.0.1
+ _ZN7Akonadi12ResourceBase20synchronizeRelationsEv@Base 4:4.13.0.1
  _ZN7Akonadi12ResourceBase21requestItemDeliveryV2ExRK7QStringS3_RK11QStringList@Base 4:4.9.3
  _ZN7Akonadi12ResourceBase21synchronizeCollectionEx@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase21synchronizeCollectionExb@Base 4:4.5.90
@@ -246,20 +665,20 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi12ResourceBase23setItemStreamingEnabledEb@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase24collectionsRetrievalDoneEv@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase25itemsRetrievedIncrementalERK5QListINS_4ItemEES5_@Base 4:4.3.4
- _ZN7Akonadi12ResourceBase25retrieveNextItemSyncBatchEi@Base 4:4.13.0~kolab
+ _ZN7Akonadi12ResourceBase25retrieveNextItemSyncBatchEi@Base 4:4.13.0.1
  _ZN7Akonadi12ResourceBase25synchronizeCollectionTreeEv@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase26collectionTreeSynchronizedEv@Base 4:4.8.1
  _ZN7Akonadi12ResourceBase28retrieveCollectionAttributesERKNS_10CollectionE@Base 4:4.5.86
  _ZN7Akonadi12ResourceBase29collectionAttributesRetrievedERKNS_10CollectionE@Base 4:4.5.86
  _ZN7Akonadi12ResourceBase29setAutomaticProgressReportingEb@Base 4:4.7.0
  _ZN7Akonadi12ResourceBase29setCollectionStreamingEnabledEb@Base 4:4.3.4
- _ZN7Akonadi12ResourceBase29setKeepLocalCollectionChangesERK4QSetI10QByteArrayE@Base 4:4.13.0~kolab
+ _ZN7Akonadi12ResourceBase29setKeepLocalCollectionChangesERK4QSetI10QByteArrayE@Base 4:4.13.0.1
  _ZN7Akonadi12ResourceBase31collectionsRetrievedIncrementalERK5QListINS_10CollectionEES5_@Base 4:4.3.4
- _ZN7Akonadi12ResourceBase31synchronizeCollectionAttributesERKNS_10CollectionE@Base 4:4.13.0~kolab
+ _ZN7Akonadi12ResourceBase31synchronizeCollectionAttributesERKNS_10CollectionE@Base 4:4.13.0.1
  _ZN7Akonadi12ResourceBase31synchronizeCollectionAttributesEx@Base 4:4.5.86
  _ZN7Akonadi12ResourceBase32setItemSynchronizationFetchScopeERKNS_14ItemFetchScopeE@Base 4:4.5.86
- _ZN7Akonadi12ResourceBase35setDisableAutomaticItemDeliveryDoneEb@Base 4:4.13.0~kolab
- _ZN7Akonadi12ResourceBase38setScheduleAttributeSyncBeforeItemSyncEb@Base 4:4.13.0~kolab
+ _ZN7Akonadi12ResourceBase35setDisableAutomaticItemDeliveryDoneEb@Base 4:4.13.0.1
+ _ZN7Akonadi12ResourceBase38setScheduleAttributeSyncBeforeItemSyncEb@Base 4:4.13.0.1
  _ZN7Akonadi12ResourceBase39setHierarchicalRemoteIdentifiersEnabledEb@Base 4:4.4.0
  _ZN7Akonadi12ResourceBase4initEPS0_@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase7setNameERK7QString@Base 4:4.3.4
@@ -333,7 +752,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi13ItemCreateJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.3.4
  _ZN7Akonadi13ItemCreateJob16staticMetaObjectE@Base 4:4.3.4
  _ZN7Akonadi13ItemCreateJob7doStartEv@Base 4:4.3.4
- _ZN7Akonadi13ItemCreateJob8setMergeE6QFlagsINS0_11MergeOptionEE@Base 4:4.13.0~kolab
+ _ZN7Akonadi13ItemCreateJob8setMergeE6QFlagsINS0_11MergeOptionEE@Base 4:4.13.0.1
  _ZN7Akonadi13ItemCreateJobC1ERKNS_4ItemERKNS_10CollectionEP7QObject@Base 4:4.3.4
  _ZN7Akonadi13ItemCreateJobC2ERKNS_4ItemERKNS_10CollectionEP7QObject@Base 4:4.3.4
  _ZN7Akonadi13ItemCreateJobD0Ev@Base 4:4.3.4
@@ -345,11 +764,11 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi13ItemDeleteJob7doStartEv@Base 4:4.3.4
  _ZN7Akonadi13ItemDeleteJobC1ERK5QListINS_4ItemEEP7QObject@Base 4:4.3.4
  _ZN7Akonadi13ItemDeleteJobC1ERKNS_10CollectionEP7QObject@Base 4:4.3.4
- _ZN7Akonadi13ItemDeleteJobC1ERKNS_3TagEP7QObject@Base 4:4.13.0~kolab
+ _ZN7Akonadi13ItemDeleteJobC1ERKNS_3TagEP7QObject@Base 4:4.13.0.1
  _ZN7Akonadi13ItemDeleteJobC1ERKNS_4ItemEP7QObject@Base 4:4.3.4
  _ZN7Akonadi13ItemDeleteJobC2ERK5QListINS_4ItemEEP7QObject@Base 4:4.3.4
  _ZN7Akonadi13ItemDeleteJobC2ERKNS_10CollectionEP7QObject@Base 4:4.3.4
- _ZN7Akonadi13ItemDeleteJobC2ERKNS_3TagEP7QObject@Base 4:4.13.0~kolab
+ _ZN7Akonadi13ItemDeleteJobC2ERKNS_3TagEP7QObject@Base 4:4.13.0.1
  _ZN7Akonadi13ItemDeleteJobC2ERKNS_4ItemEP7QObject@Base 4:4.3.4
  _ZN7Akonadi13ItemDeleteJobD0Ev@Base 4:4.3.4
  _ZN7Akonadi13ItemDeleteJobD1Ev@Base 4:4.3.4
@@ -415,7 +834,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi13ServerManagerD1Ev@Base 4:4.6.5
  _ZN7Akonadi13ServerManagerD2Ev@Base 4:4.6.5
  _ZN7Akonadi13TagFetchScope14fetchAttributeERK10QByteArrayb@Base 4:4.13.0.6
- _ZN7Akonadi13TagFetchScope14setFetchIdOnlyEb@Base 4:4.13.0~kolab
+ _ZN7Akonadi13TagFetchScope14setFetchIdOnlyEb@Base 4:4.13.0.1
  _ZN7Akonadi13TagFetchScopeC1ERKS0_@Base 4:4.13.0.6
  _ZN7Akonadi13TagFetchScopeC1Ev@Base 4:4.13.0.6
  _ZN7Akonadi13TagFetchScopeC2ERKS0_@Base 4:4.13.0.6
@@ -538,18 +957,18 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi14ItemFetchScope11setFetchGidEb@Base 4:4.12.2
  _ZN7Akonadi14ItemFetchScope12setCacheOnlyEb@Base 4:4.3.4
  _ZN7Akonadi14ItemFetchScope12setFetchTagsEb@Base 4:4.13.0.6
- _ZN7Akonadi14ItemFetchScope13tagFetchScopeEv@Base 4:4.13.0~kolab
+ _ZN7Akonadi14ItemFetchScope13tagFetchScopeEv@Base 4:4.13.0.1
  _ZN7Akonadi14ItemFetchScope14fetchAttributeERK10QByteArrayb@Base 4:4.3.4
  _ZN7Akonadi14ItemFetchScope16fetchFullPayloadEb@Base 4:4.3.4
  _ZN7Akonadi14ItemFetchScope16fetchPayloadPartERK10QByteArrayb@Base 4:4.3.4
- _ZN7Akonadi14ItemFetchScope16setTagFetchScopeERKNS_13TagFetchScopeE@Base 4:4.13.0~kolab
- _ZN7Akonadi14ItemFetchScope17setFetchRelationsEb@Base 4:4.13.0~kolab
+ _ZN7Akonadi14ItemFetchScope16setTagFetchScopeERKNS_13TagFetchScopeE@Base 4:4.13.0.1
+ _ZN7Akonadi14ItemFetchScope17setFetchRelationsEb@Base 4:4.13.0.1
  _ZN7Akonadi14ItemFetchScope18fetchAllAttributesEb@Base 4:4.3.4
  _ZN7Akonadi14ItemFetchScope20setAncestorRetrievalENS0_17AncestorRetrievalE@Base 4:4.4.0
  _ZN7Akonadi14ItemFetchScope20setFetchChangedSinceERK9KDateTime@Base 4:4.11.1
  _ZN7Akonadi14ItemFetchScope24setFetchModificationTimeEb@Base 4:4.5.86
  _ZN7Akonadi14ItemFetchScope24setIgnoreRetrievalErrorsEb@Base 4:4.10.2
- _ZN7Akonadi14ItemFetchScope25setFetchVirtualReferencesEb@Base 4:4.13.0~kolab
+ _ZN7Akonadi14ItemFetchScope25setFetchVirtualReferencesEb@Base 4:4.13.0.1
  _ZN7Akonadi14ItemFetchScope28setFetchRemoteIdentificationEb@Base 4:4.12.2
  _ZN7Akonadi14ItemFetchScope33setCheckForCachedPayloadPartsOnlyEb@Base 4:4.11.1
  _ZN7Akonadi14ItemFetchScopeC1ERKS0_@Base 4:4.3.4
@@ -632,18 +1051,18 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi15EntityTreeModel13clearAndResetEv@Base 4:4.4.0
  _ZN7Akonadi15EntityTreeModel13insertColumnsEiiRK11QModelIndex@Base 4:4.4.0
  _ZN7Akonadi15EntityTreeModel13removeColumnsEiiRK11QModelIndex@Base 4:4.4.0
- _ZN7Akonadi15EntityTreeModel13setListFilterENS_20CollectionFetchScope10ListFilterE@Base 4:4.13.0~kolab
+ _ZN7Akonadi15EntityTreeModel13setListFilterENS_20CollectionFetchScope10ListFilterE@Base 4:4.13.0.1
  _ZN7Akonadi15EntityTreeModel16staticMetaObjectE@Base 4:4.4.0
  _ZN7Akonadi15EntityTreeModel17collectionFetchedEi@Base 4:4.9.3
  _ZN7Akonadi15EntityTreeModel19collectionPopulatedEx@Base 4:4.10.0
  _ZN7Akonadi15EntityTreeModel19modelIndexesForItemEPK18QAbstractItemModelRKNS_4ItemE@Base 4:4.5.0
  _ZN7Akonadi15EntityTreeModel21collectionTreeFetchedERK5QListINS_10CollectionEE@Base 4:4.10.0
  _ZN7Akonadi15EntityTreeModel21setShowSystemEntitiesEb@Base 4:4.4.0
- _ZN7Akonadi15EntityTreeModel22setCollectionMonitoredERKNS_10CollectionEb@Base 4:4.13.0~kolab
+ _ZN7Akonadi15EntityTreeModel22setCollectionMonitoredERKNS_10CollectionEb@Base 4:4.13.0.1
  _ZN7Akonadi15EntityTreeModel22setIncludeUnsubscribedEb@Base 4:4.5.0
  _ZN7Akonadi15EntityTreeModel23modelIndexForCollectionEPK18QAbstractItemModelRKNS_10CollectionE@Base 4:4.5.0
- _ZN7Akonadi15EntityTreeModel23setCollectionReferencedERKNS_10CollectionEb@Base 4:4.13.0~kolab
- _ZN7Akonadi15EntityTreeModel23setCollectionsMonitoredERK5QListINS_10CollectionEE@Base 4:4.13.0~kolab
+ _ZN7Akonadi15EntityTreeModel23setCollectionReferencedERKNS_10CollectionEb@Base 4:4.13.0.1
+ _ZN7Akonadi15EntityTreeModel23setCollectionsMonitoredERK5QListINS_10CollectionEE@Base 4:4.13.0.1
  _ZN7Akonadi15EntityTreeModel24setIncludeRootCollectionEb@Base 4:4.4.0
  _ZN7Akonadi15EntityTreeModel25setItemPopulationStrategyENS0_22ItemPopulationStrategyE@Base 4:4.4.0
  _ZN7Akonadi15EntityTreeModel26setCollectionFetchStrategyENS0_23CollectionFetchStrategyE@Base 4:4.4.0
@@ -774,20 +1193,20 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi16PreprocessorBaseD0Ev@Base 4:4.4.0
  _ZN7Akonadi16PreprocessorBaseD1Ev@Base 4:4.4.0
  _ZN7Akonadi16PreprocessorBaseD2Ev@Base 4:4.4.0
- _ZN7Akonadi16RelationFetchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0~kolab
- _ZN7Akonadi16RelationFetchJob11qt_metacastEPKc@Base 4:4.13.0~kolab
- _ZN7Akonadi16RelationFetchJob11setResourceERK7QString@Base 4:4.13.0~kolab
- _ZN7Akonadi16RelationFetchJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.13.0~kolab
- _ZN7Akonadi16RelationFetchJob16staticMetaObjectE@Base 4:4.13.0~kolab
- _ZN7Akonadi16RelationFetchJob17relationsReceivedERK5QListINS_8RelationEE@Base 4:4.13.0~kolab
- _ZN7Akonadi16RelationFetchJob7doStartEv@Base 4:4.13.0~kolab
- _ZN7Akonadi16RelationFetchJobC1ERK11QStringListP7QObject@Base 4:4.13.0~kolab
- _ZN7Akonadi16RelationFetchJobC1ERKNS_8RelationEP7QObject@Base 4:4.13.0~kolab
- _ZN7Akonadi16RelationFetchJobC2ERK11QStringListP7QObject@Base 4:4.13.0~kolab
- _ZN7Akonadi16RelationFetchJobC2ERKNS_8RelationEP7QObject@Base 4:4.13.0~kolab
- _ZN7Akonadi16RelationFetchJobD0Ev@Base 4:4.13.0~kolab
- _ZN7Akonadi16RelationFetchJobD1Ev@Base 4:4.13.0~kolab
- _ZN7Akonadi16RelationFetchJobD2Ev@Base 4:4.13.0~kolab
+ _ZN7Akonadi16RelationFetchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.1
+ _ZN7Akonadi16RelationFetchJob11qt_metacastEPKc@Base 4:4.13.0.1
+ _ZN7Akonadi16RelationFetchJob11setResourceERK7QString@Base 4:4.13.0.1
+ _ZN7Akonadi16RelationFetchJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.13.0.1
+ _ZN7Akonadi16RelationFetchJob16staticMetaObjectE@Base 4:4.13.0.1
+ _ZN7Akonadi16RelationFetchJob17relationsReceivedERK5QListINS_8RelationEE@Base 4:4.13.0.1
+ _ZN7Akonadi16RelationFetchJob7doStartEv@Base 4:4.13.0.1
+ _ZN7Akonadi16RelationFetchJobC1ERK11QStringListP7QObject@Base 4:4.13.0.1
+ _ZN7Akonadi16RelationFetchJobC1ERKNS_8RelationEP7QObject@Base 4:4.13.0.1
+ _ZN7Akonadi16RelationFetchJobC2ERK11QStringListP7QObject@Base 4:4.13.0.1
+ _ZN7Akonadi16RelationFetchJobC2ERKNS_8RelationEP7QObject@Base 4:4.13.0.1
+ _ZN7Akonadi16RelationFetchJobD0Ev@Base 4:4.13.0.1
+ _ZN7Akonadi16RelationFetchJobD1Ev@Base 4:4.13.0.1
+ _ZN7Akonadi16RelationFetchJobD2Ev@Base 4:4.13.0.1
  _ZN7Akonadi16ResourceSettings11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.86
  _ZN7Akonadi16ResourceSettings11qt_metacastEPKc@Base 4:4.5.86
  _ZN7Akonadi16ResourceSettings16staticMetaObjectE@Base 4:4.5.86
@@ -832,26 +1251,26 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi17ETMViewStateSaverD0Ev@Base 4:4.6.5
  _ZN7Akonadi17ETMViewStateSaverD1Ev@Base 4:4.6.5
  _ZN7Akonadi17ETMViewStateSaverD2Ev@Base 4:4.6.5
- _ZN7Akonadi17RelationCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationCreateJob11qt_metacastEPKc@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationCreateJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationCreateJob16staticMetaObjectE@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationCreateJob7doStartEv@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationCreateJobC1ERKNS_8RelationEP7QObject@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationCreateJobC2ERKNS_8RelationEP7QObject@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationCreateJobD0Ev@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationCreateJobD1Ev@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationCreateJobD2Ev@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationDeleteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationDeleteJob11qt_metacastEPKc@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationDeleteJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationDeleteJob16staticMetaObjectE@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationDeleteJob7doStartEv@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationDeleteJobC1ERKNS_8RelationEP7QObject@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationDeleteJobC2ERKNS_8RelationEP7QObject@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationDeleteJobD0Ev@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationDeleteJobD1Ev@Base 4:4.13.0~kolab
- _ZN7Akonadi17RelationDeleteJobD2Ev@Base 4:4.13.0~kolab
+ _ZN7Akonadi17RelationCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationCreateJob11qt_metacastEPKc@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationCreateJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationCreateJob16staticMetaObjectE@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationCreateJob7doStartEv@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationCreateJobC1ERKNS_8RelationEP7QObject@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationCreateJobC2ERKNS_8RelationEP7QObject@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationCreateJobD0Ev@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationCreateJobD1Ev@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationCreateJobD2Ev@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationDeleteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationDeleteJob11qt_metacastEPKc@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationDeleteJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationDeleteJob16staticMetaObjectE@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationDeleteJob7doStartEv@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationDeleteJobC1ERKNS_8RelationEP7QObject@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationDeleteJobC2ERKNS_8RelationEP7QObject@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationDeleteJobD0Ev@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationDeleteJobD1Ev@Base 4:4.13.0.1
+ _ZN7Akonadi17RelationDeleteJobD2Ev@Base 4:4.13.0.1
  _ZN7Akonadi18AgentActionManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.86
  _ZN7Akonadi18AgentActionManager11qt_metacastEPKc@Base 4:4.5.86
  _ZN7Akonadi18AgentActionManager12createActionENS0_4TypeE@Base 4:4.5.86
@@ -1004,7 +1423,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi19CollectionModifyJobD0Ev@Base 4:4.3.4
  _ZN7Akonadi19CollectionModifyJobD1Ev@Base 4:4.3.4
  _ZN7Akonadi19CollectionModifyJobD2Ev@Base 4:4.3.4
- _ZN7Akonadi19CollectionRequester11changeEventEP6QEvent@Base 4:4.13.0~kolab
+ _ZN7Akonadi19CollectionRequester11changeEventEP6QEvent@Base 4:4.13.0.1
  _ZN7Akonadi19CollectionRequester11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi19CollectionRequester11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi19CollectionRequester13setCollectionERKNS_10CollectionE@Base 4:4.3.4
@@ -1034,10 +1453,10 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi19CollectionSelectJobD0Ev@Base 4:4.3.4
  _ZN7Akonadi19CollectionSelectJobD1Ev@Base 4:4.3.4
  _ZN7Akonadi19CollectionSelectJobD2Ev@Base 4:4.3.4
- _ZN7Akonadi19IncidenceSearchTerm5toKeyENS0_20IncidenceSearchFieldE@Base 4:4.13.0~kolab
- _ZN7Akonadi19IncidenceSearchTerm7fromKeyERK7QString@Base 4:4.13.0~kolab
- _ZN7Akonadi19IncidenceSearchTermC1ENS0_20IncidenceSearchFieldERK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.0~kolab
- _ZN7Akonadi19IncidenceSearchTermC2ENS0_20IncidenceSearchFieldERK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.0~kolab
+ _ZN7Akonadi19IncidenceSearchTerm5toKeyENS0_20IncidenceSearchFieldE@Base 4:4.13.0.1
+ _ZN7Akonadi19IncidenceSearchTerm7fromKeyERK7QString@Base 4:4.13.0.1
+ _ZN7Akonadi19IncidenceSearchTermC1ENS0_20IncidenceSearchFieldERK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.0.1
+ _ZN7Akonadi19IncidenceSearchTermC2ENS0_20IncidenceSearchFieldERK8QVariantNS_10SearchTerm9ConditionE@Base 4:4.13.0.1
  _ZN7Akonadi19SelectionProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN7Akonadi19SelectionProxyModel11qt_metacastEPKc@Base 4:4.4.0
  _ZN7Akonadi19SelectionProxyModel16staticMetaObjectE@Base 4:4.4.0
@@ -1089,16 +1508,16 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi20AgentSearchInterfaceD1Ev@Base 4:4.5.0
  _ZN7Akonadi20AgentSearchInterfaceD2Ev@Base 4:4.5.0
  _ZN7Akonadi20CollectionFetchScope11setResourceERK7QString@Base 4:4.4.0
- _ZN7Akonadi20CollectionFetchScope13setListFilterENS0_10ListFilterE@Base 4:4.13.0~kolab
- _ZN7Akonadi20CollectionFetchScope14fetchAttributeERK10QByteArrayb@Base 4:4.13.0~kolab
- _ZN7Akonadi20CollectionFetchScope14setFetchIdOnlyEb@Base 4:4.13.0~kolab
- _ZN7Akonadi20CollectionFetchScope18ancestorFetchScopeEv@Base 4:4.13.0~kolab
+ _ZN7Akonadi20CollectionFetchScope13setListFilterENS0_10ListFilterE@Base 4:4.13.0.1
+ _ZN7Akonadi20CollectionFetchScope14fetchAttributeERK10QByteArrayb@Base 4:4.13.0.1
+ _ZN7Akonadi20CollectionFetchScope14setFetchIdOnlyEb@Base 4:4.13.0.1
+ _ZN7Akonadi20CollectionFetchScope18ancestorFetchScopeEv@Base 4:4.13.0.1
  _ZN7Akonadi20CollectionFetchScope19setContentMimeTypesERK11QStringList@Base 4:4.4.0
  _ZN7Akonadi20CollectionFetchScope20setAncestorRetrievalENS0_17AncestorRetrievalE@Base 4:4.4.0
  _ZN7Akonadi20CollectionFetchScope20setIncludeStatisticsEb@Base 4:4.4.0
- _ZN7Akonadi20CollectionFetchScope21setAncestorFetchScopeERKS0_@Base 4:4.13.0~kolab
+ _ZN7Akonadi20CollectionFetchScope21setAncestorFetchScopeERKS0_@Base 4:4.13.0.1
  _ZN7Akonadi20CollectionFetchScope22setIncludeUnsubscribedEb@Base 4:4.4.0
- _ZN7Akonadi20CollectionFetchScope24setIgnoreRetrievalErrorsEb@Base 4:4.13.0~kolab
+ _ZN7Akonadi20CollectionFetchScope24setIgnoreRetrievalErrorsEb@Base 4:4.13.0.1
  _ZN7Akonadi20CollectionFetchScopeC1ERKS0_@Base 4:4.4.0
  _ZN7Akonadi20CollectionFetchScopeC1Ev@Base 4:4.4.0
  _ZN7Akonadi20CollectionFetchScopeC2ERKS0_@Base 4:4.4.0
@@ -1257,10 +1676,10 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi22CollectionPathResolver16staticMetaObjectE@Base 4:4.3.4
  _ZN7Akonadi22CollectionPathResolver7doStartEv@Base 4:4.3.4
  _ZN7Akonadi22CollectionPathResolverC1ERK7QStringP7QObject@Base 4:4.3.4
- _ZN7Akonadi22CollectionPathResolverC1ERK7QStringRKNS_10CollectionEP7QObject@Base 4:4.13.0~kolab
+ _ZN7Akonadi22CollectionPathResolverC1ERK7QStringRKNS_10CollectionEP7QObject@Base 4:4.13.0.1
  _ZN7Akonadi22CollectionPathResolverC1ERKNS_10CollectionEP7QObject@Base 4:4.3.4
  _ZN7Akonadi22CollectionPathResolverC2ERK7QStringP7QObject@Base 4:4.3.4
- _ZN7Akonadi22CollectionPathResolverC2ERK7QStringRKNS_10CollectionEP7QObject@Base 4:4.13.0~kolab
+ _ZN7Akonadi22CollectionPathResolverC2ERK7QStringRKNS_10CollectionEP7QObject@Base 4:4.13.0.1
  _ZN7Akonadi22CollectionPathResolverC2ERKNS_10CollectionEP7QObject@Base 4:4.3.4
  _ZN7Akonadi22CollectionPathResolverD0Ev@Base 4:4.3.4
  _ZN7Akonadi22CollectionPathResolverD1Ev@Base 4:4.3.4
@@ -1314,6 +1733,15 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi23EntityRightsFilterModelD0Ev@Base 4:4.5.86
  _ZN7Akonadi23EntityRightsFilterModelD1Ev@Base 4:4.5.86
  _ZN7Akonadi23EntityRightsFilterModelD2Ev@Base 4:4.5.86
+ _ZN7Akonadi24CollectionColorAttribute11deserializeERK10QByteArray@Base 4:4.13.0.5
+ _ZN7Akonadi24CollectionColorAttribute8setColorERK6QColor@Base 4:4.13.0.5
+ _ZN7Akonadi24CollectionColorAttributeC1ERK6QColor@Base 4:4.13.0.5
+ _ZN7Akonadi24CollectionColorAttributeC1Ev@Base 4:4.13.0.5
+ _ZN7Akonadi24CollectionColorAttributeC2ERK6QColor@Base 4:4.13.0.5
+ _ZN7Akonadi24CollectionColorAttributeC2Ev@Base 4:4.13.0.5
+ _ZN7Akonadi24CollectionColorAttributeD0Ev@Base 4:4.13.0.5
+ _ZN7Akonadi24CollectionColorAttributeD1Ev@Base 4:4.13.0.5
+ _ZN7Akonadi24CollectionColorAttributeD2Ev@Base 4:4.13.0.5
  _ZN7Akonadi24CollectionPropertiesPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi24CollectionPropertiesPage11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi24CollectionPropertiesPage12setPageTitleERK7QString@Base 4:4.3.4
@@ -1574,7 +2002,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  (optional=templinst)_ZN7Akonadi4Item18addToLegacyMappingI10QByteArrayEEvRK7QString@Base 4:4.5.86
  _ZN7Akonadi4Item18setPayloadFromDataERK10QByteArray@Base 4:4.3.4
  _ZN7Akonadi4Item19setModificationTimeERK9QDateTime@Base 4:4.3.4
- _ZN7Akonadi4Item20setVirtualReferencesERK5QListINS_10CollectionEE@Base 4:4.13.0~kolab
+ _ZN7Akonadi4Item20setVirtualReferencesERK5QListINS_10CollectionEE@Base 4:4.13.0.1
  _ZN7Akonadi4Item21setCachedPayloadPartsERK4QSetI10QByteArrayE@Base 4:4.11.1
  _ZN7Akonadi4Item22addToLegacyMappingImplERK7QStringiiSt8auto_ptrINS_11PayloadBaseEE@Base 4:4.5.86
  _ZN7Akonadi4Item22setStorageCollectionIdEx@Base 4:4.3.4
@@ -1656,19 +2084,19 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi7Monitor12allMonitoredEb@Base 4:4.3.4
  _ZN7Akonadi7Monitor12itemUnlinkedERKNS_4ItemERKNS_10CollectionE@Base 4:4.3.4
  _ZN7Akonadi7Monitor12itemsRemovedERK5QListINS_4ItemEE@Base 4:4.11.1
- _ZN7Akonadi7Monitor12setExclusiveEb@Base 4:4.13.0~kolab
+ _ZN7Akonadi7Monitor12setExclusiveEb@Base 4:4.13.0.1
  _ZN7Akonadi7Monitor12tagMonitoredERKNS_3TagEb@Base 4:4.13.0.6
  _ZN7Akonadi7Monitor13ignoreSessionEPNS_7SessionE@Base 4:4.3.4
  _ZN7Akonadi7Monitor13itemMonitoredERKNS_4ItemEb@Base 4:4.3.4
  _ZN7Akonadi7Monitor13itemsUnlinkedERK5QListINS_4ItemEERKNS_10CollectionE@Base 4:4.11.1
- _ZN7Akonadi7Monitor13relationAddedERKNS_8RelationE@Base 4:4.13.0~kolab
+ _ZN7Akonadi7Monitor13relationAddedERKNS_8RelationE@Base 4:4.13.0.1
  _ZN7Akonadi7Monitor13tagFetchScopeEv@Base 4:4.13.0.6
  _ZN7Akonadi7Monitor13typeMonitoredENS0_4TypeEb@Base 4:4.13.0.6
  _ZN7Akonadi7Monitor14itemFetchScopeEv@Base 4:4.3.4
  _ZN7Akonadi7Monitor15collectionAddedERKNS_10CollectionES3_@Base 4:4.3.4
  _ZN7Akonadi7Monitor15collectionMovedERKNS_10CollectionES3_S3_@Base 4:4.4.0
  _ZN7Akonadi7Monitor15fetchCollectionEb@Base 4:4.3.4
- _ZN7Akonadi7Monitor15relationRemovedERKNS_8RelationE@Base 4:4.13.0~kolab
+ _ZN7Akonadi7Monitor15relationRemovedERKNS_8RelationE@Base 4:4.13.0.1
  _ZN7Akonadi7Monitor15setAllMonitoredEb@Base 4:4.3.4
  _ZN7Akonadi7Monitor15setTagMonitoredERKNS_3TagEb@Base 4:4.13.0.6
  _ZN7Akonadi7Monitor16fetchChangedOnlyEb@Base 4:4.8.1
@@ -1689,7 +2117,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi7Monitor20collectionSubscribedERKNS_10CollectionES3_@Base 4:4.5.86
  _ZN7Akonadi7Monitor20setMimeTypeMonitoredERK7QStringb@Base 4:4.3.4
  _ZN7Akonadi7Monitor20setResourceMonitoredERK10QByteArrayb@Base 4:4.3.4
- _ZN7Akonadi7Monitor21itemsRelationsChangedERK5QListINS_4ItemEERKS1_INS_8RelationEES9_@Base 4:4.13.0~kolab
+ _ZN7Akonadi7Monitor21itemsRelationsChangedERK5QListINS_4ItemEERKS1_INS_8RelationEES9_@Base 4:4.13.0.1
  _ZN7Akonadi7Monitor22collectionUnsubscribedERKNS_10CollectionE@Base 4:4.5.86
  _ZN7Akonadi7Monitor22setCollectionMonitoredERKNS_10CollectionEb@Base 4:4.3.4
  _ZN7Akonadi7Monitor23setCollectionFetchScopeERKNS_20CollectionFetchScopeE@Base 4:4.4.0
@@ -1725,17 +2153,17 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi8ItemSync11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi8ItemSync11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi8ItemSync12deliveryDoneEv@Base 4:4.3.4
- _ZN7Akonadi8ItemSync12setBatchSizeEi@Base 4:4.13.0~kolab
+ _ZN7Akonadi8ItemSync12setBatchSizeEi@Base 4:4.13.0.1
  _ZN7Akonadi8ItemSync13setFetchScopeERNS_14ItemFetchScopeE@Base 4:4.3.4
  _ZN7Akonadi8ItemSync13setTotalItemsEi@Base 4:4.3.4
  _ZN7Akonadi8ItemSync16setFullSyncItemsERK5QListINS_4ItemEE@Base 4:4.3.4
  _ZN7Akonadi8ItemSync16staticMetaObjectE@Base 4:4.3.4
- _ZN7Akonadi8ItemSync17readyForNextBatchEi@Base 4:4.13.0~kolab
+ _ZN7Akonadi8ItemSync17readyForNextBatchEi@Base 4:4.13.0.1
  _ZN7Akonadi8ItemSync18setTransactionModeENS0_15TransactionModeE@Base 4:4.5.86
  _ZN7Akonadi8ItemSync19setStreamingEnabledEb@Base 4:4.3.4
- _ZN7Akonadi8ItemSync20transactionCommittedEv@Base 4:4.13.0~kolab
+ _ZN7Akonadi8ItemSync20transactionCommittedEv@Base 4:4.13.0.1
  _ZN7Akonadi8ItemSync23setIncrementalSyncItemsERK5QListINS_4ItemEES5_@Base 4:4.3.4
- _ZN7Akonadi8ItemSync31setDisableAutomaticDeliveryDoneEb@Base 4:4.13.0~kolab
+ _ZN7Akonadi8ItemSync31setDisableAutomaticDeliveryDoneEb@Base 4:4.13.0.1
  _ZN7Akonadi8ItemSync7doStartEv@Base 4:4.3.4
  _ZN7Akonadi8ItemSync8rollbackEv@Base 4:4.5.0
  _ZN7Akonadi8ItemSyncC1ERKNS_10CollectionEP7QObject@Base 4:4.3.4
@@ -1769,18 +2197,18 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi8ItemViewD0Ev@Base 4:4.3.4
  _ZN7Akonadi8ItemViewD1Ev@Base 4:4.3.4
  _ZN7Akonadi8ItemViewD2Ev@Base 4:4.3.4
- _ZN7Akonadi8Relation7GENERICE@Base 4:4.13.0~kolab
- _ZN7Akonadi8Relation7setLeftERKNS_4ItemE@Base 4:4.13.0~kolab
- _ZN7Akonadi8Relation8setRightERKNS_4ItemE@Base 4:4.13.0~kolab
- _ZN7Akonadi8RelationC1ERK10QByteArrayRKNS_4ItemES6_@Base 4:4.13.0~kolab
- _ZN7Akonadi8RelationC1ERKS0_@Base 4:4.13.0~kolab
- _ZN7Akonadi8RelationC1Ev@Base 4:4.13.0~kolab
- _ZN7Akonadi8RelationC2ERK10QByteArrayRKNS_4ItemES6_@Base 4:4.13.0~kolab
- _ZN7Akonadi8RelationC2ERKS0_@Base 4:4.13.0~kolab
- _ZN7Akonadi8RelationC2Ev@Base 4:4.13.0~kolab
- _ZN7Akonadi8RelationD1Ev@Base 4:4.13.0~kolab
- _ZN7Akonadi8RelationD2Ev@Base 4:4.13.0~kolab
- _ZN7Akonadi8RelationaSERKS0_@Base 4:4.13.0~kolab
+ _ZN7Akonadi8Relation7GENERICE@Base 4:4.13.0.1
+ _ZN7Akonadi8Relation7setLeftERKNS_4ItemE@Base 4:4.13.0.1
+ _ZN7Akonadi8Relation8setRightERKNS_4ItemE@Base 4:4.13.0.1
+ _ZN7Akonadi8RelationC1ERK10QByteArrayRKNS_4ItemES6_@Base 4:4.13.0.1
+ _ZN7Akonadi8RelationC1ERKS0_@Base 4:4.13.0.1
+ _ZN7Akonadi8RelationC1Ev@Base 4:4.13.0.1
+ _ZN7Akonadi8RelationC2ERK10QByteArrayRKNS_4ItemES6_@Base 4:4.13.0.1
+ _ZN7Akonadi8RelationC2ERKS0_@Base 4:4.13.0.1
+ _ZN7Akonadi8RelationC2Ev@Base 4:4.13.0.1
+ _ZN7Akonadi8RelationD1Ev@Base 4:4.13.0.1
+ _ZN7Akonadi8RelationD2Ev@Base 4:4.13.0.1
+ _ZN7Akonadi8RelationaSERKS0_@Base 4:4.13.0.1
  _ZN7Akonadi8TagModel10insertRowsEiiRK11QModelIndex@Base 4:4.13.0.6
  _ZN7Akonadi8TagModel10removeRowsEiiRK11QModelIndex@Base 4:4.13.0.6
  _ZN7Akonadi8TagModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.6
@@ -1840,10 +2268,10 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi9AgentBase10ObserverV3D2Ev@Base 4:4.11.1
  _ZN7Akonadi9AgentBase10ObserverV410tagChangedERKNS_3TagE@Base 4:4.13.0.6
  _ZN7Akonadi9AgentBase10ObserverV410tagRemovedERKNS_3TagE@Base 4:4.13.0.6
- _ZN7Akonadi9AgentBase10ObserverV413relationAddedERKNS_8RelationE@Base 4:4.13.0~kolab
- _ZN7Akonadi9AgentBase10ObserverV415relationRemovedERKNS_8RelationE@Base 4:4.13.0~kolab
+ _ZN7Akonadi9AgentBase10ObserverV413relationAddedERKNS_8RelationE@Base 4:4.13.0.1
+ _ZN7Akonadi9AgentBase10ObserverV415relationRemovedERKNS_8RelationE@Base 4:4.13.0.1
  _ZN7Akonadi9AgentBase10ObserverV416itemsTagsChangedERK5QListINS_4ItemEERK4QSetINS_3TagEESB_@Base 4:4.13.0.6
- _ZN7Akonadi9AgentBase10ObserverV421itemsRelationsChangedERK5QListINS_4ItemEERKS2_INS_8RelationEESA_@Base 4:4.13.0~kolab
+ _ZN7Akonadi9AgentBase10ObserverV421itemsRelationsChangedERK5QListINS_4ItemEERKS2_INS_8RelationEESA_@Base 4:4.13.0.1
  _ZN7Akonadi9AgentBase10ObserverV48tagAddedERKNS_3TagE@Base 4:4.13.0.6
  _ZN7Akonadi9AgentBase10ObserverV4D0Ev@Base 4:4.13.0.6
  _ZN7Akonadi9AgentBase10ObserverV4D1Ev@Base 4:4.13.0.6
@@ -1961,49 +2389,49 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi9UnlinkJobD0Ev@Base 4:4.3.4
  _ZN7Akonadi9UnlinkJobD1Ev@Base 4:4.3.4
  _ZN7Akonadi9UnlinkJobD2Ev@Base 4:4.3.4
- _ZN7TagSync10slotResultEP4KJob@Base 4:4.13.0~kolab
- _ZN7TagSync11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0~kolab
- _ZN7TagSync11qt_metacastEPKc@Base 4:4.13.0~kolab
- _ZN7TagSync13setTagMembersERK5QHashI7QString5QListIN7Akonadi4ItemEEE@Base 4:4.13.0~kolab
- _ZN7TagSync14setFullTagListERK5QListIN7Akonadi3TagEE@Base 4:4.13.0~kolab
- _ZN7TagSync15onCreateTagDoneEP4KJob@Base 4:4.13.0~kolab
- _ZN7TagSync16staticMetaObjectE@Base 4:4.13.0~kolab
- _ZN7TagSync19onLocalTagFetchDoneEP4KJob@Base 4:4.13.0~kolab
- _ZN7TagSync19onTagItemsFetchDoneEP4KJob@Base 4:4.13.0~kolab
- _ZN7TagSync7doStartEv@Base 4:4.13.0~kolab
- _ZN7TagSync8diffTagsEv@Base 4:4.13.0~kolab
- _ZN7TagSync9checkDoneEv@Base 4:4.13.0~kolab
- _ZN7TagSync9onJobDoneEP4KJob@Base 4:4.13.0~kolab
- _ZN7TagSyncC1EP7QObject@Base 4:4.13.0~kolab
- _ZN7TagSyncC2EP7QObject@Base 4:4.13.0~kolab
- _ZN7TagSyncD0Ev@Base 4:4.13.0~kolab
- _ZN7TagSyncD1Ev@Base 4:4.13.0~kolab
- _ZN7TagSyncD2Ev@Base 4:4.13.0~kolab
- _ZNK12RelationSync10metaObjectEv@Base 4:4.13.0~kolab
- _ZNK33CollectionIdentificationAttribute10identifierEv@Base 4:4.13.0~kolab
- _ZNK33CollectionIdentificationAttribute10serializedEv@Base 4:4.13.0~kolab
- _ZNK33CollectionIdentificationAttribute19collectionNamespaceEv@Base 4:4.13.0~kolab
- _ZNK33CollectionIdentificationAttribute2ouEv@Base 4:4.13.0~kolab
- _ZNK33CollectionIdentificationAttribute4mailEv@Base 4:4.13.0~kolab
- _ZNK33CollectionIdentificationAttribute4nameEv@Base 4:4.13.0~kolab
- _ZNK33CollectionIdentificationAttribute4typeEv@Base 4:4.13.0~kolab
- _ZNK33CollectionIdentificationAttribute5cloneEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi10Collection10referencedEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi10Collection10shouldListENS0_11ListPurposeE@Base 4:4.13.0~kolab
+ _ZN7TagSync10slotResultEP4KJob@Base 4:4.13.0.1
+ _ZN7TagSync11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.0.1
+ _ZN7TagSync11qt_metacastEPKc@Base 4:4.13.0.1
+ _ZN7TagSync13setTagMembersERK5QHashI7QString5QListIN7Akonadi4ItemEEE@Base 4:4.13.0.1
+ _ZN7TagSync14setFullTagListERK5QListIN7Akonadi3TagEE@Base 4:4.13.0.1
+ _ZN7TagSync15onCreateTagDoneEP4KJob@Base 4:4.13.0.1
+ _ZN7TagSync16staticMetaObjectE@Base 4:4.13.0.1
+ _ZN7TagSync19onLocalTagFetchDoneEP4KJob@Base 4:4.13.0.1
+ _ZN7TagSync19onTagItemsFetchDoneEP4KJob@Base 4:4.13.0.1
+ _ZN7TagSync7doStartEv@Base 4:4.13.0.1
+ _ZN7TagSync8diffTagsEv@Base 4:4.13.0.1
+ _ZN7TagSync9checkDoneEv@Base 4:4.13.0.1
+ _ZN7TagSync9onJobDoneEP4KJob@Base 4:4.13.0.1
+ _ZN7TagSyncC1EP7QObject@Base 4:4.13.0.1
+ _ZN7TagSyncC2EP7QObject@Base 4:4.13.0.1
+ _ZN7TagSyncD0Ev@Base 4:4.13.0.1
+ _ZN7TagSyncD1Ev@Base 4:4.13.0.1
+ _ZN7TagSyncD2Ev@Base 4:4.13.0.1
+ _ZNK12RelationSync10metaObjectEv@Base 4:4.13.0.1
+ _ZNK33CollectionIdentificationAttribute10identifierEv@Base 4:4.13.0.1
+ _ZNK33CollectionIdentificationAttribute10serializedEv@Base 4:4.13.0.1
+ _ZNK33CollectionIdentificationAttribute19collectionNamespaceEv@Base 4:4.13.0.1
+ _ZNK33CollectionIdentificationAttribute2ouEv@Base 4:4.13.0.1
+ _ZNK33CollectionIdentificationAttribute4mailEv@Base 4:4.13.0.1
+ _ZNK33CollectionIdentificationAttribute4nameEv@Base 4:4.13.0.1
+ _ZNK33CollectionIdentificationAttribute4typeEv@Base 4:4.13.0.1
+ _ZNK33CollectionIdentificationAttribute5cloneEv@Base 4:4.13.0.1
+ _ZNK7Akonadi10Collection10referencedEv@Base 4:4.13.0.1
+ _ZNK7Akonadi10Collection10shouldListENS0_11ListPurposeE@Base 4:4.13.0.1
  _ZNK7Akonadi10Collection10statisticsEv@Base 4:4.3.4
  _ZNK7Akonadi10Collection11cachePolicyEv@Base 4:4.3.4
  _ZNK7Akonadi10Collection11displayNameEv@Base 4:4.11.1
  _ZNK7Akonadi10Collection14parentRemoteIdEv@Base 4:4.3.4
  _ZNK7Akonadi10Collection16contentMimeTypesEv@Base 4:4.3.4
- _ZNK7Akonadi10Collection16keepLocalChangesEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi10Collection19localListPreferenceENS0_11ListPurposeE@Base 4:4.13.0~kolab
+ _ZNK7Akonadi10Collection16keepLocalChangesEv@Base 4:4.13.0.1
+ _ZNK7Akonadi10Collection19localListPreferenceENS0_11ListPurposeE@Base 4:4.13.0.1
  _ZNK7Akonadi10Collection3urlENS0_7UrlTypeE@Base 4:4.7.0
  _ZNK7Akonadi10Collection3urlEv@Base 4:4.3.4
  _ZNK7Akonadi10Collection4nameEv@Base 4:4.3.4
  _ZNK7Akonadi10Collection6d_funcEv@Base 4:4.3.4
  _ZNK7Akonadi10Collection6parentEv@Base 4:4.3.4
  _ZNK7Akonadi10Collection6rightsEv@Base 4:4.3.4
- _ZNK7Akonadi10Collection7enabledEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi10Collection7enabledEv@Base 4:4.13.0.1
  _ZNK7Akonadi10Collection8resourceEv@Base 4:4.3.4
  _ZNK7Akonadi10Collection9isVirtualEv@Base 4:4.5.90
  _ZNK7Akonadi10SearchTerm3keyEv@Base 4:4.13.0.6
@@ -2044,13 +2472,13 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi12AgentManager9instancesEv@Base 4:4.3.4
  _ZNK7Akonadi12ItemFetchJob10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi12ItemFetchJob15deliveryOptionsEv@Base 4:4.13.0.6
- _ZNK7Akonadi12ItemFetchJob5countEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi12ItemFetchJob5countEv@Base 4:4.13.0.1
  _ZNK7Akonadi12ItemFetchJob5itemsEv@Base 4:4.3.4
  _ZNK7Akonadi12ResourceBase10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi12ResourceBase11currentItemEv@Base 4:4.3.4
  _ZNK7Akonadi12ResourceBase14dumpMemoryInfoEv@Base 4:4.11.1
  _ZNK7Akonadi12ResourceBase17currentCollectionEv@Base 4:4.3.4
- _ZNK7Akonadi12ResourceBase17itemSyncBatchSizeEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi12ResourceBase17itemSyncBatchSizeEv@Base 4:4.13.0.1
  _ZNK7Akonadi12ResourceBase21dumpSchedulerToStringEv@Base 4:4.8.1
  _ZNK7Akonadi12ResourceBase22dumpMemoryInfoToStringEv@Base 4:4.11.1
  _ZNK7Akonadi12ResourceBase28dumpNotificationListToStringEv@Base 4:4.8.1
@@ -2100,7 +2528,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi13ItemSearchJob9mimeTypesEv@Base 4:4.13.0.6
  _ZNK7Akonadi13ServerManager10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi13TagFetchScope10attributesEv@Base 4:4.13.0.6
- _ZNK7Akonadi13TagFetchScope11fetchIdOnlyEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi13TagFetchScope11fetchIdOnlyEv@Base 4:4.13.0.1
  _ZNK7Akonadi14AgentTypeModel10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi14AgentTypeModel11columnCountERK11QModelIndex@Base 4:4.3.4
  _ZNK7Akonadi14AgentTypeModel4dataERK11QModelIndexi@Base 4:4.3.4
@@ -2123,13 +2551,13 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi14ItemFetchScope11fullPayloadEv@Base 4:4.3.4
  _ZNK7Akonadi14ItemFetchScope12payloadPartsEv@Base 4:4.3.4
  _ZNK7Akonadi14ItemFetchScope13allAttributesEv@Base 4:4.3.4
- _ZNK7Akonadi14ItemFetchScope13tagFetchScopeEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi14ItemFetchScope14fetchRelationsEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi14ItemFetchScope13tagFetchScopeEv@Base 4:4.13.0.1
+ _ZNK7Akonadi14ItemFetchScope14fetchRelationsEv@Base 4:4.13.0.1
  _ZNK7Akonadi14ItemFetchScope17ancestorRetrievalEv@Base 4:4.4.0
  _ZNK7Akonadi14ItemFetchScope17fetchChangedSinceEv@Base 4:4.11.1
  _ZNK7Akonadi14ItemFetchScope21fetchModificationTimeEv@Base 4:4.5.86
  _ZNK7Akonadi14ItemFetchScope21ignoreRetrievalErrorsEv@Base 4:4.10.2
- _ZNK7Akonadi14ItemFetchScope22fetchVirtualReferencesEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi14ItemFetchScope22fetchVirtualReferencesEv@Base 4:4.13.0.1
  _ZNK7Akonadi14ItemFetchScope25fetchRemoteIdentificationEv@Base 4:4.12.2
  _ZNK7Akonadi14ItemFetchScope30checkForCachedPayloadPartsOnlyEv@Base 4:4.11.1
  _ZNK7Akonadi14ItemFetchScope7isEmptyEv@Base 4:4.3.4
@@ -2163,7 +2591,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi15EntityTreeModel10entityDataERKNS_10CollectionEii@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel10entityDataERKNS_4ItemEii@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel10headerDataEiN2Qt11OrientationEi@Base 4:4.4.0
- _ZNK7Akonadi15EntityTreeModel10listFilterEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi15EntityTreeModel10listFilterEv@Base 4:4.13.0.1
  _ZNK7Akonadi15EntityTreeModel10metaObjectEv@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel11columnCountERK11QModelIndex@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel11entityMatchERKNS_10CollectionERK8QVariant6QFlagsIN2Qt9MatchFlagEE@Base 4:4.4.0
@@ -2171,7 +2599,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi15EntityTreeModel11hasChildrenERK11QModelIndex@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel12canFetchMoreERK11QModelIndex@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel16entityHeaderDataEiN2Qt11OrientationEiNS0_11HeaderGroupE@Base 4:4.4.0
- _ZNK7Akonadi15EntityTreeModel16isFullyPopulatedEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi15EntityTreeModel16isFullyPopulatedEv@Base 4:4.13.0.1
  _ZNK7Akonadi15EntityTreeModel17entityColumnCountENS0_11HeaderGroupE@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel19includeUnsubscribedEv@Base 4:4.5.0
  _ZNK7Akonadi15EntityTreeModel19systemEntitiesShownEv@Base 4:4.4.0
@@ -2216,18 +2644,18 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi16CollectionDialog7Private19canCreateCollectionERKNS_10CollectionE@Base 4:4.5.86
  _ZNK7Akonadi16PayloadException4typeEv@Base 4:4.5.86
  _ZNK7Akonadi16PreprocessorBase10metaObjectEv@Base 4:4.4.0
- _ZNK7Akonadi16RelationFetchJob10metaObjectEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi16RelationFetchJob9relationsEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi16RelationFetchJob10metaObjectEv@Base 4:4.13.0.1
+ _ZNK7Akonadi16RelationFetchJob9relationsEv@Base 4:4.13.0.1
  _ZNK7Akonadi16ResourceSettings10metaObjectEv@Base 4:4.5.86
  _ZNK7Akonadi17CollectionCopyJob10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi17CollectionMoveJob10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi17ETMViewStateSaver10metaObjectEv@Base 4:4.5.86
  _ZNK7Akonadi17ETMViewStateSaver19indexToConfigStringERK11QModelIndex@Base 4:4.5.86
  _ZNK7Akonadi17ETMViewStateSaver21indexFromConfigStringEPK18QAbstractItemModelRK7QString@Base 4:4.5.86
- _ZNK7Akonadi17RelationCreateJob10metaObjectEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi17RelationCreateJob8relationEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi17RelationDeleteJob10metaObjectEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi17RelationDeleteJob8relationEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi17RelationCreateJob10metaObjectEv@Base 4:4.13.0.1
+ _ZNK7Akonadi17RelationCreateJob8relationEv@Base 4:4.13.0.1
+ _ZNK7Akonadi17RelationDeleteJob10metaObjectEv@Base 4:4.13.0.1
+ _ZNK7Akonadi17RelationDeleteJob8relationEv@Base 4:4.13.0.1
  _ZNK7Akonadi18AgentActionManager10metaObjectEv@Base 4:4.5.86
  _ZNK7Akonadi18AgentActionManager22selectedAgentInstancesEv@Base 4:4.5.86
  _ZNK7Akonadi18AgentActionManager6actionENS0_4TypeE@Base 4:4.5.86
@@ -2273,16 +2701,16 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi19TagManagementDialog10metaObjectEv@Base 4:4.13.0.6
  _ZNK7Akonadi19TransactionBeginJob10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi19TransactionSequence10metaObjectEv@Base 4:4.3.4
- _ZNK7Akonadi20CollectionFetchScope10attributesEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi20CollectionFetchScope10listFilterEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi20CollectionFetchScope11fetchIdOnlyEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi20CollectionFetchScope10attributesEv@Base 4:4.13.0.1
+ _ZNK7Akonadi20CollectionFetchScope10listFilterEv@Base 4:4.13.0.1
+ _ZNK7Akonadi20CollectionFetchScope11fetchIdOnlyEv@Base 4:4.13.0.1
  _ZNK7Akonadi20CollectionFetchScope16contentMimeTypesEv@Base 4:4.4.0
  _ZNK7Akonadi20CollectionFetchScope17ancestorRetrievalEv@Base 4:4.4.0
  _ZNK7Akonadi20CollectionFetchScope17includeStatisticsEv@Base 4:4.4.0
- _ZNK7Akonadi20CollectionFetchScope18ancestorFetchScopeEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi20CollectionFetchScope18ancestorFetchScopeEv@Base 4:4.13.0.1
  _ZNK7Akonadi20CollectionFetchScope18includeUnubscribedEv@Base 4:4.4.0
  _ZNK7Akonadi20CollectionFetchScope19includeUnsubscribedEv@Base 4:4.5.0
- _ZNK7Akonadi20CollectionFetchScope21ignoreRetrievalErrorsEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi20CollectionFetchScope21ignoreRetrievalErrorsEv@Base 4:4.13.0.1
  _ZNK7Akonadi20CollectionFetchScope7isEmptyEv@Base 4:4.4.0
  _ZNK7Akonadi20CollectionFetchScope8resourceEv@Base 4:4.4.0
  _ZNK7Akonadi20CollectionStatistics11unreadCountEv@Base 4:4.3.4
@@ -2352,6 +2780,10 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi23EntityRightsFilterModel5flagsERK11QModelIndex@Base 4:4.5.86
  _ZNK7Akonadi23EntityRightsFilterModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 4:4.5.86
  _ZNK7Akonadi23EntityRightsFilterModel9acceptRowEiRK11QModelIndex@Base 4:4.5.86
+ _ZNK7Akonadi24CollectionColorAttribute10serializedEv@Base 4:4.13.0.5
+ _ZNK7Akonadi24CollectionColorAttribute4typeEv@Base 4:4.13.0.5
+ _ZNK7Akonadi24CollectionColorAttribute5cloneEv@Base 4:4.13.0.5
+ _ZNK7Akonadi24CollectionColorAttribute5colorEv@Base 4:4.13.0.5
  _ZNK7Akonadi24CollectionPropertiesPage10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi24CollectionPropertiesPage9canHandleERKNS_10CollectionE@Base 4:4.3.4
  _ZNK7Akonadi24CollectionPropertiesPage9pageTitleEv@Base 4:4.3.4
@@ -2450,7 +2882,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi4Item13payloadBaseV2Eii@Base 4:4.5.86
  _ZNK7Akonadi4Item16ensureMetaTypeIdEi@Base 4:4.5.86
  _ZNK7Akonadi4Item16modificationTimeEv@Base 4:4.3.4
- _ZNK7Akonadi4Item17virtualReferencesEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi4Item17virtualReferencesEv@Base 4:4.13.0.1
  _ZNK7Akonadi4Item18cachedPayloadPartsEv@Base 4:4.11.1
  _ZNK7Akonadi4Item18loadedPayloadPartsEv@Base 4:4.3.4
  _ZNK7Akonadi4Item19storageCollectionIdEv@Base 4:4.3.4
@@ -2468,9 +2900,10 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi4Item7hasFlagERK10QByteArray@Base 4:4.3.4
  _ZNK7Akonadi4Item8mimeTypeEv@Base 4:4.3.4
  _ZNK7Akonadi4Item8revisionEv@Base 4:4.3.4
- _ZNK7Akonadi4Item9relationsEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi4Item9relationsEv@Base 4:4.13.0.1
  _ZNK7Akonadi6Entity10attributesEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity12hasAttributeERK10QByteArray@Base 4:4.3.4
+ (optional=templinst|arch=amd64)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.13.0.5
  _ZNK7Akonadi6Entity14remoteRevisionEv@Base 4:4.5.0
  _ZNK7Akonadi6Entity16parentCollectionEv@Base 4:4.4.0
  _ZNK7Akonadi6Entity2idEv@Base 4:4.3.4
@@ -2490,28 +2923,28 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi7Monitor14itemsMonitoredEv@Base 4:4.3.4
  _ZNK7Akonadi7Monitor14typesMonitoredEv@Base 4:4.13.0.6
  _ZNK7Akonadi7Monitor16itemsMonitoredExEv@Base 4:4.5.86
- _ZNK7Akonadi7Monitor17numItemsMonitoredEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi7Monitor17numItemsMonitoredEv@Base 4:4.13.0.1
  _ZNK7Akonadi7Monitor18mimeTypesMonitoredEv@Base 4:4.3.4
  _ZNK7Akonadi7Monitor18resourcesMonitoredEv@Base 4:4.3.4
  _ZNK7Akonadi7Monitor20collectionsMonitoredEv@Base 4:4.3.4
- _ZNK7Akonadi7Monitor21numMimeTypesMonitoredEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi7Monitor21numResourcesMonitoredEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi7Monitor21numMimeTypesMonitoredEv@Base 4:4.13.0.1
+ _ZNK7Akonadi7Monitor21numResourcesMonitoredEv@Base 4:4.13.0.1
  _ZNK7Akonadi7Monitor7sessionEv@Base 4:4.4.0
- _ZNK7Akonadi7Monitor9exclusiveEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi7Monitor9exclusiveEv@Base 4:4.13.0.1
  _ZNK7Akonadi7Session10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi7Session9sessionIdEv@Base 4:4.3.4
  _ZNK7Akonadi8ItemSync10metaObjectEv@Base 4:4.3.4
- _ZNK7Akonadi8ItemSync9batchSizeEv@Base 4:4.13.0~kolab
+ _ZNK7Akonadi8ItemSync9batchSizeEv@Base 4:4.13.0.1
  _ZNK7Akonadi8ItemView10metaObjectEv@Base 4:4.3.4
- _ZNK7Akonadi8Relation11setRemoteIdERK10QByteArray@Base 4:4.13.0~kolab
- _ZNK7Akonadi8Relation4leftEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi8Relation4typeEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi8Relation5rightEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi8Relation7isValidEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi8Relation7setTypeERK10QByteArray@Base 4:4.13.0~kolab
- _ZNK7Akonadi8Relation8remoteIdEv@Base 4:4.13.0~kolab
- _ZNK7Akonadi8RelationeqERKS0_@Base 4:4.13.0~kolab
- _ZNK7Akonadi8RelationneERKS0_@Base 4:4.13.0~kolab
+ _ZNK7Akonadi8Relation11setRemoteIdERK10QByteArray@Base 4:4.13.0.1
+ _ZNK7Akonadi8Relation4leftEv@Base 4:4.13.0.1
+ _ZNK7Akonadi8Relation4typeEv@Base 4:4.13.0.1
+ _ZNK7Akonadi8Relation5rightEv@Base 4:4.13.0.1
+ _ZNK7Akonadi8Relation7isValidEv@Base 4:4.13.0.1
+ _ZNK7Akonadi8Relation7setTypeERK10QByteArray@Base 4:4.13.0.1
+ _ZNK7Akonadi8Relation8remoteIdEv@Base 4:4.13.0.1
+ _ZNK7Akonadi8RelationeqERKS0_@Base 4:4.13.0.1
+ _ZNK7Akonadi8RelationneERKS0_@Base 4:4.13.0.1
  _ZNK7Akonadi8TagModel10headerDataEiN2Qt11OrientationEi@Base 4:4.13.0.6
  _ZNK7Akonadi8TagModel10metaObjectEv@Base 4:4.13.0.6
  _ZNK7Akonadi8TagModel11columnCountERK11QModelIndex@Base 4:4.13.0.6
@@ -2561,7 +2994,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi9TagWidget10metaObjectEv@Base 4:4.13.1
  _ZNK7Akonadi9TagWidget9selectionEv@Base 4:4.13.1
  _ZNK7Akonadi9UnlinkJob10metaObjectEv@Base 4:4.3.4
- _ZNK7TagSync10metaObjectEv@Base 4:4.13.0~kolab
+ _ZNK7TagSync10metaObjectEv@Base 4:4.13.0.1
  (optional=templinst|subst)_ZNSt6vectorIN5boost6detail12adj_list_genINS0_14adjacency_listINS0_4vecSES4_NS0_9directedSENS0_11no_propertyES6_S6_NS0_5listSEEES4_S4_S5_S6_S6_S6_S7_E6config13stored_vertexESaISB_EE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPSB_SD_EE{size_t}RKSB_@Base 4:4.13.0.5
  (optional=templinst|subst)_ZNSt6vectorIN5boost6detail4sep_I{size_t}NS0_11no_propertyEEESaIS4_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS4_S6_EERKS4_@Base 4:4.13.0.5
  (optional=templinst|subst)_ZNSt6vectorIN5boost6detail4sep_I{size_t}NS0_11no_propertyEEESaIS4_EEaSERKS6_@Base 4:4.13.0.5
@@ -2602,8 +3035,6 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  (optional=templinst)_ZSt25__unguarded_linear_insertIN5QListIN7Akonadi10CollectionEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_@Base 4:4.13.0.5
  (optional=templinst)_ZSt25__unguarded_linear_insertIN5QListIN7Akonadi3TagEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxS2_EENS6_5list1INS5_3argILi1EEEEEEENS7_IxSC_NSD_INSE_ILi2EEEEEEEEEEEEvT_T0_@Base 4:4.13.0.5
  (optional=templinst)_ZSt25__unguarded_linear_insertIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_@Base 4:4.13.0.5
-(optional=templinst)_ZSt4swapIN7Akonadi3TagEEvRT_S3_@Base 4:4.13.0~kolab
-(optional=templinst)_ZSt4swapIN7Akonadi4ItemEEvRT_S3_@Base 4:4.13.0~kolab
  (optional=templinst)_ZSt6__findIPK10QByteArrayS0_ET_S3_S3_RKT0_St26random_access_iterator_tag@Base 4:4.13.0.5
  (optional=templinst)_ZSt6__findIPK7QStringS0_ET_S3_S3_RKT0_St26random_access_iterator_tag@Base 4:4.13.0.5
  (optional=templinst)_ZSt9__find_ifIN5QListIN7Akonadi10CollectionEE14const_iteratorEN5boost3_bi6bind_tIbNS5_4_mfi4cmf0Ib7QStringEENS6_5list1INS7_ISA_NS9_ISA_NS1_6EntityEEENSC_INS5_3argILi1EEEEEEEEEEEET_SL_SL_T0_St26random_access_iterator_tag@Base 4:4.13.0.5
@@ -2618,406 +3049,403 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  (optional=templinst)_ZSt9make_heapIN5QListIN7Akonadi10CollectionEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.13.0.5
  (optional=templinst)_ZSt9make_heapIN5QListIN7Akonadi3TagEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxS2_EENS6_5list1INS5_3argILi1EEEEEEENS7_IxSC_NSD_INSE_ILi2EEEEEEEEEEEEvT_SN_T0_@Base 4:4.13.0.5
  (optional=templinst)_ZSt9make_heapIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.13.0.5
- _ZTI12RelationSync@Base 4:4.13.0~kolab
- _ZTI33CollectionIdentificationAttribute@Base 4:4.13.0~kolab
- _ZTI7TagSync@Base 4:4.13.0~kolab
-(optional)_ZTIN5boost16exception_detail10clone_baseE@Base 4:4.13.0~kolab
-(optional=external)_ZTIN5boost9exceptionE@Base 4:4.7.4
- _ZTIN7Akonadi11ItemCopyJobE@Base 4:4.3.4
- _ZTIN7Akonadi11ItemMonitor7PrivateE@Base 4:4.3.4
- _ZTIN7Akonadi11ItemMonitorE@Base 4:4.3.4
- _ZTIN7Akonadi11ItemMoveJobE@Base 4:4.3.4
- _ZTIN7Akonadi11PartFetcherE@Base 4:4.4.0
- _ZTIN7Akonadi11TagFetchJobE@Base 4:4.13.1
- _ZTIN7Akonadi12AgentManagerE@Base 4:4.3.4
- _ZTIN7Akonadi12ItemFetchJobE@Base 4:4.3.4
- _ZTIN7Akonadi12ResourceBaseE@Base 4:4.3.4
- _ZTIN7Akonadi12TagAttributeE@Base 4:4.13.1
- _ZTIN7Akonadi12TagCreateJobE@Base 4:4.13.1
- _ZTIN7Akonadi12TagDeleteJobE@Base 4:4.13.1
- _ZTIN7Akonadi12TagModifyJobE@Base 4:4.13.1
- _ZTIN7Akonadi13ItemCreateJobE@Base 4:4.3.4
- _ZTIN7Akonadi13ItemDeleteJobE@Base 4:4.3.4
- _ZTIN7Akonadi13ItemModifyJobE@Base 4:4.3.4
- _ZTIN7Akonadi13ItemSearchJobE@Base 4:4.4.0
- _ZTIN7Akonadi13ServerManagerE@Base 4:4.3.4
- _ZTIN7Akonadi14AgentTypeModelE@Base 4:4.3.4
- _ZTIN7Akonadi14ChangeRecorderE@Base 4:4.3.4
- _ZTIN7Akonadi14CollectionViewE@Base 4:4.3.4
- _ZTIN7Akonadi14EntityListViewE@Base 4:4.4.0
- _ZTIN7Akonadi14EntityTreeViewE@Base 4:4.4.0
- _ZTIN7Akonadi15AgentTypeDialogE@Base 4:4.3.4
- _ZTIN7Akonadi15AgentTypeWidgetE@Base 4:4.3.4
- _ZTIN7Akonadi15AttributeEntityE@Base 4:4.13.1
- _ZTIN7Akonadi15CachePolicyPageE@Base 4:4.5.86
- _ZTIN7Akonadi15CollectionModelE@Base 4:4.3.4
- _ZTIN7Akonadi15EntityTreeModelE@Base 4:4.4.0
- _ZTIN7Akonadi15SearchCreateJobE@Base 4:4.3.4
- _ZTIN7Akonadi15SubscriptionJobE@Base 4:4.3.4
- _ZTIN7Akonadi15TrashRestoreJob22TrashRestoreJobPrivateE@Base 4:4.8.1
- _ZTIN7Akonadi15TrashRestoreJobE@Base 4:4.8.1
- _ZTIN7Akonadi16AgentFactoryBaseE@Base 4:4.5.86
- _ZTIN7Akonadi16CollectionDialogE@Base 4:4.3.4
- _ZTIN7Akonadi16PayloadExceptionE@Base 4:4.5.86
- _ZTIN7Akonadi16PreprocessorBaseE@Base 4:4.4.0
- _ZTIN7Akonadi16RelationFetchJobE@Base 4:4.13.0~kolab
- _ZTIN7Akonadi16ResourceSettingsE@Base 4:4.5.86
- _ZTIN7Akonadi17CollectionCopyJobE@Base 4:4.3.4
- _ZTIN7Akonadi17CollectionMoveJobE@Base 4:4.3.4
- _ZTIN7Akonadi17ETMViewStateSaverE@Base 4:4.5.86
- _ZTIN7Akonadi17RelationCreateJobE@Base 4:4.13.0~kolab
- _ZTIN7Akonadi17RelationDeleteJobE@Base 4:4.13.0~kolab
- _ZTIN7Akonadi18AgentActionManagerE@Base 4:4.5.86
- _ZTIN7Akonadi18AgentInstanceModelE@Base 4:4.3.4
- _ZTIN7Akonadi18CollectionComboBoxE@Base 4:4.4.0
- _ZTIN7Akonadi18CollectionFetchJobE@Base 4:4.3.4
- _ZTIN7Akonadi18SpecialCollectionsE@Base 4:4.4.0
- _ZTIN7Akonadi18SubscriptionDialogE@Base 4:4.3.4
- _ZTIN7Akonadi18TagSelectionDialogE@Base 4:4.13.1
- _ZTIN7Akonadi19AgentInstanceWidgetE@Base 4:4.3.4
- _ZTIN7Akonadi19CollectionCreateJobE@Base 4:4.3.4
- _ZTIN7Akonadi19CollectionDeleteJobE@Base 4:4.3.4
- _ZTIN7Akonadi19CollectionModifyJobE@Base 4:4.3.4
- _ZTIN7Akonadi19CollectionRequesterE@Base 4:4.3.4
- _ZTIN7Akonadi19CollectionSelectJobE@Base 4:4.3.4
- _ZTIN7Akonadi19SelectionProxyModelE@Base 4:4.4.0
- _ZTIN7Akonadi19TagManagementDialogE@Base 4:4.13.1
- _ZTIN7Akonadi19TransactionBeginJobE@Base 4:4.3.4
- _ZTIN7Akonadi19TransactionSequenceE@Base 4:4.3.4
- _ZTIN7Akonadi20AgentSearchInterfaceE@Base 4:4.5.0
- _ZTIN7Akonadi20IndexPolicyAttributeE@Base 4:4.5.86
- _ZTIN7Akonadi20ItemSerializerPluginE@Base 4:4.3.4
- _ZTIN7Akonadi20ResourceBaseSettingsE@Base 4:4.5.86
- _ZTIN7Akonadi20StatisticsProxyModelE@Base 4:4.4.0
- _ZTIN7Akonadi20TransactionCommitJobE@Base 4:4.3.4
- _ZTIN7Akonadi21AgentFilterProxyModelE@Base 4:4.3.4
- _ZTIN7Akonadi21EntityHiddenAttributeE@Base 4:4.4.0
- _ZTIN7Akonadi21EntityOrderProxyModelE@Base 4:4.5.86
- _ZTIN7Akonadi21RecursiveItemFetchJobE@Base 4:4.5.86
- _ZTIN7Akonadi21StandardActionManagerE@Base 4:4.3.4
- _ZTIN7Akonadi21TransportResourceBaseE@Base 4:4.4.0
- _ZTIN7Akonadi21TrashFilterProxyModelE@Base 4:4.8.1
- _ZTIN7Akonadi22AgentInstanceCreateJobE@Base 4:4.3.4
- _ZTIN7Akonadi22CollectionPathResolverE@Base 4:4.3.4
- _ZTIN7Akonadi22EntityDeletedAttributeE@Base 4:4.8.1
- _ZTIN7Akonadi22EntityDisplayAttributeE@Base 4:4.3.4
- _ZTIN7Akonadi22ItemSerializerPluginV2E@Base 4:4.4.0
- _ZTIN7Akonadi22TransactionRollbackJobE@Base 4:4.3.4
- _ZTIN7Akonadi23CollectionStatisticsJobE@Base 4:4.3.4
- _ZTIN7Akonadi23EntityRightsFilterModelE@Base 4:4.5.86
- _ZTIN7Akonadi24CollectionPropertiesPageE@Base 4:4.3.4
- _ZTIN7Akonadi24CollectionQuotaAttributeE@Base 4:4.4.0
- _ZTIN7Akonadi24EntityTreeViewStateSaverE@Base 4:4.4.0
- _ZTIN7Akonadi24FavoriteCollectionsModelE@Base 4:4.4.0
- _ZTIN7Akonadi25CollectionRightsAttributeE@Base 4:4.3.4
- _ZTIN7Akonadi25CollectionStatisticsModelE@Base 4:4.3.4
- _ZTIN7Akonadi25EntityMimeTypeFilterModelE@Base 4:4.4.0
- _ZTIN7Akonadi25PersistentSearchAttributeE@Base 4:4.5.0
- _ZTIN7Akonadi26CollectionFilterProxyModelE@Base 4:4.3.4
- _ZTIN7Akonadi26CollectionPropertiesDialogE@Base 4:4.3.4
- _ZTIN7Akonadi26EntityAnnotationsAttributeE@Base 4:4.13.1
- _ZTIN7Akonadi26ResourceSynchronizationJobE@Base 4:4.4.0
- _ZTIN7Akonadi26SpecialCollectionAttributeE@Base 4:4.4.0
- _ZTIN7Akonadi28CollectionStatisticsDelegateE@Base 4:4.3.4
- _ZTIN7Akonadi28SpecialCollectionsRequestJobE@Base 4:4.4.0
- _ZTIN7Akonadi30SpecialCollectionsDiscoveryJobE@Base 4:4.11.1
- _ZTIN7Akonadi31CollectionPropertiesPageFactoryE@Base 4:4.3.4
- _ZTIN7Akonadi35RecursiveCollectionFilterProxyModelE@Base 4:4.5.86
- _ZTIN7Akonadi38CollectionAttributesSynchronizationJobE@Base 4:4.5.86
- _ZTIN7Akonadi3JobE@Base 4:4.3.4
- _ZTIN7Akonadi3TagE@Base 4:4.13.1
- _ZTIN7Akonadi7ControlE@Base 4:4.3.4
- _ZTIN7Akonadi7LinkJobE@Base 4:4.3.4
- _ZTIN7Akonadi7MonitorE@Base 4:4.3.4
- _ZTIN7Akonadi7SessionE@Base 4:4.3.4
- _ZTIN7Akonadi8ItemSyncE@Base 4:4.3.4
- _ZTIN7Akonadi8ItemViewE@Base 4:4.3.4
- _ZTIN7Akonadi8TagModelE@Base 4:4.13.1
- _ZTIN7Akonadi8TrashJob15TrashJobPrivateE@Base 4:4.8.1
- _ZTIN7Akonadi8TrashJobE@Base 4:4.8.1
- _ZTIN7Akonadi9AgentBase10ObserverV2E@Base 4:4.4.0
- _ZTIN7Akonadi9AgentBase10ObserverV3E@Base 4:4.11.1
- _ZTIN7Akonadi9AgentBase10ObserverV4E@Base 4:4.13.1
- _ZTIN7Akonadi9AgentBase8ObserverE@Base 4:4.3.4
- _ZTIN7Akonadi9AgentBaseE@Base 4:4.3.4
- _ZTIN7Akonadi9AttributeE@Base 4:4.3.4
- _ZTIN7Akonadi9ExceptionE@Base 4:4.3.4
- _ZTIN7Akonadi9ItemModelE@Base 4:4.3.4
- _ZTIN7Akonadi9TagWidgetE@Base 4:4.13.1
- _ZTIN7Akonadi9UnlinkJobE@Base 4:4.3.4
- _ZTS12RelationSync@Base 4:4.13.0~kolab
- _ZTS33CollectionIdentificationAttribute@Base 4:4.13.0~kolab
- _ZTS7TagSync@Base 4:4.13.0~kolab
-(optional)_ZTSN5boost16exception_detail10clone_baseE@Base 4:4.13.0~kolab
-(optional=external)_ZTSN5boost9exceptionE@Base 4:4.7.4
- _ZTSN7Akonadi11ItemCopyJobE@Base 4:4.3.4
- _ZTSN7Akonadi11ItemMonitor7PrivateE@Base 4:4.3.4
- _ZTSN7Akonadi11ItemMonitorE@Base 4:4.3.4
- _ZTSN7Akonadi11ItemMoveJobE@Base 4:4.3.4
- _ZTSN7Akonadi11PartFetcherE@Base 4:4.4.0
- _ZTSN7Akonadi11TagFetchJobE@Base 4:4.13.1
- _ZTSN7Akonadi12AgentManagerE@Base 4:4.3.4
- _ZTSN7Akonadi12ItemFetchJobE@Base 4:4.3.4
- _ZTSN7Akonadi12ResourceBaseE@Base 4:4.3.4
- _ZTSN7Akonadi12TagAttributeE@Base 4:4.13.1
- _ZTSN7Akonadi12TagCreateJobE@Base 4:4.13.1
- _ZTSN7Akonadi12TagDeleteJobE@Base 4:4.13.1
- _ZTSN7Akonadi12TagModifyJobE@Base 4:4.13.1
- _ZTSN7Akonadi13ItemCreateJobE@Base 4:4.3.4
- _ZTSN7Akonadi13ItemDeleteJobE@Base 4:4.3.4
- _ZTSN7Akonadi13ItemModifyJobE@Base 4:4.3.4
- _ZTSN7Akonadi13ItemSearchJobE@Base 4:4.4.0
- _ZTSN7Akonadi13ServerManagerE@Base 4:4.3.4
- _ZTSN7Akonadi14AgentTypeModelE@Base 4:4.3.4
- _ZTSN7Akonadi14ChangeRecorderE@Base 4:4.3.4
- _ZTSN7Akonadi14CollectionViewE@Base 4:4.3.4
- _ZTSN7Akonadi14EntityListViewE@Base 4:4.4.0
- _ZTSN7Akonadi14EntityTreeViewE@Base 4:4.4.0
- _ZTSN7Akonadi15AgentTypeDialogE@Base 4:4.3.4
- _ZTSN7Akonadi15AgentTypeWidgetE@Base 4:4.3.4
- _ZTSN7Akonadi15AttributeEntityE@Base 4:4.13.1
- _ZTSN7Akonadi15CachePolicyPageE@Base 4:4.5.86
- _ZTSN7Akonadi15CollectionModelE@Base 4:4.3.4
- _ZTSN7Akonadi15EntityTreeModelE@Base 4:4.4.0
- _ZTSN7Akonadi15SearchCreateJobE@Base 4:4.3.4
- _ZTSN7Akonadi15SubscriptionJobE@Base 4:4.3.4
- _ZTSN7Akonadi15TrashRestoreJob22TrashRestoreJobPrivateE@Base 4:4.8.1
- _ZTSN7Akonadi15TrashRestoreJobE@Base 4:4.8.1
- _ZTSN7Akonadi16AgentFactoryBaseE@Base 4:4.5.86
- _ZTSN7Akonadi16CollectionDialogE@Base 4:4.3.4
- _ZTSN7Akonadi16PayloadExceptionE@Base 4:4.5.86
- _ZTSN7Akonadi16PreprocessorBaseE@Base 4:4.4.0
- _ZTSN7Akonadi16RelationFetchJobE@Base 4:4.13.0~kolab
- _ZTSN7Akonadi16ResourceSettingsE@Base 4:4.5.86
- _ZTSN7Akonadi17CollectionCopyJobE@Base 4:4.3.4
- _ZTSN7Akonadi17CollectionMoveJobE@Base 4:4.3.4
- _ZTSN7Akonadi17ETMViewStateSaverE@Base 4:4.5.86
- _ZTSN7Akonadi17RelationCreateJobE@Base 4:4.13.0~kolab
- _ZTSN7Akonadi17RelationDeleteJobE@Base 4:4.13.0~kolab
- _ZTSN7Akonadi18AgentActionManagerE@Base 4:4.5.86
- _ZTSN7Akonadi18AgentInstanceModelE@Base 4:4.3.4
- _ZTSN7Akonadi18CollectionComboBoxE@Base 4:4.4.0
- _ZTSN7Akonadi18CollectionFetchJobE@Base 4:4.3.4
- _ZTSN7Akonadi18SpecialCollectionsE@Base 4:4.4.0
- _ZTSN7Akonadi18SubscriptionDialogE@Base 4:4.3.4
- _ZTSN7Akonadi18TagSelectionDialogE@Base 4:4.13.1
- _ZTSN7Akonadi19AgentInstanceWidgetE@Base 4:4.3.4
- _ZTSN7Akonadi19CollectionCreateJobE@Base 4:4.3.4
- _ZTSN7Akonadi19CollectionDeleteJobE@Base 4:4.3.4
- _ZTSN7Akonadi19CollectionModifyJobE@Base 4:4.3.4
- _ZTSN7Akonadi19CollectionRequesterE@Base 4:4.3.4
- _ZTSN7Akonadi19CollectionSelectJobE@Base 4:4.3.4
- _ZTSN7Akonadi19SelectionProxyModelE@Base 4:4.4.0
- _ZTSN7Akonadi19TagManagementDialogE@Base 4:4.13.1
- _ZTSN7Akonadi19TransactionBeginJobE@Base 4:4.3.4
- _ZTSN7Akonadi19TransactionSequenceE@Base 4:4.3.4
- _ZTSN7Akonadi20AgentSearchInterfaceE@Base 4:4.5.0
- _ZTSN7Akonadi20IndexPolicyAttributeE@Base 4:4.5.86
- _ZTSN7Akonadi20ItemSerializerPluginE@Base 4:4.3.4
- _ZTSN7Akonadi20ResourceBaseSettingsE@Base 4:4.5.86
- _ZTSN7Akonadi20StatisticsProxyModelE@Base 4:4.4.0
- _ZTSN7Akonadi20TransactionCommitJobE@Base 4:4.3.4
- _ZTSN7Akonadi21AgentFilterProxyModelE@Base 4:4.3.4
- _ZTSN7Akonadi21EntityHiddenAttributeE@Base 4:4.4.0
- _ZTSN7Akonadi21EntityOrderProxyModelE@Base 4:4.5.86
- _ZTSN7Akonadi21RecursiveItemFetchJobE@Base 4:4.5.86
- _ZTSN7Akonadi21StandardActionManagerE@Base 4:4.3.4
- _ZTSN7Akonadi21TransportResourceBaseE@Base 4:4.4.0
- _ZTSN7Akonadi21TrashFilterProxyModelE@Base 4:4.8.1
- _ZTSN7Akonadi22AgentInstanceCreateJobE@Base 4:4.3.4
- _ZTSN7Akonadi22CollectionPathResolverE@Base 4:4.3.4
- _ZTSN7Akonadi22EntityDeletedAttributeE@Base 4:4.8.1
- _ZTSN7Akonadi22EntityDisplayAttributeE@Base 4:4.3.4
- _ZTSN7Akonadi22ItemSerializerPluginV2E@Base 4:4.4.0
- _ZTSN7Akonadi22TransactionRollbackJobE@Base 4:4.3.4
- _ZTSN7Akonadi23CollectionStatisticsJobE@Base 4:4.3.4
- _ZTSN7Akonadi23EntityRightsFilterModelE@Base 4:4.5.86
- _ZTSN7Akonadi24CollectionPropertiesPageE@Base 4:4.3.4
- _ZTSN7Akonadi24CollectionQuotaAttributeE@Base 4:4.4.0
- _ZTSN7Akonadi24EntityTreeViewStateSaverE@Base 4:4.4.0
- _ZTSN7Akonadi24FavoriteCollectionsModelE@Base 4:4.4.0
- _ZTSN7Akonadi25CollectionRightsAttributeE@Base 4:4.3.4
- _ZTSN7Akonadi25CollectionStatisticsModelE@Base 4:4.3.4
- _ZTSN7Akonadi25EntityMimeTypeFilterModelE@Base 4:4.4.0
- _ZTSN7Akonadi25PersistentSearchAttributeE@Base 4:4.5.0
- _ZTSN7Akonadi26CollectionFilterProxyModelE@Base 4:4.3.4
- _ZTSN7Akonadi26CollectionPropertiesDialogE@Base 4:4.3.4
- _ZTSN7Akonadi26EntityAnnotationsAttributeE@Base 4:4.13.1
- _ZTSN7Akonadi26ResourceSynchronizationJobE@Base 4:4.4.0
- _ZTSN7Akonadi26SpecialCollectionAttributeE@Base 4:4.4.0
- _ZTSN7Akonadi28CollectionStatisticsDelegateE@Base 4:4.3.4
- _ZTSN7Akonadi28SpecialCollectionsRequestJobE@Base 4:4.4.0
- _ZTSN7Akonadi30SpecialCollectionsDiscoveryJobE@Base 4:4.11.1
- _ZTSN7Akonadi31CollectionPropertiesPageFactoryE@Base 4:4.3.4
- _ZTSN7Akonadi35RecursiveCollectionFilterProxyModelE@Base 4:4.5.86
- _ZTSN7Akonadi38CollectionAttributesSynchronizationJobE@Base 4:4.5.86
- _ZTSN7Akonadi3JobE@Base 4:4.3.4
- _ZTSN7Akonadi3TagE@Base 4:4.13.1
- _ZTSN7Akonadi7ControlE@Base 4:4.3.4
- _ZTSN7Akonadi7LinkJobE@Base 4:4.3.4
- _ZTSN7Akonadi7MonitorE@Base 4:4.3.4
- _ZTSN7Akonadi7SessionE@Base 4:4.3.4
- _ZTSN7Akonadi8ItemSyncE@Base 4:4.3.4
- _ZTSN7Akonadi8ItemViewE@Base 4:4.3.4
- _ZTSN7Akonadi8TagModelE@Base 4:4.13.1
- _ZTSN7Akonadi8TrashJob15TrashJobPrivateE@Base 4:4.8.1
- _ZTSN7Akonadi8TrashJobE@Base 4:4.8.1
- _ZTSN7Akonadi9AgentBase10ObserverV2E@Base 4:4.4.0
- _ZTSN7Akonadi9AgentBase10ObserverV3E@Base 4:4.11.1
- _ZTSN7Akonadi9AgentBase10ObserverV4E@Base 4:4.13.1
- _ZTSN7Akonadi9AgentBase8ObserverE@Base 4:4.3.4
- _ZTSN7Akonadi9AgentBaseE@Base 4:4.3.4
- _ZTSN7Akonadi9AttributeE@Base 4:4.3.4
- _ZTSN7Akonadi9ExceptionE@Base 4:4.3.4
- _ZTSN7Akonadi9ItemModelE@Base 4:4.3.4
- _ZTSN7Akonadi9TagWidgetE@Base 4:4.13.1
- _ZTSN7Akonadi9UnlinkJobE@Base 4:4.3.4
- _ZTV12RelationSync@Base 4:4.13.0~kolab
- _ZTV33CollectionIdentificationAttribute@Base 4:4.13.0~kolab
- _ZTV7TagSync@Base 4:4.13.0~kolab
-(optional)_ZTVN5boost16exception_detail10clone_baseE@Base 4:4.13.0~kolab
-(optional=external)_ZTVN5boost9exceptionE@Base 4:4.7.4
- _ZTVN7Akonadi11ItemCopyJobE@Base 4:4.3.4
- _ZTVN7Akonadi11ItemMonitor7PrivateE@Base 4:4.3.4
- _ZTVN7Akonadi11ItemMonitorE@Base 4:4.3.4
- _ZTVN7Akonadi11ItemMoveJobE@Base 4:4.3.4
- _ZTVN7Akonadi11PartFetcherE@Base 4:4.4.0
- _ZTVN7Akonadi11TagFetchJobE@Base 4:4.13.1
- _ZTVN7Akonadi12AgentManagerE@Base 4:4.3.4
- _ZTVN7Akonadi12ItemFetchJobE@Base 4:4.3.4
- _ZTVN7Akonadi12ResourceBaseE@Base 4:4.3.4
- _ZTVN7Akonadi12TagAttributeE@Base 4:4.13.1
- _ZTVN7Akonadi12TagCreateJobE@Base 4:4.13.1
- _ZTVN7Akonadi12TagDeleteJobE@Base 4:4.13.1
- _ZTVN7Akonadi12TagModifyJobE@Base 4:4.13.1
- _ZTVN7Akonadi13ItemCreateJobE@Base 4:4.3.4
- _ZTVN7Akonadi13ItemDeleteJobE@Base 4:4.3.4
- _ZTVN7Akonadi13ItemModifyJobE@Base 4:4.3.4
- _ZTVN7Akonadi13ItemSearchJobE@Base 4:4.4.0
- _ZTVN7Akonadi13ServerManagerE@Base 4:4.3.4
- _ZTVN7Akonadi14AgentTypeModelE@Base 4:4.3.4
- _ZTVN7Akonadi14ChangeRecorderE@Base 4:4.3.4
- _ZTVN7Akonadi14CollectionViewE@Base 4:4.3.4
- _ZTVN7Akonadi14EntityListViewE@Base 4:4.4.0
- _ZTVN7Akonadi14EntityTreeViewE@Base 4:4.4.0
- _ZTVN7Akonadi15AgentTypeDialogE@Base 4:4.3.4
- _ZTVN7Akonadi15AgentTypeWidgetE@Base 4:4.3.4
- _ZTVN7Akonadi15AttributeEntityE@Base 4:4.13.1
- _ZTVN7Akonadi15CachePolicyPageE@Base 4:4.5.86
- _ZTVN7Akonadi15CollectionModelE@Base 4:4.3.4
- _ZTVN7Akonadi15EntityTreeModelE@Base 4:4.4.0
- _ZTVN7Akonadi15SearchCreateJobE@Base 4:4.3.4
- _ZTVN7Akonadi15SubscriptionJobE@Base 4:4.3.4
- _ZTVN7Akonadi15TrashRestoreJob22TrashRestoreJobPrivateE@Base 4:4.8.1
- _ZTVN7Akonadi15TrashRestoreJobE@Base 4:4.8.1
- _ZTVN7Akonadi16AgentFactoryBaseE@Base 4:4.5.86
- _ZTVN7Akonadi16CollectionDialogE@Base 4:4.3.4
- _ZTVN7Akonadi16PayloadExceptionE@Base 4:4.5.86
- _ZTVN7Akonadi16PreprocessorBaseE@Base 4:4.4.0
- _ZTVN7Akonadi16RelationFetchJobE@Base 4:4.13.0~kolab
- _ZTVN7Akonadi16ResourceSettingsE@Base 4:4.5.86
- _ZTVN7Akonadi17CollectionCopyJobE@Base 4:4.3.4
- _ZTVN7Akonadi17CollectionMoveJobE@Base 4:4.3.4
- _ZTVN7Akonadi17ETMViewStateSaverE@Base 4:4.5.86
- _ZTVN7Akonadi17RelationCreateJobE@Base 4:4.13.0~kolab
- _ZTVN7Akonadi17RelationDeleteJobE@Base 4:4.13.0~kolab
- _ZTVN7Akonadi18AgentActionManagerE@Base 4:4.5.86
- _ZTVN7Akonadi18AgentInstanceModelE@Base 4:4.3.4
- _ZTVN7Akonadi18CollectionComboBoxE@Base 4:4.4.0
- _ZTVN7Akonadi18CollectionFetchJobE@Base 4:4.3.4
- _ZTVN7Akonadi18SpecialCollectionsE@Base 4:4.4.0
- _ZTVN7Akonadi18SubscriptionDialogE@Base 4:4.3.4
- _ZTVN7Akonadi18TagSelectionDialogE@Base 4:4.13.1
- _ZTVN7Akonadi19AgentInstanceWidgetE@Base 4:4.3.4
- _ZTVN7Akonadi19CollectionCreateJobE@Base 4:4.3.4
- _ZTVN7Akonadi19CollectionDeleteJobE@Base 4:4.3.4
- _ZTVN7Akonadi19CollectionModifyJobE@Base 4:4.3.4
- _ZTVN7Akonadi19CollectionRequesterE@Base 4:4.3.4
- _ZTVN7Akonadi19CollectionSelectJobE@Base 4:4.3.4
- _ZTVN7Akonadi19SelectionProxyModelE@Base 4:4.4.0
- _ZTVN7Akonadi19TagManagementDialogE@Base 4:4.13.1
- _ZTVN7Akonadi19TransactionBeginJobE@Base 4:4.3.4
- _ZTVN7Akonadi19TransactionSequenceE@Base 4:4.3.4
- _ZTVN7Akonadi20AgentSearchInterfaceE@Base 4:4.5.0
- _ZTVN7Akonadi20IndexPolicyAttributeE@Base 4:4.5.86
- _ZTVN7Akonadi20ItemSerializerPluginE@Base 4:4.3.4
- _ZTVN7Akonadi20ResourceBaseSettingsE@Base 4:4.5.86
- _ZTVN7Akonadi20StatisticsProxyModelE@Base 4:4.4.0
- _ZTVN7Akonadi20TransactionCommitJobE@Base 4:4.3.4
- _ZTVN7Akonadi21AgentFilterProxyModelE@Base 4:4.3.4
- _ZTVN7Akonadi21EntityHiddenAttributeE@Base 4:4.4.0
- _ZTVN7Akonadi21EntityOrderProxyModelE@Base 4:4.5.86
- _ZTVN7Akonadi21RecursiveItemFetchJobE@Base 4:4.5.86
- _ZTVN7Akonadi21StandardActionManagerE@Base 4:4.3.4
- _ZTVN7Akonadi21TransportResourceBaseE@Base 4:4.4.0
- _ZTVN7Akonadi21TrashFilterProxyModelE@Base 4:4.8.1
- _ZTVN7Akonadi22AgentInstanceCreateJobE@Base 4:4.3.4
- _ZTVN7Akonadi22CollectionPathResolverE@Base 4:4.3.4
- _ZTVN7Akonadi22EntityDeletedAttributeE@Base 4:4.8.1
- _ZTVN7Akonadi22EntityDisplayAttributeE@Base 4:4.3.4
- _ZTVN7Akonadi22ItemSerializerPluginV2E@Base 4:4.4.0
- _ZTVN7Akonadi22TransactionRollbackJobE@Base 4:4.3.4
- _ZTVN7Akonadi23CollectionStatisticsJobE@Base 4:4.3.4
- _ZTVN7Akonadi23EntityRightsFilterModelE@Base 4:4.5.86
- _ZTVN7Akonadi24CollectionPropertiesPageE@Base 4:4.3.4
- _ZTVN7Akonadi24CollectionQuotaAttributeE@Base 4:4.4.0
- _ZTVN7Akonadi24EntityTreeViewStateSaverE@Base 4:4.4.0
- _ZTVN7Akonadi24FavoriteCollectionsModelE@Base 4:4.4.0
- _ZTVN7Akonadi25CollectionRightsAttributeE@Base 4:4.3.4
- _ZTVN7Akonadi25CollectionStatisticsModelE@Base 4:4.3.4
- _ZTVN7Akonadi25EntityMimeTypeFilterModelE@Base 4:4.4.0
- _ZTVN7Akonadi25PersistentSearchAttributeE@Base 4:4.5.0
- _ZTVN7Akonadi26CollectionFilterProxyModelE@Base 4:4.3.4
- _ZTVN7Akonadi26CollectionPropertiesDialogE@Base 4:4.3.4
- _ZTVN7Akonadi26EntityAnnotationsAttributeE@Base 4:4.13.1
- _ZTVN7Akonadi26ResourceSynchronizationJobE@Base 4:4.4.0
- _ZTVN7Akonadi26SpecialCollectionAttributeE@Base 4:4.4.0
- _ZTVN7Akonadi28CollectionStatisticsDelegateE@Base 4:4.3.4
- _ZTVN7Akonadi28SpecialCollectionsRequestJobE@Base 4:4.4.0
- _ZTVN7Akonadi30SpecialCollectionsDiscoveryJobE@Base 4:4.11.1
- _ZTVN7Akonadi31CollectionPropertiesPageFactoryE@Base 4:4.3.4
- _ZTVN7Akonadi35RecursiveCollectionFilterProxyModelE@Base 4:4.5.86
- _ZTVN7Akonadi38CollectionAttributesSynchronizationJobE@Base 4:4.5.86
- _ZTVN7Akonadi3JobE@Base 4:4.3.4
- _ZTVN7Akonadi3TagE@Base 4:4.13.1
- _ZTVN7Akonadi7ControlE@Base 4:4.3.4
- _ZTVN7Akonadi7LinkJobE@Base 4:4.3.4
- _ZTVN7Akonadi7MonitorE@Base 4:4.3.4
- _ZTVN7Akonadi7SessionE@Base 4:4.3.4
- _ZTVN7Akonadi8ItemSyncE@Base 4:4.3.4
- _ZTVN7Akonadi8ItemViewE@Base 4:4.3.4
- _ZTVN7Akonadi8TagModelE@Base 4:4.13.1
- _ZTVN7Akonadi8TrashJob15TrashJobPrivateE@Base 4:4.8.1
- _ZTVN7Akonadi8TrashJobE@Base 4:4.8.1
- _ZTVN7Akonadi9AgentBase10ObserverV2E@Base 4:4.4.0
- _ZTVN7Akonadi9AgentBase10ObserverV3E@Base 4:4.11.1
- _ZTVN7Akonadi9AgentBase10ObserverV4E@Base 4:4.13.1
- _ZTVN7Akonadi9AgentBase8ObserverE@Base 4:4.3.4
- _ZTVN7Akonadi9AgentBaseE@Base 4:4.3.4
- _ZTVN7Akonadi9AttributeE@Base 4:4.3.4
- _ZTVN7Akonadi9ExceptionE@Base 4:4.3.4
- _ZTVN7Akonadi9ItemModelE@Base 4:4.3.4
- _ZTVN7Akonadi9TagWidgetE@Base 4:4.13.1
- _ZTVN7Akonadi9UnlinkJobE@Base 4:4.3.4
- _Zls6QDebugRKN7Akonadi10CollectionE@Base 4:4.3.4
- _Zls6QDebugRKN7Akonadi11CachePolicyE@Base 4:4.3.4
- _Zls6QDebugRKN7Akonadi20CollectionStatisticsE@Base 4:4.3.4
- _ZlsR6QDebugRKN7Akonadi3TagE@Base 4:4.13.1
- _ZlsR6QDebugRKN7Akonadi8RelationE@Base 4:4.13.0~kolab
- (c++)"non-virtual thunk to Akonadi::AgentInstanceWidget::~AgentInstanceWidget()@Base" 4:4.3.4
- (c++)"non-virtual thunk to Akonadi::AgentTypeDialog::~AgentTypeDialog()@Base" 4:4.3.4
- (c++)"non-virtual thunk to Akonadi::AgentTypeWidget::~AgentTypeWidget()@Base" 4:4.3.4
- (c++)"non-virtual thunk to Akonadi::CachePolicyPage::~CachePolicyPage()@Base" 4:4.5.86
- (c++)"non-virtual thunk to Akonadi::CollectionComboBox::~CollectionComboBox()@Base" 4:4.4.0
- (c++)"non-virtual thunk to Akonadi::CollectionDialog::~CollectionDialog()@Base" 4:4.3.4
- (c++)"non-virtual thunk to Akonadi::CollectionPropertiesDialog::~CollectionPropertiesDialog()@Base" 4:4.3.4
- (c++)"non-virtual thunk to Akonadi::CollectionPropertiesPage::~CollectionPropertiesPage()@Base" 4:4.3.4
- (c++)"non-virtual thunk to Akonadi::CollectionRequester::~CollectionRequester()@Base" 4:4.3.4
- (c++)"non-virtual thunk to Akonadi::CollectionView::~CollectionView()@Base" 4:4.3.4
- (c++)"non-virtual thunk to Akonadi::EntityListView::~EntityListView()@Base" 4:4.4.0
- (c++)"non-virtual thunk to Akonadi::EntityTreeView::~EntityTreeView()@Base" 4:4.4.0
- (c++)"non-virtual thunk to Akonadi::ItemView::~ItemView()@Base" 4:4.3.4
- (c++)"non-virtual thunk to Akonadi::SubscriptionDialog::~SubscriptionDialog()@Base" 4:4.3.4
- (c++)"non-virtual thunk to Akonadi::TagManagementDialog::~TagManagementDialog()@Base" 4:4.13.1
- (c++)"non-virtual thunk to Akonadi::TagSelectionDialog::~TagSelectionDialog()@Base" 4:4.13.1
- (c++)"non-virtual thunk to Akonadi::TagWidget::~TagWidget()@Base" 4:4.13.1
+ _ZTI12RelationSync@Base 4:4.13.0.5
+ _ZTI33CollectionIdentificationAttribute@Base 4:4.13.0.5
+ _ZTI7TagSync@Base 4:4.13.0.5
+ _ZTIN7Akonadi11ItemCopyJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi11ItemMonitor7PrivateE@Base 4:4.13.0.5
+ _ZTIN7Akonadi11ItemMonitorE@Base 4:4.13.0.5
+ _ZTIN7Akonadi11ItemMoveJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi11PartFetcherE@Base 4:4.13.0.5
+ _ZTIN7Akonadi11TagFetchJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi12AgentManagerE@Base 4:4.13.0.5
+ _ZTIN7Akonadi12ItemFetchJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi12ResourceBaseE@Base 4:4.13.0.5
+ _ZTIN7Akonadi12TagAttributeE@Base 4:4.13.0.5
+ _ZTIN7Akonadi12TagCreateJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi12TagDeleteJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi12TagModifyJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi13ItemCreateJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi13ItemDeleteJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi13ItemModifyJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi13ItemSearchJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi13ServerManagerE@Base 4:4.13.0.5
+ _ZTIN7Akonadi14AgentTypeModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi14ChangeRecorderE@Base 4:4.13.0.5
+ _ZTIN7Akonadi14CollectionViewE@Base 4:4.13.0.5
+ _ZTIN7Akonadi14EntityListViewE@Base 4:4.13.0.5
+ _ZTIN7Akonadi14EntityTreeViewE@Base 4:4.13.0.5
+ _ZTIN7Akonadi15AgentTypeDialogE@Base 4:4.13.0.5
+ _ZTIN7Akonadi15AgentTypeWidgetE@Base 4:4.13.0.5
+ _ZTIN7Akonadi15AttributeEntityE@Base 4:4.13.0.5
+ _ZTIN7Akonadi15CachePolicyPageE@Base 4:4.13.0.5
+ _ZTIN7Akonadi15CollectionModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi15EntityTreeModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi15SearchCreateJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi15SubscriptionJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi15TrashRestoreJob22TrashRestoreJobPrivateE@Base 4:4.13.0.5
+ _ZTIN7Akonadi15TrashRestoreJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi16AgentFactoryBaseE@Base 4:4.13.0.5
+ _ZTIN7Akonadi16CollectionDialogE@Base 4:4.13.0.5
+ _ZTIN7Akonadi16PayloadExceptionE@Base 4:4.13.0.5
+ _ZTIN7Akonadi16PreprocessorBaseE@Base 4:4.13.0.5
+ _ZTIN7Akonadi16RelationFetchJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi16ResourceSettingsE@Base 4:4.13.0.5
+ _ZTIN7Akonadi17CollectionCopyJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi17CollectionMoveJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi17ETMViewStateSaverE@Base 4:4.13.0.5
+ _ZTIN7Akonadi17RelationCreateJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi17RelationDeleteJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi18AgentActionManagerE@Base 4:4.13.0.5
+ _ZTIN7Akonadi18AgentInstanceModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi18CollectionComboBoxE@Base 4:4.13.0.5
+ _ZTIN7Akonadi18CollectionFetchJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi18SpecialCollectionsE@Base 4:4.13.0.5
+ _ZTIN7Akonadi18SubscriptionDialogE@Base 4:4.13.0.5
+ _ZTIN7Akonadi18TagSelectionDialogE@Base 4:4.13.0.5
+ _ZTIN7Akonadi19AgentInstanceWidgetE@Base 4:4.13.0.5
+ _ZTIN7Akonadi19CollectionCreateJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi19CollectionDeleteJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi19CollectionModifyJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi19CollectionRequesterE@Base 4:4.13.0.5
+ _ZTIN7Akonadi19CollectionSelectJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi19SelectionProxyModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi19TagManagementDialogE@Base 4:4.13.0.5
+ _ZTIN7Akonadi19TransactionBeginJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi19TransactionSequenceE@Base 4:4.13.0.5
+ _ZTIN7Akonadi20AgentSearchInterfaceE@Base 4:4.13.0.5
+ _ZTIN7Akonadi20IndexPolicyAttributeE@Base 4:4.13.0.5
+ _ZTIN7Akonadi20ItemSerializerPluginE@Base 4:4.13.0.5
+ _ZTIN7Akonadi20ResourceBaseSettingsE@Base 4:4.13.0.5
+ _ZTIN7Akonadi20StatisticsProxyModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi20TransactionCommitJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi21AgentFilterProxyModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi21EntityHiddenAttributeE@Base 4:4.13.0.5
+ _ZTIN7Akonadi21EntityOrderProxyModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi21RecursiveItemFetchJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi21StandardActionManagerE@Base 4:4.13.0.5
+ _ZTIN7Akonadi21TransportResourceBaseE@Base 4:4.13.0.5
+ _ZTIN7Akonadi21TrashFilterProxyModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi22AgentInstanceCreateJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi22CollectionPathResolverE@Base 4:4.13.0.5
+ _ZTIN7Akonadi22EntityDeletedAttributeE@Base 4:4.13.0.5
+ _ZTIN7Akonadi22EntityDisplayAttributeE@Base 4:4.13.0.5
+ _ZTIN7Akonadi22ItemSerializerPluginV2E@Base 4:4.13.0.5
+ _ZTIN7Akonadi22TransactionRollbackJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi23CollectionStatisticsJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi23EntityRightsFilterModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi24CollectionColorAttributeE@Base 4:4.13.0.5
+ _ZTIN7Akonadi24CollectionPropertiesPageE@Base 4:4.13.0.5
+ _ZTIN7Akonadi24CollectionQuotaAttributeE@Base 4:4.13.0.5
+ _ZTIN7Akonadi24EntityTreeViewStateSaverE@Base 4:4.13.0.5
+ _ZTIN7Akonadi24FavoriteCollectionsModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi25CollectionRightsAttributeE@Base 4:4.13.0.5
+ _ZTIN7Akonadi25CollectionStatisticsModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi25EntityMimeTypeFilterModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi25PersistentSearchAttributeE@Base 4:4.13.0.5
+ _ZTIN7Akonadi26CollectionFilterProxyModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi26CollectionPropertiesDialogE@Base 4:4.13.0.5
+ _ZTIN7Akonadi26EntityAnnotationsAttributeE@Base 4:4.13.0.5
+ _ZTIN7Akonadi26ResourceSynchronizationJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi26SpecialCollectionAttributeE@Base 4:4.13.0.5
+ _ZTIN7Akonadi28CollectionStatisticsDelegateE@Base 4:4.13.0.5
+ _ZTIN7Akonadi28SpecialCollectionsRequestJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi30SpecialCollectionsDiscoveryJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi31CollectionPropertiesPageFactoryE@Base 4:4.13.0.5
+ _ZTIN7Akonadi35RecursiveCollectionFilterProxyModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi38CollectionAttributesSynchronizationJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi3JobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi3TagE@Base 4:4.13.0.5
+ _ZTIN7Akonadi7ControlE@Base 4:4.13.0.5
+ _ZTIN7Akonadi7LinkJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi7MonitorE@Base 4:4.13.0.5
+ _ZTIN7Akonadi7SessionE@Base 4:4.13.0.5
+ _ZTIN7Akonadi8ItemSyncE@Base 4:4.13.0.5
+ _ZTIN7Akonadi8ItemViewE@Base 4:4.13.0.5
+ _ZTIN7Akonadi8TagModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi8TrashJob15TrashJobPrivateE@Base 4:4.13.0.5
+ _ZTIN7Akonadi8TrashJobE@Base 4:4.13.0.5
+ _ZTIN7Akonadi9AgentBase10ObserverV2E@Base 4:4.13.0.5
+ _ZTIN7Akonadi9AgentBase10ObserverV3E@Base 4:4.13.0.5
+ _ZTIN7Akonadi9AgentBase10ObserverV4E@Base 4:4.13.0.5
+ _ZTIN7Akonadi9AgentBase8ObserverE@Base 4:4.13.0.5
+ _ZTIN7Akonadi9AgentBaseE@Base 4:4.13.0.5
+ _ZTIN7Akonadi9AttributeE@Base 4:4.13.0.5
+ _ZTIN7Akonadi9ExceptionE@Base 4:4.13.0.5
+ _ZTIN7Akonadi9ItemModelE@Base 4:4.13.0.5
+ _ZTIN7Akonadi9TagWidgetE@Base 4:4.13.0.5
+ _ZTIN7Akonadi9UnlinkJobE@Base 4:4.13.0.5
+ _ZTS12RelationSync@Base 4:4.13.0.5
+ _ZTS33CollectionIdentificationAttribute@Base 4:4.13.0.5
+ _ZTS7TagSync@Base 4:4.13.0.5
+ _ZTSN7Akonadi11ItemCopyJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi11ItemMonitor7PrivateE@Base 4:4.13.0.5
+ _ZTSN7Akonadi11ItemMonitorE@Base 4:4.13.0.5
+ _ZTSN7Akonadi11ItemMoveJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi11PartFetcherE@Base 4:4.13.0.5
+ _ZTSN7Akonadi11TagFetchJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi12AgentManagerE@Base 4:4.13.0.5
+ _ZTSN7Akonadi12ItemFetchJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi12ResourceBaseE@Base 4:4.13.0.5
+ _ZTSN7Akonadi12TagAttributeE@Base 4:4.13.0.5
+ _ZTSN7Akonadi12TagCreateJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi12TagDeleteJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi12TagModifyJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi13ItemCreateJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi13ItemDeleteJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi13ItemModifyJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi13ItemSearchJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi13ServerManagerE@Base 4:4.13.0.5
+ _ZTSN7Akonadi14AgentTypeModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi14ChangeRecorderE@Base 4:4.13.0.5
+ _ZTSN7Akonadi14CollectionViewE@Base 4:4.13.0.5
+ _ZTSN7Akonadi14EntityListViewE@Base 4:4.13.0.5
+ _ZTSN7Akonadi14EntityTreeViewE@Base 4:4.13.0.5
+ _ZTSN7Akonadi15AgentTypeDialogE@Base 4:4.13.0.5
+ _ZTSN7Akonadi15AgentTypeWidgetE@Base 4:4.13.0.5
+ _ZTSN7Akonadi15AttributeEntityE@Base 4:4.13.0.5
+ _ZTSN7Akonadi15CachePolicyPageE@Base 4:4.13.0.5
+ _ZTSN7Akonadi15CollectionModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi15EntityTreeModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi15SearchCreateJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi15SubscriptionJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi15TrashRestoreJob22TrashRestoreJobPrivateE@Base 4:4.13.0.5
+ _ZTSN7Akonadi15TrashRestoreJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi16AgentFactoryBaseE@Base 4:4.13.0.5
+ _ZTSN7Akonadi16CollectionDialogE@Base 4:4.13.0.5
+ _ZTSN7Akonadi16PayloadExceptionE@Base 4:4.13.0.5
+ _ZTSN7Akonadi16PreprocessorBaseE@Base 4:4.13.0.5
+ _ZTSN7Akonadi16RelationFetchJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi16ResourceSettingsE@Base 4:4.13.0.5
+ _ZTSN7Akonadi17CollectionCopyJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi17CollectionMoveJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi17ETMViewStateSaverE@Base 4:4.13.0.5
+ _ZTSN7Akonadi17RelationCreateJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi17RelationDeleteJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi18AgentActionManagerE@Base 4:4.13.0.5
+ _ZTSN7Akonadi18AgentInstanceModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi18CollectionComboBoxE@Base 4:4.13.0.5
+ _ZTSN7Akonadi18CollectionFetchJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi18SpecialCollectionsE@Base 4:4.13.0.5
+ _ZTSN7Akonadi18SubscriptionDialogE@Base 4:4.13.0.5
+ _ZTSN7Akonadi18TagSelectionDialogE@Base 4:4.13.0.5
+ _ZTSN7Akonadi19AgentInstanceWidgetE@Base 4:4.13.0.5
+ _ZTSN7Akonadi19CollectionCreateJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi19CollectionDeleteJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi19CollectionModifyJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi19CollectionRequesterE@Base 4:4.13.0.5
+ _ZTSN7Akonadi19CollectionSelectJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi19SelectionProxyModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi19TagManagementDialogE@Base 4:4.13.0.5
+ _ZTSN7Akonadi19TransactionBeginJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi19TransactionSequenceE@Base 4:4.13.0.5
+ _ZTSN7Akonadi20AgentSearchInterfaceE@Base 4:4.13.0.5
+ _ZTSN7Akonadi20IndexPolicyAttributeE@Base 4:4.13.0.5
+ _ZTSN7Akonadi20ItemSerializerPluginE@Base 4:4.13.0.5
+ _ZTSN7Akonadi20ResourceBaseSettingsE@Base 4:4.13.0.5
+ _ZTSN7Akonadi20StatisticsProxyModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi20TransactionCommitJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi21AgentFilterProxyModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi21EntityHiddenAttributeE@Base 4:4.13.0.5
+ _ZTSN7Akonadi21EntityOrderProxyModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi21RecursiveItemFetchJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi21StandardActionManagerE@Base 4:4.13.0.5
+ _ZTSN7Akonadi21TransportResourceBaseE@Base 4:4.13.0.5
+ _ZTSN7Akonadi21TrashFilterProxyModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi22AgentInstanceCreateJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi22CollectionPathResolverE@Base 4:4.13.0.5
+ _ZTSN7Akonadi22EntityDeletedAttributeE@Base 4:4.13.0.5
+ _ZTSN7Akonadi22EntityDisplayAttributeE@Base 4:4.13.0.5
+ _ZTSN7Akonadi22ItemSerializerPluginV2E@Base 4:4.13.0.5
+ _ZTSN7Akonadi22TransactionRollbackJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi23CollectionStatisticsJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi23EntityRightsFilterModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi24CollectionColorAttributeE@Base 4:4.13.0.5
+ _ZTSN7Akonadi24CollectionPropertiesPageE@Base 4:4.13.0.5
+ _ZTSN7Akonadi24CollectionQuotaAttributeE@Base 4:4.13.0.5
+ _ZTSN7Akonadi24EntityTreeViewStateSaverE@Base 4:4.13.0.5
+ _ZTSN7Akonadi24FavoriteCollectionsModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi25CollectionRightsAttributeE@Base 4:4.13.0.5
+ _ZTSN7Akonadi25CollectionStatisticsModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi25EntityMimeTypeFilterModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi25PersistentSearchAttributeE@Base 4:4.13.0.5
+ _ZTSN7Akonadi26CollectionFilterProxyModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi26CollectionPropertiesDialogE@Base 4:4.13.0.5
+ _ZTSN7Akonadi26EntityAnnotationsAttributeE@Base 4:4.13.0.5
+ _ZTSN7Akonadi26ResourceSynchronizationJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi26SpecialCollectionAttributeE@Base 4:4.13.0.5
+ _ZTSN7Akonadi28CollectionStatisticsDelegateE@Base 4:4.13.0.5
+ _ZTSN7Akonadi28SpecialCollectionsRequestJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi30SpecialCollectionsDiscoveryJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi31CollectionPropertiesPageFactoryE@Base 4:4.13.0.5
+ _ZTSN7Akonadi35RecursiveCollectionFilterProxyModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi38CollectionAttributesSynchronizationJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi3JobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi3TagE@Base 4:4.13.0.5
+ _ZTSN7Akonadi7ControlE@Base 4:4.13.0.5
+ _ZTSN7Akonadi7LinkJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi7MonitorE@Base 4:4.13.0.5
+ _ZTSN7Akonadi7SessionE@Base 4:4.13.0.5
+ _ZTSN7Akonadi8ItemSyncE@Base 4:4.13.0.5
+ _ZTSN7Akonadi8ItemViewE@Base 4:4.13.0.5
+ _ZTSN7Akonadi8TagModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi8TrashJob15TrashJobPrivateE@Base 4:4.13.0.5
+ _ZTSN7Akonadi8TrashJobE@Base 4:4.13.0.5
+ _ZTSN7Akonadi9AgentBase10ObserverV2E@Base 4:4.13.0.5
+ _ZTSN7Akonadi9AgentBase10ObserverV3E@Base 4:4.13.0.5
+ _ZTSN7Akonadi9AgentBase10ObserverV4E@Base 4:4.13.0.5
+ _ZTSN7Akonadi9AgentBase8ObserverE@Base 4:4.13.0.5
+ _ZTSN7Akonadi9AgentBaseE@Base 4:4.13.0.5
+ _ZTSN7Akonadi9AttributeE@Base 4:4.13.0.5
+ _ZTSN7Akonadi9ExceptionE@Base 4:4.13.0.5
+ _ZTSN7Akonadi9ItemModelE@Base 4:4.13.0.5
+ _ZTSN7Akonadi9TagWidgetE@Base 4:4.13.0.5
+ _ZTSN7Akonadi9UnlinkJobE@Base 4:4.13.0.5
+ _ZTV12RelationSync@Base 4:4.13.0.5
+ _ZTV33CollectionIdentificationAttribute@Base 4:4.13.0.5
+ _ZTV7TagSync@Base 4:4.13.0.5
+ _ZTVN7Akonadi11ItemCopyJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi11ItemMonitor7PrivateE@Base 4:4.13.0.5
+ _ZTVN7Akonadi11ItemMonitorE@Base 4:4.13.0.5
+ _ZTVN7Akonadi11ItemMoveJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi11PartFetcherE@Base 4:4.13.0.5
+ _ZTVN7Akonadi11TagFetchJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi12AgentManagerE@Base 4:4.13.0.5
+ _ZTVN7Akonadi12ItemFetchJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi12ResourceBaseE@Base 4:4.13.0.5
+ _ZTVN7Akonadi12TagAttributeE@Base 4:4.13.0.5
+ _ZTVN7Akonadi12TagCreateJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi12TagDeleteJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi12TagModifyJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi13ItemCreateJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi13ItemDeleteJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi13ItemModifyJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi13ItemSearchJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi13ServerManagerE@Base 4:4.13.0.5
+ _ZTVN7Akonadi14AgentTypeModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi14ChangeRecorderE@Base 4:4.13.0.5
+ _ZTVN7Akonadi14CollectionViewE@Base 4:4.13.0.5
+ _ZTVN7Akonadi14EntityListViewE@Base 4:4.13.0.5
+ _ZTVN7Akonadi14EntityTreeViewE@Base 4:4.13.0.5
+ _ZTVN7Akonadi15AgentTypeDialogE@Base 4:4.13.0.5
+ _ZTVN7Akonadi15AgentTypeWidgetE@Base 4:4.13.0.5
+ _ZTVN7Akonadi15AttributeEntityE@Base 4:4.13.0.5
+ _ZTVN7Akonadi15CachePolicyPageE@Base 4:4.13.0.5
+ _ZTVN7Akonadi15CollectionModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi15EntityTreeModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi15SearchCreateJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi15SubscriptionJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi15TrashRestoreJob22TrashRestoreJobPrivateE@Base 4:4.13.0.5
+ _ZTVN7Akonadi15TrashRestoreJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi16AgentFactoryBaseE@Base 4:4.13.0.5
+ _ZTVN7Akonadi16CollectionDialogE@Base 4:4.13.0.5
+ _ZTVN7Akonadi16PayloadExceptionE@Base 4:4.13.0.5
+ _ZTVN7Akonadi16PreprocessorBaseE@Base 4:4.13.0.5
+ _ZTVN7Akonadi16RelationFetchJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi16ResourceSettingsE@Base 4:4.13.0.5
+ _ZTVN7Akonadi17CollectionCopyJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi17CollectionMoveJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi17ETMViewStateSaverE@Base 4:4.13.0.5
+ _ZTVN7Akonadi17RelationCreateJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi17RelationDeleteJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi18AgentActionManagerE@Base 4:4.13.0.5
+ _ZTVN7Akonadi18AgentInstanceModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi18CollectionComboBoxE@Base 4:4.13.0.5
+ _ZTVN7Akonadi18CollectionFetchJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi18SpecialCollectionsE@Base 4:4.13.0.5
+ _ZTVN7Akonadi18SubscriptionDialogE@Base 4:4.13.0.5
+ _ZTVN7Akonadi18TagSelectionDialogE@Base 4:4.13.0.5
+ _ZTVN7Akonadi19AgentInstanceWidgetE@Base 4:4.13.0.5
+ _ZTVN7Akonadi19CollectionCreateJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi19CollectionDeleteJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi19CollectionModifyJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi19CollectionRequesterE@Base 4:4.13.0.5
+ _ZTVN7Akonadi19CollectionSelectJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi19SelectionProxyModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi19TagManagementDialogE@Base 4:4.13.0.5
+ _ZTVN7Akonadi19TransactionBeginJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi19TransactionSequenceE@Base 4:4.13.0.5
+ _ZTVN7Akonadi20AgentSearchInterfaceE@Base 4:4.13.0.5
+ _ZTVN7Akonadi20IndexPolicyAttributeE@Base 4:4.13.0.5
+ _ZTVN7Akonadi20ItemSerializerPluginE@Base 4:4.13.0.5
+ _ZTVN7Akonadi20ResourceBaseSettingsE@Base 4:4.13.0.5
+ _ZTVN7Akonadi20StatisticsProxyModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi20TransactionCommitJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi21AgentFilterProxyModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi21EntityHiddenAttributeE@Base 4:4.13.0.5
+ _ZTVN7Akonadi21EntityOrderProxyModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi21RecursiveItemFetchJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi21StandardActionManagerE@Base 4:4.13.0.5
+ _ZTVN7Akonadi21TransportResourceBaseE@Base 4:4.13.0.5
+ _ZTVN7Akonadi21TrashFilterProxyModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi22AgentInstanceCreateJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi22CollectionPathResolverE@Base 4:4.13.0.5
+ _ZTVN7Akonadi22EntityDeletedAttributeE@Base 4:4.13.0.5
+ _ZTVN7Akonadi22EntityDisplayAttributeE@Base 4:4.13.0.5
+ _ZTVN7Akonadi22ItemSerializerPluginV2E@Base 4:4.13.0.5
+ _ZTVN7Akonadi22TransactionRollbackJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi23CollectionStatisticsJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi23EntityRightsFilterModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi24CollectionColorAttributeE@Base 4:4.13.0.5
+ _ZTVN7Akonadi24CollectionPropertiesPageE@Base 4:4.13.0.5
+ _ZTVN7Akonadi24CollectionQuotaAttributeE@Base 4:4.13.0.5
+ _ZTVN7Akonadi24EntityTreeViewStateSaverE@Base 4:4.13.0.5
+ _ZTVN7Akonadi24FavoriteCollectionsModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi25CollectionRightsAttributeE@Base 4:4.13.0.5
+ _ZTVN7Akonadi25CollectionStatisticsModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi25EntityMimeTypeFilterModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi25PersistentSearchAttributeE@Base 4:4.13.0.5
+ _ZTVN7Akonadi26CollectionFilterProxyModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi26CollectionPropertiesDialogE@Base 4:4.13.0.5
+ _ZTVN7Akonadi26EntityAnnotationsAttributeE@Base 4:4.13.0.5
+ _ZTVN7Akonadi26ResourceSynchronizationJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi26SpecialCollectionAttributeE@Base 4:4.13.0.5
+ _ZTVN7Akonadi28CollectionStatisticsDelegateE@Base 4:4.13.0.5
+ _ZTVN7Akonadi28SpecialCollectionsRequestJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi30SpecialCollectionsDiscoveryJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi31CollectionPropertiesPageFactoryE@Base 4:4.13.0.5
+ _ZTVN7Akonadi35RecursiveCollectionFilterProxyModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi38CollectionAttributesSynchronizationJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi3JobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi3TagE@Base 4:4.13.0.5
+ _ZTVN7Akonadi7ControlE@Base 4:4.13.0.5
+ _ZTVN7Akonadi7LinkJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi7MonitorE@Base 4:4.13.0.5
+ _ZTVN7Akonadi7SessionE@Base 4:4.13.0.5
+ _ZTVN7Akonadi8ItemSyncE@Base 4:4.13.0.5
+ _ZTVN7Akonadi8ItemViewE@Base 4:4.13.0.5
+ _ZTVN7Akonadi8TagModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi8TrashJob15TrashJobPrivateE@Base 4:4.13.0.5
+ _ZTVN7Akonadi8TrashJobE@Base 4:4.13.0.5
+ _ZTVN7Akonadi9AgentBase10ObserverV2E@Base 4:4.13.0.5
+ _ZTVN7Akonadi9AgentBase10ObserverV3E@Base 4:4.13.0.5
+ _ZTVN7Akonadi9AgentBase10ObserverV4E@Base 4:4.13.0.5
+ _ZTVN7Akonadi9AgentBase8ObserverE@Base 4:4.13.0.5
+ _ZTVN7Akonadi9AgentBaseE@Base 4:4.13.0.5
+ _ZTVN7Akonadi9AttributeE@Base 4:4.13.0.5
+ _ZTVN7Akonadi9ExceptionE@Base 4:4.13.0.5
+ _ZTVN7Akonadi9ItemModelE@Base 4:4.13.0.5
+ _ZTVN7Akonadi9TagWidgetE@Base 4:4.13.0.5
+ _ZTVN7Akonadi9UnlinkJobE@Base 4:4.13.0.5
+ _Zls6QDebugRKN7Akonadi10CollectionE@Base 4:4.13.0.5
+ _Zls6QDebugRKN7Akonadi11CachePolicyE@Base 4:4.13.0.5
+ _Zls6QDebugRKN7Akonadi20CollectionStatisticsE@Base 4:4.13.0.5
+ _ZlsR6QDebugRKN7Akonadi3TagE@Base 4:4.13.0.5
+ _ZlsR6QDebugRKN7Akonadi8RelationE@Base 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::AgentInstanceWidget::~AgentInstanceWidget()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::AgentTypeDialog::~AgentTypeDialog()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::AgentTypeWidget::~AgentTypeWidget()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::CachePolicyPage::~CachePolicyPage()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::CollectionComboBox::~CollectionComboBox()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::CollectionDialog::~CollectionDialog()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::CollectionPropertiesDialog::~CollectionPropertiesDialog()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::CollectionPropertiesPage::~CollectionPropertiesPage()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::CollectionRequester::~CollectionRequester()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::CollectionView::~CollectionView()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::EntityListView::~EntityListView()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::EntityTreeView::~EntityTreeView()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::ItemView::~ItemView()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::SubscriptionDialog::~SubscriptionDialog()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::TagManagementDialog::~TagManagementDialog()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::TagSelectionDialog::~TagSelectionDialog()@Base" 4:4.13.0.5
+ (c++)"non-virtual thunk to Akonadi::TagWidget::~TagWidget()@Base" 4:4.13.0.5
