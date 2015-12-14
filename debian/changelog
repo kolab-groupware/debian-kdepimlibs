@@ -1,8 +1,8 @@
-kdepimlibs (4:4.13.0.6-0~kolab2) UNRELEASED; urgency=medium
+kdepimlibs (4:4.13.0.6-0~kolab2) unstable; urgency=medium
 
   * Update symbols for other distros
 
- -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Fri, 11 Dec 2015 15:16:12 +0100
+ -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Mon, 14 Dec 2015 21:13:50 +0100
 
 kdepimlibs (4:4.13.0.6-0~kolab1) unstable; urgency=medium
 
