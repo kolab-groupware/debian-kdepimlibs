@@ -119,6 +119,7 @@ usr/include/KDE/Akonadi/KMime/RemoveDuplicatesJob
 usr/include/KDE/Akonadi/KMime/SpecialMailCollections
 usr/include/KDE/Akonadi/KMime/SpecialMailCollectionsDiscoveryJob
 usr/include/KDE/Akonadi/KMime/SpecialMailCollectionsRequestJob
+usr/include/KDE/Akonadi/KPIMRecursiveFilterProxyModel
 usr/include/KDE/Akonadi/LinkJob
 usr/include/KDE/Akonadi/MimeTypeChecker
 usr/include/KDE/Akonadi/Monitor
@@ -496,6 +497,7 @@ usr/include/akonadi/calendar/todopurger.h
 usr/include/akonadi/changerecorder.h
 usr/include/akonadi/collection.h
 usr/include/akonadi/collectionattributessynchronizationjob.h
+usr/include/akonadi/collectioncolorattribute.h
 usr/include/akonadi/collectioncombobox.h
 usr/include/akonadi/collectioncopyjob.h
 usr/include/akonadi/collectioncreatejob.h
@@ -600,6 +602,7 @@ usr/include/akonadi/kmime/specialmailcollections.h
 usr/include/akonadi/kmime/specialmailcollectionsdiscoveryjob.h
 usr/include/akonadi/kmime/specialmailcollectionsrequestjob.h
 usr/include/akonadi/kmime/standardmailactionmanager.h
+usr/include/akonadi/kpimrecursivefilterproxymodel.h
 usr/include/akonadi/linkjob.h
 usr/include/akonadi/mimetypechecker.h
 usr/include/akonadi/monitor.h
@@ -876,6 +879,7 @@ usr/include/kimap/getmetadatajob.h
 usr/include/kimap/getquotajob.h
 usr/include/kimap/getquotarootjob.h
 usr/include/kimap/idlejob.h
+usr/include/kimap/idjob.h
 usr/include/kimap/imapset.h
 usr/include/kimap/job.h
 usr/include/kimap/kimap_export.h
