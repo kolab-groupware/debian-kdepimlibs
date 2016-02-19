@@ -1,3 +1,9 @@
+kdepimlibs (4:4.13.0.7-0~kolab1) UNRELEASED; urgency=medium
+
+  * New upstream release 4.13.0.7
+
+ -- Sandro Knauß <knauss@kolabsys.com>  Wed, 10 Feb 2016 17:50:41 +0100
+
 kdepimlibs (4:4.13.0.6-0~kolab2) unstable; urgency=medium
 
   * Update symbols for other distros
