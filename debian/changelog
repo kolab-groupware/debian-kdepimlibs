@@ -1,3 +1,9 @@
+kdepimlibs (4:4.13.0.28-0~kolab1) unstable; urgency=medium
+
+  * New upstream release 4.13.0.28
+
+ -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Thu, 14 Jul 2016 11:58:11 +0000
+
 kdepimlibs (4:4.13.0.27-0~kolab1) unstable; urgency=medium
 
   * New upstream release 4.13.0.27
