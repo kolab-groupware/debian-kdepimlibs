@@ -1,3 +1,9 @@
+kdepimlibs (4:4.13.0.27-0~kolab1) unstable; urgency=medium
+
+  * New upstream release 4.13.0.27
+
+ -- Christian Mollekopf (Kolab Systems) <mollekopf@kolabsys.com>  Mon, 13 Jun 2016 16:27:02 +0000
+
 kdepimlibs (4:4.13.0.26-0~kolab1) unstable; urgency=medium
 
   * New upstream release 4.13.0.26
